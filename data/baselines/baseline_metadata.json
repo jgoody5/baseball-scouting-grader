@@ -1,0 +1,12 @@
+{
+  "model_version": "V1 embedded reference model",
+  "source": "Embedded V1 MLB-centered scouting reference model",
+  "source_detail": "Fixed reference means plus explicit guideline spread parameters used for automatic Present grades. No live download required.",
+  "internet_required": false,
+  "hb_convention": "normalized HB: positive=arm-side, negative=glove-side",
+  "hb_validation": {
+    "status": "passed",
+    "method": "fixed internal convention; R/L manual TrackMan input normalized by throws"
+  },
+  "grade_rule": "Reference mean = 50; 0.5 guideline SD = 5 grade points; 1 guideline SD = 10 grade points; rounded to scouting increments."
+}

@@ -1,0 +1,49 @@
+{
+  "note": "V1 objective present-grade model. Reference means are MLB-centered anchors; guideline SDs and weights are calibration assumptions. 50 = reference mean and 1 guideline SD = 10 grade points. Fastball velocity and fastball life are graded separately; future grades are scout-entered projections.",
+  "Four-Seam Fastball": {
+    "code": "FF",
+    "weights": {"velo": 0.5, "ivb": 0.4, "hb_normalized": 0.1},
+    "life_weights": {"ivb": 0.8, "hb_normalized": 0.2},
+    "directions": {"velo": "high", "ivb": "high", "hb_normalized": "high"}
+  },
+  "Sinker / Two-Seam": {
+    "code": "SI",
+    "weights": {"velo": 0.4, "ivb": 0.15, "hb_normalized": 0.45},
+    "life_weights": {"ivb": 0.3, "hb_normalized": 0.7},
+    "directions": {"velo": "high", "ivb": "low", "hb_normalized": "high"}
+  },
+  "Cutter": {
+    "code": "FC",
+    "weights": {"velo": 0.5, "ivb": 0.15, "hb_normalized": 0.35},
+    "directions": {"velo": "high", "ivb": "low", "hb_normalized": "low"},
+    "warning": "Cutter shapes vary. Treat this V1 objective grade as a transparent reference, not a full pitch-quality model."
+  },
+  "Slider": {
+    "code": "SL",
+    "weights": {"velo": 0.4, "ivb": 0.25, "hb_normalized": 0.35},
+    "directions": {"velo": "high", "ivb": "low", "hb_normalized": "low"},
+    "warning": "Slider families vary (gyro vs. more horizontal). This V1 model uses one general slider reference."
+  },
+  "Sweeper": {
+    "code": "ST",
+    "weights": {"velo": 0.25, "ivb": 0.15, "hb_normalized": 0.6},
+    "directions": {"velo": "high", "ivb": "low", "hb_normalized": "low"}
+  },
+  "Curveball": {
+    "code": "CU",
+    "weights": {"velo": 0.2, "ivb": 0.55, "hb_normalized": 0.25},
+    "directions": {"velo": "high", "ivb": "low", "hb_normalized": "low"}
+  },
+  "Changeup": {
+    "code": "CH",
+    "weights": {"velo": 0.1, "ivb": 0.45, "hb_normalized": 0.45},
+    "directions": {"velo": "high", "ivb": "low", "hb_normalized": "high"},
+    "warning": "V1 raw-shape grade only. Fastball separation is not yet included."
+  },
+  "Splitter": {
+    "code": "FS",
+    "weights": {"velo": 0.15, "ivb": 0.65, "hb_normalized": 0.2},
+    "directions": {"velo": "high", "ivb": "low", "hb_normalized": "high"},
+    "warning": "V1 raw-shape grade only. Fastball separation is not yet included."
+  }
+}
