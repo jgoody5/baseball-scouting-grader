@@ -16,8 +16,7 @@ WHITE = "#FFFFFF"
 
 
 def apply_global_styles() -> None:
-    st.markdown(
-        """
+    st.html("""
         <style>
         :root {
             --navy: #153A63;
@@ -417,14 +416,11 @@ def apply_global_styles() -> None:
             }
         }
         </style>
-        """,
-        unsafe_allow_html=True,
-    )
+        """)
 
 
 def render_app_header() -> None:
-    st.markdown(
-        """
+    st.html("""
         <div class="app-shell">
             <div class="app-kicker">Baseball Operations • Evaluation</div>
             <div class="app-title">Baseball Scouting Grader</div>
@@ -438,13 +434,11 @@ def render_app_header() -> None:
                 <span class="app-chip">PDF / CSV Export</span>
             </div>
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+        """)
 
 
 def render_page_label(text: str) -> None:
-    st.markdown(f'<div class="page-label">{escape(text)}</div>', unsafe_allow_html=True)
+    st.html(f'<div class="page-label">{escape(text)}</div>')
 
 
 def render_player_card(
@@ -476,14 +470,13 @@ def render_player_card(
     if not pills:
         pills = '<span class="meta-pill">Enter player information above</span>'
 
-    st.markdown(
+    st.html(
         f"""
         <div class="player-card">
             <div class="player-name">{display_name}</div>
             <div class="player-meta">{pills}</div>
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
@@ -491,7 +484,7 @@ def render_projection_strip(floor, likely, ceiling) -> None:
     def grade(v):
         return escape(str(v)) if v not in (None, "", "-") else "—"
 
-    st.markdown(
+    st.html(
         f"""
         <div class="projection-strip">
             <div class="projection-cell">
@@ -507,8 +500,7 @@ def render_projection_strip(floor, likely, ceiling) -> None:
                 <div class="projection-value">{grade(ceiling)}</div>
             </div>
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
@@ -554,11 +546,8 @@ def render_tool_cards(
             """
         )
 
-    st.markdown(
-        '<div class="tool-grid">' + "".join(cards) + "</div>",
-        unsafe_allow_html=True,
-    )
+    st.html('<div class="tool-grid">' + "".join(cards) + "</div>")
 
 
 def render_note(text: str) -> None:
-    st.markdown(f'<div class="note-card">{escape(text)}</div>', unsafe_allow_html=True)
+    st.html(f'<div class="note-card">{escape(text)}</div>')
