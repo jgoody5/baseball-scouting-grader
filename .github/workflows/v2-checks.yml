@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
       - name: Compile app modules
-        run: python -m py_compile app.py pitcher_page.py hitter_page.py ui_components.py hitter_grading.py hitter_report_export.py grading_engine.py report_export.py hb.py
+        run: python -m py_compile app.py pitcher_page.py hitter_page.py portfolio_theme.py hitter_grading.py hitter_report_export.py grading_engine.py report_export.py hb.py
       - name: Test hitter grading references
         run: python -m unittest tests.test_hitter_grading_v2 -v
       - name: Test Streamlit UI runtime
