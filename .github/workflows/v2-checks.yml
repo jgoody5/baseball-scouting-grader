@@ -22,3 +22,10 @@ jobs:
         run: python -m py_compile app.py pitcher_page.py hitter_page.py ui_components.py hitter_grading.py hitter_report_export.py grading_engine.py report_export.py hb.py
       - name: Test hitter grading references
         run: python -m unittest tests.test_hitter_grading_v2 -v
+      - name: Streamlit smoke test
+        run: |
+          streamlit run app.py --server.headless true --server.port 8501 > /tmp/streamlit.log 2>&1 &
+          STREAMLIT_PID=$!
+          sleep 8
+          curl --fail --silent http://localhost:8501/_stcore/health
+          kill $STREAMLIT_PID
