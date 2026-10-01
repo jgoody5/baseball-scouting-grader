@@ -149,9 +149,10 @@ def render_hitter_page() -> None:
             run_reference_text = f"60-Yard: {float(run_time):.2f}s"
     else:
         h1b = _val("home_to_first")
-        run_ref = grade_run_from_home_to_first(h1b, bats)
+        timed_side = bats if bats in {"R", "L"} else _val("home_to_first_side", "")
+        run_ref = grade_run_from_home_to_first(h1b, timed_side)
         if h1b is not None:
-            hand_label = bats if bats in {"R", "L"} else "Bats required"
+            hand_label = timed_side or "timed side required"
             run_reference_text = f"H-1B: {float(h1b):.2f}s ({hand_label})"
 
     grade_rows = _tool_rows(
@@ -295,14 +296,18 @@ def render_hitter_page() -> None:
         else:
             with time_col:
                 st.number_input("Home-to-First", min_value=3.5, max_value=5.5, value=None, step=0.01, format="%.2f", key="home_to_first")
+                if bats == "S":
+                    st.selectbox("Timed From", ["", "R", "L"], key="home_to_first_side")
         with ref_col:
             st.metric("Reference Grade", run_ref if run_ref is not None else "-")
         with present_col:
             st.selectbox("Present Grade", HITTER_OVERRIDE_OPTIONS, key="run_present_override")
         with future_col:
             st.selectbox("Future Grade", HITTER_GRADE_OPTIONS, key="run_future")
-        if run_method == "Home-to-First" and bats not in {"R", "L"}:
-            st.caption("Choose R or L under Bats to calculate the home-to-first reference grade.")
+        if run_method == "Home-to-First" and bats not in {"R", "L", "S"}:
+            st.caption("Choose the hitter's batting side to calculate the home-to-first reference grade.")
+        elif run_method == "Home-to-First" and bats == "S" and _val("home_to_first_side", "") not in {"R", "L"}:
+            st.caption("For a switch hitter, choose which side the player was timed from.")
 
         st.markdown("#### Arm")
         a1, a2, a3 = st.columns(3)
