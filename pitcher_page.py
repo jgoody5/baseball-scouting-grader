@@ -16,12 +16,6 @@ from grading_engine import (
     resolve_present_grade,
 )
 from report_export import build_report_pdf
-from ui_components import (
-    render_page_label,
-    render_player_card,
-    render_projection_strip,
-    render_tool_cards,
-)
 
 BASELINE_DIR = Path("data/baselines")
 BASELINE_PATH = BASELINE_DIR / "mlb_pitch_baselines.csv"
@@ -258,9 +252,8 @@ def render_pitcher_page() -> None:
     metadata = load_metadata()
     auto_ready, baseline_status, baseline_issues = validate_baselines(baselines, config, metadata)
 
-    render_page_label("Pitcher Evaluation")
     st.header("Pitcher")
-    st.caption("Build the report first, then use the arsenal calculator to support the evaluation.")
+    st.caption("Scouting information in, objective present grades where available, clean report out.")
 
     # PLAYER PROFILE
     st.subheader("Player Profile")
@@ -282,17 +275,6 @@ def render_pitcher_page() -> None:
         throws = st.selectbox("Throws *", ["", "R", "L"], key="throws")
     st.caption("* Throws is required for movement-based grades so HB can be normalized correctly. Velocity grades do not require handedness.")
 
-    render_player_card(
-        name=name,
-        position=position,
-        school=school,
-        bats=bats,
-        throws=throws,
-        height=height,
-        weight=weight,
-        draft_class=draft_class,
-    )
-
     # OVERALL PROJECTION
     st.subheader("Overall Projection")
     op1, op2, op3 = st.columns(3)
@@ -306,8 +288,6 @@ def render_pitcher_page() -> None:
     _order_vals = [clean_grade(floor_grade), clean_grade(likely_grade), clean_grade(ceiling_grade)]
     if all(v is not None for v in _order_vals) and not (_order_vals[0] <= _order_vals[1] <= _order_vals[2]):
         st.warning("Projection check: Floor should usually be <= Most Likely <= Ceiling.")
-
-    render_projection_strip(floor_grade, likely_grade, ceiling_grade)
 
     # IMPACT
     st.subheader("Impact Statement")
@@ -323,9 +303,7 @@ def render_pitcher_page() -> None:
     st.subheader("Tool Grades")
     grade_rows = build_grade_rows(baselines, config, throws or None, auto_ready)
     grade_df = pd.DataFrame(grade_rows)
-    render_tool_cards(grade_rows, "Velo / Range")
-    with st.expander("Detailed Grade Table", expanded=False):
-        st.dataframe(grade_df, hide_index=True, use_container_width=True)
+    st.dataframe(grade_df, hide_index=True, use_container_width=True)
     if not auto_ready:
         st.caption("Automatic present grades are off. Manual Command/Control and Future grades still export normally.")
 
@@ -340,7 +318,6 @@ def render_pitcher_page() -> None:
     )
 
     # EXPORT
-    st.subheader("Report Export")
     profile = {
         "name": name,
         "position": position,
