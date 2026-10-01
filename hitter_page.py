@@ -12,6 +12,12 @@ from hitter_grading import (
     resolve_reference_grade,
 )
 from hitter_report_export import build_hitter_report_pdf
+from ui_components import (
+    render_page_label,
+    render_player_card,
+    render_projection_strip,
+    render_tool_cards,
+)
 
 HITTER_GRADE_OPTIONS = ["-", 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]
 HITTER_OVERRIDE_OPTIONS = ["Auto", 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]
@@ -92,8 +98,9 @@ def _tool_rows(
 def render_hitter_page() -> None:
     _init_hitter_state()
 
+    render_page_label("Position Player Evaluation")
     st.header("Position Player")
-    st.caption("Objective reference grades where appropriate, with scouting judgment controlling the final report.")
+    st.caption("Build a six-tool report with objective references where they add value and scout judgment everywhere else.")
 
     st.subheader("Player Profile")
     c1, c2, c3 = st.columns(3)
@@ -113,6 +120,17 @@ def render_hitter_page() -> None:
     with b2:
         throws = st.selectbox("Throws", ["", "R", "L"], key="hitter_throws")
 
+    render_player_card(
+        name=name,
+        position=position,
+        school=school,
+        bats=bats,
+        throws=throws,
+        height=height,
+        weight=weight,
+        draft_class=draft_class,
+    )
+
     st.subheader("Overall Projection")
     op1, op2, op3 = st.columns(3)
     with op1:
@@ -125,6 +143,8 @@ def render_hitter_page() -> None:
     ordered = [_clean_grade(floor_grade), _clean_grade(likely_grade), _clean_grade(ceiling_grade)]
     if all(v is not None for v in ordered) and not (ordered[0] <= ordered[1] <= ordered[2]):
         st.warning("Projection check: Floor should usually be <= Most Likely <= Ceiling.")
+
+    render_projection_strip(floor_grade, likely_grade, ceiling_grade)
 
     st.subheader("Impact Statement")
     st.text_area(
@@ -167,7 +187,9 @@ def render_hitter_page() -> None:
     grade_df = pd.DataFrame(grade_rows)
 
     st.subheader("Tool Grades")
-    st.dataframe(grade_df, hide_index=True, use_container_width=True)
+    render_tool_cards(grade_rows, "Reference")
+    with st.expander("Detailed Grade Table", expanded=False):
+        st.dataframe(grade_df, hide_index=True, use_container_width=True)
 
     st.subheader("Summary")
     st.text_area(
@@ -178,6 +200,7 @@ def render_hitter_page() -> None:
         height=180,
     )
 
+    st.subheader("Report Export")
     profile = {
         "name": name,
         "position": position,

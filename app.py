@@ -4,11 +4,17 @@ import streamlit as st
 
 from hitter_page import render_hitter_page
 from pitcher_page import render_pitcher_page
+from ui_components import apply_global_styles, render_app_header
 
-st.set_page_config(page_title="Baseball Scouting Grader", page_icon="⚾", layout="wide")
+st.set_page_config(
+    page_title="Baseball Scouting Grader",
+    page_icon="⚾",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
 
-st.title("Baseball Scouting Grader")
-st.caption("Pitcher and position-player scouting reports in one workflow.")
+apply_global_styles()
+render_app_header()
 
 player_type = st.radio(
     "Player Type",
@@ -17,8 +23,6 @@ player_type = st.radio(
     label_visibility="collapsed",
     key="player_type_selector",
 )
-
-st.divider()
 
 if player_type == "Pitcher":
     render_pitcher_page()
