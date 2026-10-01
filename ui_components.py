@@ -470,14 +470,13 @@ def render_player_card(
     if not pills:
         pills = '<span class="meta-pill">Enter player information above</span>'
 
-    st.markdown(
+    st.html(
         f"""
         <div class="player-card">
             <div class="player-name">{display_name}</div>
             <div class="player-meta">{pills}</div>
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
@@ -485,7 +484,7 @@ def render_projection_strip(floor, likely, ceiling) -> None:
     def grade(v):
         return escape(str(v)) if v not in (None, "", "-") else "—"
 
-    st.markdown(
+    st.html(
         f"""
         <div class="projection-strip">
             <div class="projection-cell">
@@ -501,8 +500,7 @@ def render_projection_strip(floor, likely, ceiling) -> None:
                 <div class="projection-value">{grade(ceiling)}</div>
             </div>
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
