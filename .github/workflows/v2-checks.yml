@@ -22,6 +22,8 @@ jobs:
         run: python -m py_compile app.py pitcher_page.py hitter_page.py ui_components.py hitter_grading.py hitter_report_export.py grading_engine.py report_export.py hb.py
       - name: Test hitter grading references
         run: python -m unittest tests.test_hitter_grading_v2 -v
+      - name: Test Streamlit UI runtime
+        run: python -m pytest tests/test_ui_runtime.py -q
       - name: Streamlit smoke test
         run: |
           streamlit run app.py --server.headless true --server.port 8501 > /tmp/streamlit.log 2>&1 &
