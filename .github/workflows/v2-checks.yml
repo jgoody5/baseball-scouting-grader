@@ -1,0 +1,24 @@
+name: V2 checks
+
+on:
+  push:
+    branches:
+      - v2-position-player
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Compile app modules
+        run: python -m py_compile app.py pitcher_page.py hitter_page.py hitter_grading.py hitter_report_export.py grading_engine.py report_export.py hb.py
+      - name: Test hitter grading references
+        run: python -m unittest tests.test_hitter_grading_v2 -v
