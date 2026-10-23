@@ -3,6 +3,8 @@ from __future__ import annotations
 import pandas as pd
 import streamlit as st
 
+from valuation_ui import render_valuation
+
 from hitter_grading import (
     grade_game_power_from_projected_hr,
     grade_hit_from_projected_avg,
@@ -189,9 +191,12 @@ def render_hitter_page() -> None:
         "draft_class": draft_class,
     }
 
+    valuation = render_valuation(grade_rows, "Position Player", profile)
+
     try:
         pdf_bytes = build_hitter_report_pdf(
             profile=profile,
+            valuation=valuation,
             impact=st.session_state.hitter_impact_statement,
             grades=grade_rows,
             summary=st.session_state.hitter_summary,

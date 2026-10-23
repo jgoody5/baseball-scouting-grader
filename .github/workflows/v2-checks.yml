@@ -17,13 +17,11 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install dependencies
-        run: python -m pip install -r requirements.txt
+        run: python -m pip install -r requirements-dev.txt
       - name: Compile app modules
         run: python -m py_compile app.py pitcher_page.py hitter_page.py portfolio_theme.py hitter_grading.py hitter_report_export.py grading_engine.py report_export.py hb.py
-      - name: Test hitter grading references
-        run: python -m unittest tests.test_hitter_grading_v2 -v
-      - name: Test Streamlit UI runtime
-        run: python -m unittest tests.test_ui_runtime -v
+      - name: Test grading, historical valuation and UI exports
+        run: python -m unittest discover -s tests -v
       - name: Streamlit smoke test
         run: |
           streamlit run app.py --server.headless true --server.port 8501 > /tmp/streamlit.log 2>&1 &

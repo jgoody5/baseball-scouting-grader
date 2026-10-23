@@ -1,0 +1,982 @@
+year,player_id,name,position,kind,draft_rank,source_type,school_class,height_inches,weight_lb,relief_context,hand,pick,round,slot_value,signing_bonus,Hit,Power,Run,Arm,Field,Overall,Fastball,Curveball,Slider,Sweeper,Cutter,Splitter,Changeup,Control
+2022,702258,Druw Jones,OF,Position Player,1,High school,HS SR,76,,False,R,2,1,8189400,8189400,55,60,70,65,70,65,,,,,,,,
+2022,702616,Jackson Holliday,2B/SS,Position Player,2,High school,HS SR,,,False,L,1,1,8846900,8190000,60,55,60,55,55,60,,,,,,,,
+2022,701327,Elijah Green,OF,Position Player,3,High school,HS SR,75,,False,R,5,1,6497700,6500000,50,60,70,60,60,60,,,,,,,,
+2022,702261,Termarr Johnson,2B,Position Player,4,High school,HS SR,70,,False,L,4,1,7005800,7219000,70,60,50,50,55,60,,,,,,,,
+2022,686797,Brooks Lee,INF,Position Player,5,College,4YR JR,,,False,S,8,1,5442400,5675000,65,55,50,55,50,60,,,,,,,,
+2022,691006,Kevin Parada,C,Position Player,6,College,4YR SO,,,False,R,11,1,4780700,5019735,60,60,40,45,50,60,,,,,,,,
+2022,694351,Jacob Berry,OF/3B,Position Player,7,College,4YR SO,,,False,S,6,1,6037500,6000000,45,55,40,45,45,40,,,,,,,,
+2022,702253,Cam Collier,3B/1B,Position Player,8,Junior college,JC J1,,,False,L,18,1,3659800,5000000,60,50,50,60,50,60,,,,,,,,
+2022,690291,Jace Jung,3B/2B,Position Player,9,College,4YR JR,,,False,L,12,1,4590300,4590300,60,60,40,45,45,60,,,,,,,,
+2022,688457,Gavin Cross,OF,Position Player,10,College,4YR JR,,,False,L,9,1,5202900,5202900,55,55,55,50,50,55,,,,,,,,
+2022,702548,Brock Porter,RHP,Pitcher,11,High school,HS SR,76,,False,R,109,4,560200,3700000,,,,,,55,70,50,55,,,,60,50
+2022,691740,Daniel Susac,C,Position Player,12,College,4YR SO,,,False,R,19,1,3531200,3531200,50,50,40,60,50,50,,,,,,,,
+2022,702222,Justin Crawford,OF,Position Player,13,High school,HS SR,75,,False,L,17,1,3794800,3894800,55,40,70,55,60,55,,,,,,,,
+2022,702266,Dylan Lesko,RHP,Pitcher,14,High school,HS SR,,,False,R,15,1,4085000,3900000,,,,,,55,60,55,,,,,70,55
+2022,702255,Brandon Barriera,LHP,Pitcher,15,High school,HS SR,,,False,L,23,1,3076900,3597500,,,,,,55,55,,55,,,,55,55
+2022,702281,Robby Snelling,LHP,Pitcher,16,High school,HS SR,75,,False,L,39,CB-A,2004500,3000000,,,,,,55,55,60,,,,,45,50
+2022,687263,Zach Neto,SS,Position Player,17,College,4YR JR,,,True,R,13,1,4412500,3500000,60,50,50,55,50,55,,,,,,,,
+2022,800050,Chase DeLauter,OF,Position Player,18,College,4YR JR,,,False,L,16,1,3937600,3750000,55,60,55,50,50,55,,,,,,,,
+2022,701328,Jackson Ferris,LHP,Pitcher,19,High school,HS SR,76,,False,L,47,2,1661200,3005000,,,,,,55,60,55,,,,,55,50
+2022,702284,Cole Young,2B/SS,Position Player,20,High school,HS SR,,,False,L,21,1,3292900,3300000,60,40,55,55,50,55,,,,,,,,
+2022,702518,Jett Williams,3B/SS/OF,Position Player,21,High school,HS SR,68,,False,R,14,1,4243800,3900000,55,45,60,50,50,50,,,,,,,,
+2022,687637,Dylan Beavers,OF,Position Player,22,College,4YR JR,76,,False,L,33,CB-A,2315100,2200000,45,55,55,55,50,50,,,,,,,,
+2022,687597,Jordan Beck,OF,Position Player,23,College,4YR JR,75,,False,R,38,CB-A,2052300,2200000,45,55,55,60,55,50,,,,,,,,
+2022,690990,Cade Horton,RHP,Pitcher,24,College,4YR SO,,,False,R,7,1,5711000,4450000,,,,,,50,60,50,65,,,,45,50
+2022,687570,Connor Prielipp,LHP,Pitcher,25,College,4YR JR,,,True,L,48,2,1622700,1825000,,,,,,50,60,,70,,,,50,55
+2022,687312,Gabriel Hughes,RHP,Pitcher,26,College,4YR JR,76,,False,R,10,1,4983000,4000000,,,,,,50,60,,55,,,,50,50
+2022,694918,Blade Tidwell,RHP,Pitcher,27,College,4YR SO,76,,False,R,52,2,1475100,1850000,,,,,,50,60,50,60,,,,55,50
+2022,689931,Peyton Graham,SS,Position Player,28,College,4YR JR,,,False,R,51,2,1510600,1800000,50,55,60,60,50,50,,,,,,,,
+2022,694514,Sterlin Thompson,OF,Position Player,29,College,4YR SO,75,,False,L,31,1C,2430500,2430500,50,50,45,50,45,40,,,,,,,,
+2022,687931,Carson Whisenhunt,LHP,Pitcher,30,College,4YR JR,,,False,L,66,2,1054700,1868720,,,,,,50,50,50,,,,,65,50
+2022,691024,Cayden Wallace,3B,Position Player,31,College,4YR SO,,,False,R,49,2,1584900,1700000,45,55,50,60,50,45,,,,,,,,
+2022,687551,Drew Gilbert,OF,Position Player,32,College,4YR JR,69,,False,L,28,1,2621700,2500000,55,45,55,60,55,50,,,,,,,,
+2022,677342,Brock Jones,OF,Position Player,33,College,4YR JR,,,False,L,65,2,1077600,1077600,45,50,60,45,50,50,,,,,,,,
+2022,687309,Cooper Hjerpe,LHP,Pitcher,34,College,4YR JR,,,True,L,22,1,3182200,3182200,,,,,,50,50,55,,,,,50,55
+2022,702283,Tucker Toman,SS/3B,Position Player,35,High school,HS SR,,,False,L,77,2C,846900,2000000,55,50,40,50,45,50,,,,,,,,
+2022,683235,Justin Campbell,RHP,Pitcher,36,College,4YR JR,79,,False,R,37,CB-A,2101800,1700000,,,,,,50,50,55,50,,,,55,55
+2022,702571,Jacob Miller,RHP,Pitcher,37,High school,HS SR,,,False,R,46,2,1700400,1700400,,,,,,50,55,60,55,,,,50,50
+2022,677958,Kumar Rocker,RHP,Pitcher,38,College,4YR JR,,,False,R,3,1,7591600,5200000,,,,,,50,60,60,70,,,,50,50
+2022,689200,Jacob Melton,OF,Position Player,39,College,4YR SR,,,False,L,64,2,1104100,1000000,50,50,60,55,55,50,,,,,,,,
+2022,703607,Henry Bolte,OF,Position Player,40,High school,HS SR,,,False,R,56,2,1341900,2000000,45,55,65,50,50,50,,,,,,,,
+2022,683091,Logan Tanner,C,Position Player,41,College,4YR JR,,,False,R,55,2,1374000,1030500,45,50,30,70,55,50,,,,,,,,
+2022,702254,Andrew Dutkanych IV,RHP,Pitcher,42,Unknown,,75,,False,R,,,,,,,,,,50,60,55,60,,,,50,50
+2022,688883,Peyton Pallette,RHP,Pitcher,43,College,4YR JR,73,,False,R,62,2,1159200,1500000,,,,,,50,60,65,,,,,50,50
+2022,683085,Landon Sims,RHP,Pitcher,44,College,4YR JR,74,,True,R,34,CB-A,2258300,2347050,,,,,,50,65,,70,,,,45,50
+2022,802419,Thomas Harrington,RHP,Pitcher,45,College,4YR SO,74,,False,R,36,CB-A,2150300,2050000,,,,,,50,55,50,55,,,,60,55
+2022,702280,Tristan Smith,LHP,Pitcher,46,Unknown,,,,True,L,,,,,,,,,,50,55,,60,,,,55,45
+2022,702275,JR Ritchie,RHP,Pitcher,47,High school,HS SR,,,False,R,35,CB-A,2203200,2400000,,,,,,50,60,50,55,,,,50,50
+2022,702566,Owen Murphy,RHP,Pitcher,48,High school,HS SR,73,,False,R,20,1,3409200,2556900,,,,,,50,55,50,55,,,,50,55
+2022,702273,Noah Schultz,LHP,Pitcher,49,High school,HS SR,81,,False,L,26,1,2789400,2800000,,,,,,50,55,,65,,,,50,50
+2022,687221,Dalton Rushing,C/OF,Position Player,50,College,4YR JR,71,,False,L,40,2,1951900,1959390,50,55,20,55,45,50,,,,,,,,
+2022,682987,Spencer Jones,OF,Position Player,51,College,4YR JR,79,,False,L,25,1,2880800,2880800,50,55,50,50,50,50,,,,,,,,
+2022,682983,Jud Fabian,OF,Position Player,52,College,4YR JR,,,False,R,67,CB-B,1026800,1026800,45,60,55,50,55,50,,,,,,,,
+2022,703609,Walter Ford,RHP,Pitcher,53,High school,HS SR,74,,False,R,74,CB-B,887400,1250000,,,,,,50,60,,50,,,,45,50
+2022,800048,Parker Messick,LHP,Pitcher,54,College,4YR JR,,,True,L,54,2,1407100,1300000,,,,,,50,50,45,50,,,,55,55
+2022,683103,Cade Doughty,3B/2B,Position Player,55,College,4YR JR,,,False,R,78,2C,833600,833600,50,50,50,55,50,50,,,,,,,,
+2022,701350,Roman Anthony,OF,Position Player,56,High school,HS SR,75,,False,L,79,2C,820400,2500000,45,55,50,50,50,50,,,,,,,,
+2022,702270,Malcolm Moore,C,Position Player,57,Unknown,,,,False,L,,,,,50,50,40,45,45,50,,,,,,,,
+2022,702484,Jackson Cox,RHP,Pitcher,58,High school,HS SR,,,False,R,50,2,1545300,1850000,,,,,,50,55,60,,,,,50,50
+2022,800049,Adam Mazur,RHP,Pitcher,59,College,4YR JR,74,,False,R,53,2,1440600,1250000,,,,,,50,55,50,60,,,,55,50
+2022,686563,Jonathan Cannon,RHP,Pitcher,60,College,4YR JR,78,,False,R,101,3,606600,925000,,,,,,50,55,,50,,60,,50,60
+2022,689672,Drew Thorpe,RHP,Pitcher,61,College,4YR JR,76,,False,R,61,2,1187600,1187600,,,,,,50,55,,45,,,,60,50
+2022,702551,Cole Phillips,RHP,Pitcher,62,High school,HS SR,75,,False,R,57,2,1307300,1497500,,,,,,50,70,,55,,,,50,50
+2022,687521,Eric Brown Jr.,SS,Position Player,63,College,4YR JR,,,False,R,27,1,2701900,2050000,50,50,50,55,55,50,,,,,,,,
+2022,686499,Clark Elliott,OF,Position Player,64,College,4YR JR,,,False,L,69,CB-B,977500,900000,55,50,60,50,55,50,,,,,,,,
+2022,702540,Mikey Romero,3B/2B,Position Player,65,High school,HS SR,,,False,L,24,1,2976400,2300000,55,40,50,55,55,50,,,,,,,,
+2022,694484,Max Wagner,3B/2B,Position Player,66,College,4YR SO,,,False,R,42,2,1861900,1900000,50,55,45,55,50,50,,,,,,,,
+2022,688460,Josh Kasevich,INF,Position Player,67,College,4YR JR,,,False,R,60,2,1216700,1000000,50,40,50,55,55,50,,,,,,,,
+2022,687562,Jake Bennett,LHP,Pitcher,68,College,4YR JR,78,,False,L,45,2,1734800,1734800,,,,,,50,50,,50,,,,60,55
+2022,802408,Brycen Mautz,LHP,Pitcher,69,College,4YR JR,76,,True,L,59,2,1246200,1100000,,,,,,50,55,,50,,,,45,50
+2022,702633,Gavin Guidry,SS,Position Player,70,Unknown,,74,,False,R,,,,,50,50,55,55,55,50,,,,,,,,
+2022,801639,Trystan Vrieling,RHP,Pitcher,71,College,4YR JR,76,,True,R,100,3,611400,611400,,,,,,50,55,55,50,,,,55,45
+2022,687114,Bryce Hubbart,LHP,Pitcher,72,College,4YR JR,,,False,L,94,3,649900,522500,,,,,,50,55,55,50,,,,50,50
+2022,701398,Sal Stewart,INF,Position Player,73,High school,HS SR,,,False,R,32,1C,2373000,2097500,50,55,30,55,50,50,,,,,,,,
+2022,702272,Brady Neal,,Position Player,74,High school,HS SR,,,False,L,522,17,,,50,45,40,55,55,50,,,,,,,,
+2022,682995,Hunter Barco,LHP,Pitcher,75,College,4YR JR,76,,False,L,44,2,1776100,1525000,,,,,,50,50,,60,,,,55,50
+2022,802413,Sam Horn,RHP,Pitcher,76,Unknown,,76,,False,R,,,,,,,,,,45,60,,55,,,,45,50
+2022,802417,Bradley Loftin,LHP,Pitcher,77,Unknown,,75,,False,L,,,,,,,,,,50,55,,50,,,,60,50
+2022,694819,Jacob Misiorowski,RHP,Pitcher,78,Junior college,JC J2,79,,True,R,63,2,1131500,2350000,,,,,,40,60,55,50,,,,50,45
+2022,702562,Jaden Noot,RHP,Pitcher,79,High school,HS SR,76,,False,R,582,19,,,,,,,,50,55,45,55,,,,45,50
+2022,686846,Reggie Crawford,LHP,Pitcher,80,College,4YR JR,,,False,L,30,1,2486800,2297500,,,,,,50,70,,60,,,,,50
+2022,689275,Henry Williams,RHP,Pitcher,81,College,4YR JR,77,,False,R,91,3,680400,800000,,,,,,50,55,,55,,,,50,50
+2022,703602,Jalin Flores,SS,Position Player,82,Unknown,,,,False,R,,,,,40,50,40,60,50,40,,,,,,,,
+2022,702521,Jordan Taylor,OF,Position Player,83,Unknown,,,,False,R,,,,,45,50,65,60,60,50,,,,,,,,
+2022,701358,Cam Smith,3B,Position Player,84,Unknown,,75,,False,R,,,,,55,50,45,60,55,55,,,,,,,,
+2022,688714,Ryan Cermak,OF,Position Player,85,College,4YR JR,,,False,R,71,CB-B,929500,750000,50,55,65,60,60,50,,,,,,,,
+2022,687223,Carson Palmquist,LHP,Pitcher,86,College,4YR JR,,,True,L,88,3,713300,775000,,,,,,45,50,,60,,,,45,50
+2022,688780,Luke Gold,3B/2B,Position Player,87,College,4YR JR,,,False,R,147,5,386900,386900,55,50,45,50,45,45,,,,,,,,
+2022,688422,Connor Staine,RHP,Pitcher,88,College,4YR JR,77,,True,R,146,5,390800,400000,,,,,,45,55,45,50,,,,50,45
+2022,702604,Michael Kennedy,LHP,Pitcher,89,High school,HS SR,73,,False,L,110,4,554800,1000000,,,,,,45,55,,55,,,,50,55
+2022,703596,Karson Milbrandt,RHP,Pitcher,90,High school,HS SR,,,False,R,85,3,747100,1500000,,,,,,45,60,50,50,,,,50,50
+2022,703492,Nick Morabito,OF,Position Player,91,High school,HS SR,,,False,R,75,2C,873700,1000000,55,45,60,40,45,45,,,,,,,,
+2022,691775,Ryan Clifford,1B/OF,Position Player,92,High school,HS SR,75,,False,L,343,11,,1256530,55,50,45,55,45,45,,,,,,,,
+2022,802409,Jake Madden,RHP,Pitcher,93,Junior college,JC J1,78,,False,R,118,4,512900,997500,,,,,,45,65,,50,,,,50,45
+2022,702271,Nazier Mulé,RHP,Pitcher,94,High school,HS SR,75,,False,R,113,4,538600,1000000,,,,,,,70,,55,,,,50,45
+2022,687515,Colby Thomas,OF,Position Player,95,College,4YR JR,,,False,R,95,3,642100,750000,45,55,55,55,55,45,,,,,,,,
+2022,802355,Tanner Schobel,2B/3B,Position Player,96,College,4YR SO,,,False,R,68,CB-B,1002000,1002000,50,45,50,50,50,45,,,,,,,,
+2022,681371,Dom Keegan,C,Position Player,97,College,4YR SR,,,False,R,134,4,439600,397500,55,55,40,50,45,45,,,,,,,,
+2022,682988,Tyler Locklear,1B,Position Player,98,College,4YR JR,,,False,R,58,2,1276500,1276500,45,55,45,50,40,45,,,,,,,,
+2022,699471,Ivan Melendez,3B/1B,Position Player,99,College,4YR SR,75,225,False,R,43,2,1818500,1400000,50,60,30,50,40,45,,,,,,,,
+2022,702264,Gavin Kilen,SS/2B,Position Player,100,High school,HS SR,,,False,L,399,13,,,60,45,50,50,55,55,,,,,,,,
+2022,669361,Brandon Birdsell,RHP,Pitcher,101,College,4YR SR,,,True,R,143,5,402400,385000,,,,,,45,60,55,55,,,,50,50
+2022,702563,Mason Neville,OF,Position Player,102,High school,HS SR,,,False,L,543,18,,,45,60,55,55,50,50,,,,,,,,
+2022,702544,Jacob Reimer,3B,Position Player,103,High school,HS SR,75,,False,R,119,4,507700,775000,55,55,45,50,,45,,,,,,,,
+2022,702265,Paxton Kling,OF,Position Player,104,Unknown,,,,False,R,,,,,45,50,60,55,50,40,,,,,,,,
+2022,702690,Cutter Coffey,3B/2B,Position Player,105,High school,HS SR,,,False,R,41,2,1906500,1850000,45,50,45,60,45,45,,,,,,,,
+2022,802407,Joe Lampe,OF,Position Player,106,College,4YR JR,,,True,L,92,3,670200,800000,50,45,60,50,50,45,,,,,,,,
+2022,702504,Gavin Turley,OF,Position Player,107,High school,HS SR,,,False,R,558,19,,,45,60,55,60,50,45,,,,,,,,
+2022,691001,Robert Moore,2B/SS,Position Player,108,College,4YR JR,69,,False,S,72,CB-B,915300,800000,45,45,45,45,60,45,,,,,,,,
+2022,800051,Austin Charles,3B/SS,Position Player,109,High school,HS SR,78,,False,R,595,20,,429500,50,50,50,60,45,45,,,,,,,,
+2022,702550,Chandler Pollard,SS/2B,Position Player,110,High school,HS SR,74,,False,R,139,5,418500,418500,45,50,65,60,50,45,,,,,,,,
+2022,690667,Trey Dombroski,LHP,Pitcher,111,College,4YR JR,77,,False,L,133,4,443900,443900,,,,,,45,50,50,50,,,,50,70
+2022,690829,Ben Joyce,RHP,Pitcher,112,College,4YR SR,77,,False,R,89,3,702100,997500,,,,,,45,80,,50,,,,50,45
+2022,800060,Xavier Isaac,1B,Position Player,113,High school,HS SR,76,240,False,L,29,1,2548900,2548900,50,55,30,50,40,45,,,,,,,,
+2022,701357,Jayden Hylton,,Position Player,114,Unknown,,78,,False,R,,,,,45,55,50,55,50,45,,,,,,,,
+2022,690997,Nolan McLean,RHP,Pitcher,115,College,4YR SO,,,True,R,81,3,794000,,,,,,,45,65,55,55,,,,,45
+2022,691014,Nate Savino,LHP,Pitcher,116,College,4YR JR,,,False,L,82,3,782400,700000,,,,,,45,50,,50,,,,50,50
+2022,687075,Brandon Sproat,RHP,Pitcher,117,College,4YR JR,75,,False,R,90,3,691300,,,,,,,50,60,45,55,,,,50,45
+2022,702282,Kassius Thomas,RHP,Pitcher,118,Unknown,,73,,False,R,,,,,,,,,,45,55,55,50,,,,50,50
+2022,702674,Caden Dana,RHP,Pitcher,119,High school,HS SR,77,,False,R,328,11,,1497500,,,,,,45,55,55,,,,,45,45
+2022,802416,Ashton Izzi,RHP,Pitcher,120,High school,HS SR,75,,False,R,126,4,474900,1100000,,,,,,45,55,,55,,,,50,50
+2022,702610,Ike Irish,OF/1B,Position Player,121,Unknown,,,,False,L,,,,,60,55,40,55,45,55,,,,,,,,
+2022,703611,Maximus Martin,SS/OF,Position Player,122,Unknown,,,,False,R,,,,,45,50,50,50,45,40,,,,,,,,
+2022,802415,Chandler Simpson,OF,Position Player,123,College,4YR JR,,,False,L,70,CB-B,953300,750000,60,20,80,50,50,45,,,,,,,,
+2022,688629,Noah Dean,LHP,Pitcher,124,College,4YR JR,,,True,L,159,5,344000,325000,,,,,,45,60,50,,,,,,45
+2022,702612,Levi Huesman,LHP,Pitcher,125,High school,HS SR,,,True,L,524,17,,,,,,,,45,50,,55,,,,45,50
+2022,702560,Jack O'Connor,RHP,Pitcher,126,Unknown,,77,,False,R,,,,,,,,,,45,55,45,50,,,,45,50
+2022,677337,Pete Hansen,LHP,Pitcher,127,College,4YR JR,,,False,L,97,3,629800,629800,,,,,,45,40,55,60,,,,50,60
+2022,703469,Jackson Humphries,LHP,Pitcher,128,High school,HS SR,,,False,L,241,8,180000,600000,,,,,,45,55,50,55,,,,50,45
+2022,702274,Chase Shores,RHP,Pitcher,129,Unknown,,80,,True,R,,,,,,,,,,45,65,,55,,,,45,45
+2022,689958,Andrew Walters,RHP,Pitcher,130,College,4YR JR,76,,True,R,527,18,,,,,,,,40,65,,40,,,,,50
+2022,802410,Jacob Zibin,RHP,Pitcher,131,High school,HS SR,75,,False,R,301,10,152000,1200000,,,,,,45,50,,45,,,,55,45
+2022,702631,Adonys Guzman,C,Position Player,132,Unknown,,,,False,R,,,,,45,45,40,70,,45,,,,,,,,
+2022,702488,Logan Wagner,3B/2B,Position Player,133,High school,HS SR,,,False,S,195,6,253400,600000,50,50,45,55,45,45,,,,,,,,
+2022,802418,Colby Holcombe,RHP,Pitcher,134,Unknown,,79,,True,R,,,,,,,,,,45,60,50,55,,,,45,45
+2022,675512,Troy Melton,RHP,Pitcher,135,College,4YR SR,76,,True,R,117,4,517900,517900,,,,,,45,55,,50,,,,45,50
+2022,702358,Trey Lipscomb,INF,Position Player,136,College,4YR SR,,,False,R,84,3,758900,758900,50,50,45,55,50,45,,,,,,,,
+2022,686948,Drake Baldwin,C,Position Player,137,College,4YR JR,,,False,L,96,3,635800,633300,50,50,30,50,50,45,,,,,,,,
+2022,687206,Tres Gonzalez,OF,Position Player,138,College,4YR JR,,,False,L,140,5,414600,347500,55,35,60,45,55,45,,,,,,,,
+2022,687189,Marcus Johnson,RHP,Pitcher,139,College,4YR JR,78,,True,R,112,4,543800,510000,,,,,,45,50,,60,,,,50,50
+2022,688394,Jordan Sprinkle,SS,Position Player,140,College,4YR JR,,,False,R,131,4,452900,452900,50,45,60,55,60,45,,,,,,,,
+2022,800056,Jace Grady,OF,Position Player,141,Unknown,,,,False,S,,,,,50,45,55,45,55,45,,,,,,,,
+2022,686982,Jared McKenzie,OF,Position Player,142,College,4YR JR,,,False,L,141,5,410500,410500,50,45,55,45,55,45,,,,,,,,
+2022,687328,Luis Ramirez,RHP,Pitcher,143,College,4YR JR,,,False,R,199,7,245000,250000,,,,,,45,50,,50,,,,50,50
+2022,689141,Anthony Hall,OF,Position Player,144,College,4YR JR,,,False,L,130,4,456500,456500,45,55,50,50,50,45,,,,,,,,
+2022,687192,Cade Hunter,,Position Player,145,College,4YR JR,,,False,L,153,5,364600,362100,50,50,50,50,45,45,,,,,,,,
+2022,686976,Silas Ardoin,C,Position Player,146,College,4YR JR,,,False,R,107,4,571400,571400,45,45,30,60,60,45,,,,,,,,
+2022,702676,Jeric Curtis,,Position Player,147,Unknown,,,,False,R,,,,,45,45,80,45,60,45,,,,,,,,
+2022,802412,Malachi Witherspoon,RHP,Pitcher,148,High school,HS SR,,,True,R,348,12,,,,,,,,45,55,60,60,,,,45,45
+2022,802411,JT Quinn,RHP,Pitcher,149,Unknown,,78,,False,R,,,,,,,,,,45,60,40,55,,,,,45
+2022,804465,Riley Kelly,RHP,Pitcher,150,High school,HS SR,77,,True,R,588,20,,,,,,,,45,55,55,,,,,50,45
+2022,699625,Jimmy Crooks,C,Position Player,151,College,4YR JR,,,False,L,127,4,470300,470300,45,45,30,55,55,45,,,,,,,,
+2022,702263,Jayson Jones,3B,Position Player,152,Unknown,,,,False,R,,,,,45,55,45,60,50,45,,,,,,,,
+2022,687628,Justin Boyd,OF,Position Player,153,College,4YR JR,,,False,R,73,CB-B,901300,847500,50,45,65,55,50,45,,,,,,,,
+2022,802138,Jacob Watters,RHP,Pitcher,154,College,4YR JR,76,,True,R,124,4,483500,491750,,,,,,45,60,60,,,,,45,40
+2022,683095,Hayden Dunhurst,C,Position Player,155,College,4YR JR,,,False,L,175,6,298800,300000,45,45,40,65,55,45,,,,,,,,
+2022,800063,Andrew Taylor,RHP,Pitcher,156,College,4YR JR,77,,False,R,80,2C,807200,807200,,,,,,45,55,50,50,,,,55,50
+2022,702595,David Lally Jr.,RHP,Pitcher,157,Unknown,,76,,False,R,,,,,,,,,,45,55,50,50,,,,55,50
+2022,703477,Brooks Brannon,C,Position Player,158,High school,HS SR,,,False,R,279,9,158200,712500,50,50,35,60,45,45,,,,,,,,
+2022,802450,Grayson Saunier,RHP,Pitcher,159,High school,HS SR,76,,False,R,559,19,,,,,,,,45,50,55,55,,,,55,50
+2022,702678,Zach Crotchfelt,LHP,Pitcher,160,Unknown,,75,,False,L,,,,,,,,,,45,55,,50,,,,45,45
+2022,683169,Sean McLain,SS,Position Player,161,College,4YR JR,,,False,R,165,5,325400,322900,50,45,55,50,,45,,,,,,,,
+2022,683104,Trey Faltine,,Position Player,162,College,4YR JR,,,False,R,213,7,219000,200000,40,45,50,60,60,40,,,,,,,,
+2022,683098,Bryce Osmond,RHP,Pitcher,163,College,4YR JR,,,True,R,448,15,,129500,,,,,,40,50,50,60,,,,45,45
+2022,687394,Jack Brannigan,SS/3B,Pitcher,164,College,4YR JR,,,True,R,83,3,770700,770700,,,,,,40,70,,60,,,,50,45
+2022,702656,Drew Faurot,2B,Position Player,165,Unknown,,,,False,S,,,,,50,45,50,50,45,40,,,,,,,,
+2022,800627,Christopher Paciolla,SS,Position Player,166,High school,HS SR,,,False,R,86,3,735500,900000,50,45,45,50,50,40,,,,,,,,
+2022,686934,Alex McFarlane,RHP,Pitcher,167,College,4YR JR,76,,True,R,122,4,493000,575000,,,,,,40,60,,50,,,,45,45
+2022,687531,William Kempner,RHP,Pitcher,168,College,4YR JR,,,True,R,106,3,577200,525000,,,,,,40,65,,50,,,,45,40
+2022,690022,Ryan Ritter,SS,Position Player,169,College,4YR JR,,,False,R,116,4,522900,530000,40,40,55,60,60,40,,,,,,,,
+2022,690976,Alex Freeland,INF,Position Player,170,College,4YR SO,,,False,S,105,3,582700,580200,45,50,40,50,45,40,,,,,,,,
+2022,703641,Adrian Rodriguez,,Position Player,171,High school,HS SR,,,False,R,228,8,196000,196000,45,40,55,55,55,40,,,,,,,,
+2022,691008,Max Rajcic,RHP,Pitcher,172,College,4YR SO,,,True,R,187,6,270700,600000,,,,,,45,55,,55,,,,50,55
+2022,687543,Andrew Jenkins,1B,Position Player,174,College,4YR JR,,,False,R,267,9,162900,162900,50,50,45,55,50,40,,,,,,,,
+2022,702176,Alan Roden,OF,Position Player,175,College,4YR SR,,,False,L,98,3,623500,497500,55,45,45,45,45,40,,,,,,,,
+2022,681077,Michael Knorr,RHP,Pitcher,176,College,4YR SR,,,False,R,103,3,594600,487500,,,,,,40,55,50,50,,,,55,55
+2022,702607,Dakota Jordan,OF,Position Player,177,Unknown,,,,False,R,,,,,45,60,60,50,50,50,,,,,,,,
+2022,702526,Eric Snow,,Position Player,178,Unknown,,70,,False,R,,,,,50,45,60,55,55,40,,,,,,,,
+2022,683084,Mack Anglin,RHP,Pitcher,179,College,4YR JR,,,True,R,205,7,233600,231100,,,,,,40,50,60,60,,,,45,40
+2022,687087,Michael Prosecky,LHP,Pitcher,180,College,4YR JR,75,,True,L,176,6,296300,300000,,,,,,40,55,50,,,,,45,40
+2022,695761,Kenya Huggins,RHP,Pitcher,181,Junior college,JC J1,75,,False,R,123,4,488300,407500,,,,,,40,55,,55,,,,40,45
+2022,702525,Chris Stanfield,OF,Position Player,182,Unknown,,74,,False,R,,,,,45,45,60,55,50,40,,,,,,,,
+2022,804109,Aiva Arquette,SS,Position Player,183,High school,HS SR,77,220,False,R,528,18,,,50,55,50,60,50,55,,,,,,,,
+2022,702260,Eli Jerzembeck,RHP,Pitcher,184,Unknown,,74,,False,R,,,,,,,,,,40,50,60,,,,,50,50
+2022,804467,Patrick Forbes,RHP,Pitcher,185,Unknown,,,,False,R,,,,,,,,,,50,60,,55,,,,45,45
+2022,702593,Jace LaViolette,OF,Position Player,186,Unknown,,78,,False,L,,,,,45,65,55,55,50,55,,,,,,,,
+2022,687273,Quinn Mathews,LHP,Pitcher,187,College,4YR JR,77,,True,L,584,19,,,,,,,,45,50,45,50,,,,55,50
+2022,687985,Josh White,RHP,Pitcher,188,College,4YR JR,73,,True,R,142,5,406500,406500,,,,,,40,55,45,50,,,,45,45
+2022,694266,D'Andre Smith,SS,Position Player,189,College,4YR SO,69,,False,R,149,5,379400,379400,45,45,50,45,50,40,,,,,,,,
+2022,683006,Chris Newell,OF,Position Player,190,College,4YR JR,,,False,L,405,13,,147500,45,50,55,50,55,40,,,,,,,,
+2022,701326,Luke Heyman,C,Position Player,191,Unknown,,,,False,R,,,,,45,55,40,55,45,40,,,,,,,,
+2022,687282,Gabriel Rincones Jr.,OF,Position Player,192,College,4YR JR,,,False,L,93,3,660100,627500,50,50,30,40,45,40,,,,,,,,
+2022,702221,Payton Brennan,OF,Position Player,193,Unknown,,74,,False,L,,,,,50,50,55,50,50,40,,,,,,,,
+2022,702501,Eli Serrano III,OF,Position Player,194,Unknown,,77,,False,L,,,,,50,45,45,50,50,40,,,,,,,,
+2022,702500,Anthony Silva,SS,Position Player,195,Unknown,,,,False,R,,,,,45,40,45,55,50,45,,,,,,,,
+2022,702720,RJ Austin,OF,Position Player,196,Unknown,,,,False,R,,,,,50,40,60,45,55,45,,,,,,,,
+2022,702620,Ross Highfill,C,Position Player,197,Unknown,,,,False,R,,,,,45,50,50,55,50,40,,,,,,,,
+2022,702262,Jared Jones,1B,Position Player,198,Unknown,,76,246,False,R,,,,,45,60,35,65,40,45,,,,,,,,
+2022,703482,Brock Wills,SS,Position Player,199,Unknown,,71,,False,L,,,,,55,40,60,50,50,40,,,,,,,,
+2022,687209,Zach Maxwell,RHP,Pitcher,200,College,4YR JR,78,,True,R,183,6,279700,222500,,,,,,40,65,55,,,,,,35
+2022,702259,Hayden Murphy,RHP,Pitcher,201,Unknown,,75,,False,R,,,,,,,,,,40,55,,50,,,,60,50
+2022,682989,Victor Mederos,RHP,Pitcher,202,College,4YR SO,,,True,R,178,6,291400,227750,,,,,,45,55,,55,,,,50,45
+2022,803285,Tyler Bremner,RHP,Pitcher,203,Unknown,,,,True,R,,,,,,,,,,55,65,,50,,,,65,55
+2022,689147,Orion Kerkering,RHP,Pitcher,204,College,4YR JR,74,,True,R,152,5,368300,322500,,,,,,40,50,,55,,,,45,45
+2022,804466,Carter Garate,,Position Player,205,Unknown,,73,,False,L,,,,,45,40,55,55,60,40,,,,,,,,
+2022,689818,David Sandlin,RHP,Pitcher,206,College,4YR JR,,,True,R,325,11,,400000,,,,,,40,50,55,55,,,,45,50
+2022,686628,Blake Burkhalter,RHP,Pitcher,207,College,4YR JR,,,True,R,76,2C,860100,647500,,,,,,40,55,,,,55,,55,55
+2022,694680,Trevor Martin,RHP,Pitcher,208,College,4YR SO,75,238,True,R,104,3,588700,586200,,,,,,40,60,45,45,,,,45,45
+2022,686930,Mason Barnett,RHP,Pitcher,209,College,4YR JR,,,True,R,87,3,724600,697500,,,,,,40,55,50,55,,,,50,40
+2022,805326,Tyler Schweitzer,LHP,Pitcher,210,College,4YR JR,,,True,L,161,5,337600,325000,,,,,,40,55,50,50,,,,50,50
+2022,702640,Tyler Gough,RHP,Pitcher,211,High school,HS SR,74,,False,R,276,9,159400,275000,,,,,,40,50,45,50,,,,45,50
+2022,687783,Matthew Wood,C,Position Player,213,College,4YR JR,,,True,L,132,4,448400,347500,45,50,30,50,45,40,,,,,,,,
+2022,687627,Kody Huff,C/1B/3B,Position Player,214,College,4YR JR,,,False,R,206,7,231600,231600,45,50,30,50,50,40,,,,,,,,
+2022,687216,Liam Simon,RHP,Pitcher,215,College,4YR JR,76,,True,R,166,5,322600,317500,,,,,,40,60,,55,,,,,35
+2022,805416,Will Vierling,C,Position Player,216,Unknown,,,,False,L,,,,,55,45,40,50,50,40,,,,,,,,
+2022,701347,Yoel Tejeda Jr.,RHP,Pitcher,217,High school,HS SR,79,,False,R,560,19,,,,,,,,40,55,,45,,,,50,45
+2022,703606,Jared Thomas,OF,Position Player,218,Unknown,,,,False,L,,,,,55,45,55,55,60,50,,,,,,,,
+2022,682994,Chris Villaman,LHP,Pitcher,219,College,4YR JR,74,,True,L,284,9,157000,325000,,,,,,40,55,,40,,,,55,55
+2022,702680,Jack Crighton,3B,Position Player,220,Unknown,,75,,False,R,,,,,55,50,55,55,55,40,,,,,,,,
+2022,702618,Bradley Hodges,LHP,Pitcher,221,Unknown,,,,False,L,,,,,,,,,,40,50,50,50,,,,45,55
+2022,687567,Jorel Ortega,2B,Position Player,222,College,4YR JR,,,False,R,174,6,301200,250000,50,45,45,55,50,40,,,,,,,,
+2022,681377,Josh Hood,SS,Position Player,224,College,4YR SR,,,False,R,186,6,272800,250000,45,50,50,60,50,40,,,,,,,,
+2022,805215,Noah Samol,LHP,Pitcher,225,Unknown,,79,,False,L,,,,,,,,,,40,55,50,,,,,50,45
+2022,687210,Nathan Martorella,1B/OF,Position Player,226,College,4YR JR,,,False,L,150,5,375500,325000,45,50,30,50,45,40,,,,,,,,
+2022,702193,Andrew Morris,RHP,Pitcher,228,College,4YR SR,,,False,R,114,4,533300,500000,,,,,,40,50,50,55,,,,45,50
+2022,805365,Isaiah Jackson,OF,Position Player,229,High school,HS SR,75,,False,L,553,18,,,45,50,50,50,55,40,,,,,,,,
+2022,701337,Ethan Petry,1B/OF,Position Player,230,Unknown,,76,235,False,R,,,,,45,60,30,55,30,50,,,,,,,,
+2022,687226,Chris McElvain,RHP,Pitcher,231,College,4YR JR,,,True,R,243,8,178200,175700,,,,,,40,50,,55,,,,45,45
+2022,690994,Ethan Long,3B,Position Player,232,College,4YR SO,,,False,R,616,20,,,45,55,40,60,40,40,,,,,,,,
+2022,702539,Zach Root,LHP,Pitcher,233,Unknown,,,,False,L,,,,,,,,,,50,50,60,,,55,,60,50
+2022,701329,Luis Rujano,RHP,Pitcher,234,High school,HS SR,76,,False,R,383,13,,210000,,,,,,40,55,,45,,,,45,45
+2022,702582,Dallas Macias,OF,Position Player,235,Unknown,,,,False,S,,,,,50,50,55,45,45,50,,,,,,,,
+2022,686960,Nate Baez,,Position Player,236,College,4YR JR,,,False,R,354,12,,125000,50,45,45,45,45,40,,,,,,,,
+2022,677356,Carter Young,SS,Position Player,237,College,4YR JR,,,False,L,497,17,,1325000,40,45,50,55,55,40,,,,,,,,
+2022,675375,Cory Lewis,RHP,Pitcher,238,College,4YR JR,77,,False,R,264,9,164100,140000,,,,,,40,50,50,,,,,45,45
+2022,694336,Dom Johnson,OF,Position Player,239,College,4YR SO,,,False,R,387,13,,180000,45,45,70,40,50,40,,,,,,,,
+2022,804989,Gavin Van Kempen,RHP,Pitcher,240,High school,HS SR,78,,False,R,607,20,,,,,,,,40,55,50,,,,,40,45
+2022,686632,Steven Zobac,RHP,Pitcher,241,College,4YR JR,75,,True,R,115,4,528000,500000,,,,,,40,50,,50,,,,45,50
+2022,688328,Eric Adler,RHP,Pitcher,242,College,4YR JR,,,True,R,191,6,261800,200000,,,,,,40,60,60,,,55,,,35
+2022,692153,Matthew Grabmann,RHP,Pitcher,243,Unknown,,,,False,R,,,,,,,,,,40,50,,50,,,,45,45
+2022,683000,Riley Cornelio,RHP,Pitcher,244,College,4YR JR,,,True,R,201,7,241600,241600,,,,,,40,55,,60,,,,50,45
+2022,702708,Emaarion Boyd,OF,Position Player,245,High school,HS SR,,,False,R,332,11,,647500,50,40,75,45,55,40,,,,,,,,
+2022,702668,Korbyn Dickerson,OF,Position Player,246,High school,HS SR,,,False,R,594,20,,,50,50,60,50,55,45,,,,,,,,
+2022,683152,Michael Curialle,OF/3B,Position Player,247,College,4YR JR,,,False,R,367,12,,150000,45,45,50,50,45,40,,,,,,,,
+2022,681439,Zach Morgan,,Position Player,248,College,4YR SR,,,False,R,226,7,198700,122500,50,45,35,50,50,40,,,,,,,,
+2022,690985,Colby Halter,2B/3B,Position Player,249,Unknown,,,,False,L,,,,,50,45,45,55,50,40,,,,,,,,
+2022,801412,Will Mabrey,LHP,Pitcher,250,College,4YR JR,,,True,L,168,6,317100,225000,,,,,,40,55,,55,,,,40,60
+2023,694973,Paul Skenes,RHP,Pitcher,1,College,4YR JR,78,,False,R,1,1,9721000,9200000,,,,,,65,80,,70,,,,50,55
+2023,686611,Dylan Crews,OF,Position Player,2,College,4YR JR,,,False,R,2,1,8998500,9000000,70,60,60,55,55,65,,,,,,,,
+2023,694671,Wyatt Langford,OF,Position Player,3,College,4YR JR,,,False,R,4,1,7698000,8000000,60,65,55,50,50,60,,,,,,,,
+2023,805805,Walker Jenkins,OF,Position Player,4,High school,HS SR,75,,False,L,5,1,7139700,7144200,60,60,55,60,55,60,,,,,,,,
+2023,703601,Max Clark,OF,Position Player,5,High school,HS SR,,,False,L,3,1,8341700,7697500,60,50,70,65,60,60,,,,,,,,
+2023,695076,Rhett Lowder,RHP,Pitcher,6,College,4YR JR,74,,False,R,7,1,6275200,5700000,,,,,,55,55,,55,,,,60,60
+2023,691019,Kyle Teel,C,Position Player,7,College,4YR JR,,,False,L,14,1,4663100,4000000,55,45,50,65,50,55,,,,,,,,
+2023,800611,Noble Meyer,RHP,Pitcher,8,High school,HS SR,77,,False,R,10,1,5475300,4500000,,,,,,55,60,,55,,,,50,50
+2023,801403,Chase Dollander,RHP,Pitcher,9,College,4YR JR,74,,False,R,9,1,5716900,5716900,,,,,,55,70,50,60,,,,55,55
+2023,805779,Jacob Wilson,SS,Position Player,10,College,4YR JR,,,False,R,6,1,6634000,5500000,65,50,50,55,50,55,,,,,,,,
+2023,805796,Arjun Nimmala,SS,Position Player,11,High school,HS SR,73,,False,R,20,1,3746000,3000000,50,55,50,55,50,55,,,,,,,,
+2023,806124,Colin Houck,SS/3B,Position Player,12,High school,HS SR,74,,False,R,32,1,2607500,2750000,55,55,50,60,50,55,,,,,,,,
+2023,805795,Aidan Miller,SS,Position Player,13,High school,HS SR,,,False,R,27,1,2968800,3100000,50,60,50,60,50,55,,,,,,,,
+2023,805810,Blake Mitchell,C,Position Player,14,High school,HS SR,,,False,L,8,1,5980100,4897500,55,55,35,70,50,55,,,,,,,,
+2023,694966,Brayden Taylor,3B/2B,Position Player,15,College,4YR JR,,,False,L,19,1,3880100,3877600,55,55,50,55,55,55,,,,,,,,
+2023,807713,Matt Shaw,INF,Position Player,16,College,4YR JR,,,False,R,13,1,4848500,4848500,55,55,60,45,50,55,,,,,,,,
+2023,694371,Tommy Troy,2B/OF,Position Player,17,College,4YR JR,,,False,R,12,1,5043800,4400000,50,50,55,50,50,55,,,,,,,,
+2023,694378,Jacob Gonzalez,INF,Position Player,18,College,4YR JR,,,False,L,15,1,4488600,3900000,55,55,40,55,50,55,,,,,,,,
+2023,694462,Hurston Waldrep,RHP,Pitcher,19,College,4YR JR,,,True,R,24,1,3270500,2997500,,,,,,55,65,,55,,,65,,45
+2023,691002,Yohandy Morales,1B/3B,Position Player,20,College,4YR JR,,,False,R,40,2,2144700,2600000,50,60,45,50,50,55,,,,,,,,
+2023,690961,Enrique Bradfield Jr.,OF,Position Player,21,College,4YR JR,,,False,L,17,1,4169700,4169700,50,40,80,40,70,55,,,,,,,,
+2023,690971,Chase Davis,OF,Position Player,22,College,4YR JR,,,False,L,21,1,3618200,3618200,45,55,55,60,50,50,,,,,,,,
+2023,805811,Bryce Eldridge,1B,Position Player,23,High school,HS SR,79,,False,L,16,1,4326600,3997500,50,50,50,60,50,50,,,,,,,,
+2023,806258,Thomas White,LHP,Pitcher,24,High school,HS SR,77,,False,L,35,CB-A,2420900,4100000,,,,,,50,60,55,,,,,50,50
+2023,694385,Brock Wilken,3B,Position Player,25,College,4YR JR,76,,False,R,18,1,4021400,3150000,45,60,30,65,45,50,,,,,,,,
+2023,694384,Nolan Schanuel,1B,Position Player,26,College,4YR JR,,,False,L,11,1,5253000,5253000,60,50,45,50,50,50,,,,,,,,
+2023,702977,Dillon Head,OF,Position Player,27,High school,HS SR,,,False,L,25,1,3165400,2800000,55,40,80,55,60,50,,,,,,,,
+2023,805792,Charlee Soto,RHP,Pitcher,28,High school,HS SR,77,,False,R,34,CB-A,2481400,2481400,,,,,,50,60,,55,,,,50,50
+2023,806068,Colt Emerson,SS,Position Player,29,High school,HS SR,,,False,L,22,1,3496600,3800000,60,50,50,55,50,50,,,,,,,,
+2023,806152,Walker Martin,SS/3B,Position Player,30,High school,HS SR,74,,False,L,52,2,1620800,2997500,50,55,50,50,50,50,,,,,,,,
+2023,806146,George Lombard Jr.,SS/3B,Position Player,31,High school,HS SR,75,,False,R,26,1,3065000,3300000,50,55,50,55,50,50,,,,,,,,
+2023,806230,Sammy Stafura,SS/2B,Position Player,32,High school,HS SR,,,False,R,43,2,1998200,2497500,45,50,65,55,55,50,,,,,,,,
+2023,805808,Kevin McGonigle,SS,Position Player,33,High school,HS SR,,,False,L,37,CB-A,2309500,2847500,60,50,50,50,50,50,,,,,,,,
+2023,806252,Ralphy Velazquez,1B/OF,Position Player,34,High school,HS SR,,,False,L,23,1,3380900,2500000,55,55,40,55,45,50,,,,,,,,
+2023,695372,Jake Gelof,3B,Position Player,35,College,4YR JR,,,False,R,60,2,1336900,1334400,50,60,40,55,50,50,,,,,,,,
+2023,694815,Jack Hurley,OF,Position Player,36,College,4YR JR,,,False,L,80,3,887000,887000,55,50,60,55,55,50,,,,,,,,
+2023,802126,Joe Whitman,LHP,Pitcher,37,College,4YR JR,,,False,L,69,2C,1074100,805575,,,,,,50,50,,60,,,,55,50
+2023,803745,Adrian Santana,SS,Position Player,38,High school,HS SR,71,,False,S,31,CB-A,2670600,2002950,45,40,80,60,60,50,,,,,,,,
+2023,806071,Jonny Farmelo,OF,Position Player,39,High school,HS SR,74,,False,L,29,PPI,2800700,3200000,50,50,60,50,50,50,,,,,,,,
+2023,805809,Travis Sykora,RHP,Pitcher,40,High school,HS SR,78,,False,R,71,3,1021300,2600000,,,,,,50,70,,55,,,60,,50
+2023,806265,Blake Wolters,RHP,Pitcher,41,High school,HS SR,76,,False,R,44,2,1951600,2800000,,,,,,50,65,,55,,,,45,50
+2023,702987,Cameron Johnson,LHP,Pitcher,42,High school,HS SR,78,,False,L,605,20,,,,,,,,40,60,,45,,,,50,30
+2023,800616,Cole Schoenwetter,RHP,Pitcher,43,High school,HS SR,75,,False,R,105,4,640300,1897500,,,,,,50,55,60,,,,,55,50
+2023,800604,Roch Cholowsky,SS,Position Player,44,Unknown,,74,,False,R,,,,,60,60,45,60,65,65,,,,,,,,
+2023,806198,Cooper Pratt,SS,Position Player,45,High school,HS SR,76,,False,R,182,6,309900,1350000,55,50,50,55,55,50,,,,,,,,
+2023,694991,Mitch Jebb,OF/2B,Position Player,46,College,4YR JR,,,False,L,42,2,2045900,1650000,60,40,65,50,50,50,,,,,,,,
+2023,694249,Cole Carrigg,OF,Position Player,47,College,4YR JR,,,False,S,65,CB-B,1184100,1300000,55,40,60,70,50,50,,,,,,,,
+2023,694757,Maui Ahuna,SS,Position Player,48,College,4YR JR,73,,False,L,117,4,569100,497500,45,45,65,60,60,50,,,,,,,,
+2023,807742,Colton Ledbetter,OF,Position Player,49,College,4YR JR,,,False,L,55,2,1509800,1297500,55,50,50,45,50,50,,,,,,,,
+2023,806046,Alex Clemmey,LHP,Pitcher,50,High school,HS SR,78,,False,L,58,2,1402600,2300000,,,,,,50,65,60,,,,,45,40
+2023,800618,Paul Wilson,LHP,Pitcher,51,High school,HS SR,,,False,L,76,3,945100,1697500,,,,,,50,55,55,,,,,50,50
+2023,805801,Nazzan Zanetello,SS,Position Player,52,High school,HS SR,74,,False,R,50,2,1698000,3000000,50,55,55,55,50,50,,,,,,,,
+2023,806191,Tai Peete,OF,Position Player,53,High school,HS SR,74,,False,L,30,CB-A,2732500,2500000,45,55,60,60,55,50,,,,,,,,
+2023,687075,Brandon Sproat,RHP,Pitcher,54,College,4YR SR,75,,False,R,56,2,1474500,1474500,,,,,,50,60,45,55,,,,50,45
+2023,694580,Kemp Alderman,OF/1B,Position Player,55,College,4YR JR,75,,False,R,47,2,1825300,1400000,45,60,45,60,50,50,,,,,,,,
+2023,694818,Hunter Owen,LHP,Pitcher,56,College,4YR JR,78,,True,L,106,4,634200,631700,,,,,,50,55,50,60,,,,50,50
+2023,694728,Brice Matthews,2B,Position Player,57,College,4YR JR,,,False,R,28,1,2880700,2478200,50,55,60,50,50,50,,,,,,,,
+2023,692226,Ty Floyd,RHP,Pitcher,58,College,4YR JR,,,True,R,38,CB-A,2255100,2097500,,,,,,50,60,50,,,,,50,45
+2023,805780,Cade Kuehler,RHP,Pitcher,59,College,4YR JR,,,True,R,70,2C,1047500,1045000,,,,,,50,60,55,60,,,,50,45
+2023,806064,Steven Echavarria,RHP,Pitcher,60,High school,HS SR,73,,False,R,72,3,1005700,3000000,,,,,,50,55,50,55,,,,55,55
+2023,802469,Travis Honeyman,OF,Position Player,61,College,4YR JR,,,False,R,90,3,759600,700000,50,50,55,50,50,50,,,,,,,,
+2023,694410,LuJames Groover,3B/1B,Position Player,62,College,4YR JR,75,,False,R,48,2,1783000,1783000,50,50,50,50,50,40,,,,,,,,
+2023,696280,Alonzo Tredwell,RHP,Pitcher,63,College,4YR SO,80,,True,R,61,2,1304900,1497500,,,,,,50,55,50,55,,,,55,55
+2023,802504,Myles Naylor,SS,Position Player,64,High school,HS SR,,,False,R,39,CB-A,2202500,2202500,45,55,45,55,55,50,,,,,,,,
+2023,806077,Kendall George,OF,Position Player,65,High school,HS SR,,,False,L,36,1,2362700,1847500,55,30,80,40,60,50,,,,,,,,
+2023,690957,Jace Bohrofen,OF,Position Player,66,College,4YR JR,,,False,L,184,6,304700,302200,50,55,45,50,50,50,,,,,,,,
+2023,695033,Juaron Watts-Brown,RHP,Pitcher,67,College,4YR JR,75,,False,R,89,3,771500,1002785,,,,,,50,50,55,60,,,,50,45
+2023,800724,Eric Bitonti,1B/3B,Position Player,68,High school,HS SR,76,,False,L,87,3,796200,1750000,45,55,50,60,50,50,,,,,,,,
+2023,800610,Roman Martin,SS,Position Player,69,Unknown,,74,208,False,R,,,,,50,45,40,65,55,45,,,,,,,,
+2023,800620,Trent Caraway,3B,Position Player,70,Unknown,,,,False,R,,,,,45,50,45,60,50,40,,,,,,,,
+2023,805804,George Wolkow,OF,Position Player,71,High school,HS SR,79,,False,L,209,7,248300,1000000,40,60,45,55,50,50,,,,,,,,
+2023,805793,Landen Maroudis,RHP,Pitcher,72,High school,HS SR,75,,False,R,121,4,547100,1500000,,,,,,50,55,,50,,,,55,50
+2023,806019,Zane Adams,LHP,Pitcher,73,Unknown,,,,False,L,,,,,,,,,,40,45,55,,,50,,55,45
+2023,806263,Brandon Winokur,SS/3B/OF,Position Player,74,High school,HS SR,77,,False,R,82,3,859700,1500000,50,55,60,55,50,50,,,,,,,,
+2023,800605,Will Gasparino,OF,Position Player,75,Unknown,,78,,True,R,,,,,45,60,55,55,55,50,,,,,,,,
+2023,691027,Tanner Witt,RHP,Pitcher,76,College,4YR JR,77,,True,R,541,18,,,,,,,,50,60,60,55,,,,55,50
+2023,702995,Antonio Anderson,3B,Position Player,77,High school,HS SR,,,False,S,83,3,846800,1500000,55,50,45,60,45,45,,,,,,,,
+2023,806223,Aidan Smith,OF,Position Player,78,High school,HS SR,75,190,False,R,124,4,531300,1200000,55,50,60,60,55,45,,,,,,,,
+2023,811294,Caden Sorrell,OF,Position Player,79,Unknown,,,,False,L,,,,,45,55,60,60,55,50,,,,,,,,
+2023,811285,Joey Volchko,RHP,Pitcher,80,Unknown,,76,,False,R,,,,,,,,,,50,60,40,60,,,40,,45
+2023,801670,Mike Boeve,1B/3B,Position Player,81,College,4YR JR,,,False,L,54,2,1546100,1250000,60,40,40,50,45,45,,,,,,,,
+2023,690991,Mac Horvath,3B/2B,Position Player,82,College,4YR JR,,,False,R,53,2,1582900,1400000,40,55,60,60,45,45,,,,,,,,
+2023,805800,Zander Mueth,RHP,Pitcher,83,High school,HS SR,,,False,R,67,CB-B,1128200,1797500,,,,,,45,55,,55,,,,50,45
+2023,803141,Teddy McGraw,RHP,Pitcher,84,College,4YR JR,,,False,R,92,3,736400,600000,,,,,,45,55,,55,,,,55,45
+2023,805794,Liam Peterson,RHP,Pitcher,85,Unknown,,77,,False,R,,,,,,,,,,55,60,55,65,,,,50,45
+2023,687273,Quinn Mathews,LHP,Pitcher,86,College,4YR SR,77,,True,L,122,4,541700,600000,,,,,,45,50,45,50,,,,55,50
+2023,687069,Josh Rivera,SS,Position Player,87,College,4YR SR,,,False,R,81,3,872400,725000,50,50,50,50,50,45,,,,,,,,
+2023,694491,Grayson Hitt,LHP,Pitcher,88,College,4YR JR,,,False,L,112,4,597500,1200000,,,,,,45,60,50,,,60,,45,45
+2023,805782,Ryan Lasko,OF,Position Player,89,College,4YR JR,,,False,R,41,2,2094900,1700000,45,50,55,60,55,45,,,,,,,,
+2023,807712,Luke Keaschall,2B/OF/1B,Position Player,90,College,4YR JR,,,False,R,49,2,1741500,1500000,55,45,55,50,45,45,,,,,,,,
+2023,801194,Max Anderson,2B/3B,Position Player,91,College,4YR JR,,,False,R,45,2,1906200,1429650,55,50,40,45,40,45,,,,,,,,
+2023,805784,Tanner Hall,RHP,Pitcher,92,College,4YR JR,,,True,R,114,4,586000,510000,,,,,,45,50,,50,,,,60,55
+2023,806701,Jake Brown,OF,Position Player,93,High school,HS SR,,,False,L,471,16,,,50,55,55,55,55,50,,,,,,,,
+2023,683344,Homer Bush Jr.,OF,Position Player,94,College,4YR JR,,,False,R,128,4,511600,511600,50,40,60,55,55,45,,,,,,,,
+2023,694369,Cole Foster,SS,Position Player,95,College,4YR JR,,,False,S,85,3,820900,747500,50,45,50,55,50,45,,,,,,,,
+2023,694370,Levi Wells,RHP,Pitcher,96,College,4YR JR,,,True,R,118,4,563600,500000,,,,,,45,55,60,55,,,,50,45
+2023,690997,Nolan McLean,RHP,Pitcher,97,College,4YR JR,,,True,R,91,3,747600,747600,,,,,,45,65,55,55,,,,,45
+2023,805807,Josh Knoth,RHP,Pitcher,98,High school,HS SR,73,,True,R,33,CB-A,2543800,2000000,,,,,,45,55,60,,,,,45,50
+2023,811301,Grant Gray,OF,Position Player,99,Unknown,,,,False,R,,,,,50,45,75,50,50,45,,,,,,,,
+2023,702052,Hunter Hollan,LHP,Pitcher,100,College,4YR JR,,,False,L,74,3,975100,597500,,,,,,45,50,55,50,,,,50,50
+2023,806114,Adam Hachman,LHP,Pitcher,101,Unknown,,77,,True,L,,,,,,,,,,45,65,50,,,,,45,45
+2023,691799,Grant Taylor,RHP,Pitcher,102,College,4YR SO,75,,True,R,51,2,1659800,1659800,,,,,,45,60,55,55,,60,,,50
+2023,694393,Jaxon Wiggins,RHP,Pitcher,103,College,4YR JR,,,False,R,68,2C,1101000,1401500,,,,,,45,65,50,55,,,,55,40
+2023,806039,Drew Burress,OF,Position Player,104,Unknown,,69,,False,R,,,,,55,60,55,60,55,60,,,,,,,,
+2023,800625,Steven Milam,SS/2B,Position Player,105,Unknown,,68,,False,S,,,,,55,40,50,50,50,45,,,,,,,,
+2023,806155,Ethan McElvain,LHP,Pitcher,106,Unknown,,,,True,L,,,,,,,,,,45,60,,,,55,,,45
+2023,806067,James Ellwanger,RHP,Pitcher,107,High school,HS SR,76,,False,R,555,19,,,,,,,,45,60,55,45,,,,45,40
+2023,803143,Seth Keener,RHP,Pitcher,108,College,4YR JR,,,True,R,84,3,833900,800000,,,,,,45,55,,60,,,,50,55
+2023,703667,Luke McNeillie,RHP,Pitcher,109,Unknown,,75,,True,R,,,,,,,,,,40,55,,55,,,,45,45
+2023,801686,Michael Carico,C,Position Player,110,College,4YR JR,,,False,L,149,5,416900,400000,50,55,35,50,45,45,,,,,,,,
+2023,805797,Dylan Cupp,SS,Position Player,111,Unknown,,74,,False,R,,,,,50,45,50,55,60,45,,,,,,,,
+2023,694573,Wyatt Crowell,LHP,Pitcher,112,College,4YR JR,,,True,L,127,4,516800,647500,,,,,,45,55,,55,,,,45,45
+2023,814362,Alberto Rios,C,Position Player,113,College,4YR JR,,,True,R,79,3,901500,847500,55,50,40,40,45,45,,,,,,,,
+2023,695612,Alex Mooney,INF,Position Player,114,College,4YR SO,,,False,R,218,7,231300,1000000,50,45,55,55,50,50,,,,,,,,
+2023,801406,Jared Dickey,OF,Position Player,115,College,4YR JR,,,False,L,319,11,,572500,55,50,45,45,45,45,,,,,,,,
+2023,807720,Garret Forrester,1B/3B/C,Position Player,116,College,4YR JR,,,False,R,73,3,990300,772500,55,50,35,50,50,45,,,,,,,,
+2023,802544,Brock Vradenburg,1B,Position Player,117,College,4YR JR,79,,False,L,78,3,916000,916000,55,50,50,45,40,45,,,,,,,,
+2023,694364,Caden Grice,LHP,Position Player,118,College,4YR JR,78,250,False,L,64,CB-B,1213200,1250000,40,60,45,60,50,45,,,,,,,,
+2023,811289,Spencer Nivens,OF,Position Player,119,College,4YR JR,,,False,L,142,5,446700,472500,55,45,55,45,50,45,,,,,,,,
+2023,694968,Jack Mahoney,RHP,Pitcher,120,College,4YR JR,,,False,R,77,3,930600,925000,,,,,,45,55,,55,,,,50,50
+2023,800612,Cole Miller,RHP,Pitcher,121,High school,HS SR,78,,False,R,103,4,653300,1000000,,,,,,45,55,,50,,,,50,45
+2023,683149,Julian Brock,C,Position Player,122,College,4YR SR,75,,False,R,231,8,210600,255000,45,50,40,55,50,45,,,,,,,,
+2023,807743,Sean Sullivan,LHP,Pitcher,123,College,4YR SO,76,,False,L,46,2,1868400,1700000,,,,,,45,60,,45,,,,50,55
+2023,689958,Andrew Walters,RHP,Pitcher,124,College,4YR SR,76,,True,R,62,CB-B,1273700,955275,,,,,,40,65,,40,,,,,50
+2023,806227,Alex Sosa,C,Position Player,125,Unknown,,,,False,L,,,,,45,55,40,45,45,45,,,,,,,,
+2023,806010,Barrett Kent,RHP,Pitcher,126,High school,HS SR,76,,False,R,234,8,206500,997500,,,,,,45,55,50,50,,,,50,50
+2023,811296,Kiefer Lord,RHP,Pitcher,127,College,4YR JR,,,False,R,86,3,808200,760000,,,,,,45,55,50,50,,,,45,50
+2023,806139,Justin Lee,RHP,Pitcher,128,Unknown,,75,,False,R,,,,,,,,,,45,50,,50,,,55,,45
+2023,811287,Carson Roccaforte,OF,Position Player,129,College,4YR JR,,,False,L,66,CB-B,1158900,897500,55,45,60,50,55,45,,,,,,,,
+2023,691792,Roc Riggio,2B,Position Player,130,College,4YR SO,69,,False,L,129,4,506800,693000,55,50,40,45,45,45,,,,,,,,
+2023,806471,Parker Detmers,RHP,Pitcher,131,Unknown,,,,False,R,,,,,,,,,,45,50,55,,,,,50,50
+2023,813620,Carson Rucker,SS/3B,Position Player,132,High school,HS SR,,,False,R,107,4,627900,772500,50,50,50,50,50,45,,,,,,,,
+2023,691941,Calvin Harris,C,Position Player,133,College,4YR JR,,,False,L,116,4,574600,600000,50,45,40,45,50,45,,,,,,,,
+2023,806143,Wil Libbert,LHP,Pitcher,134,Unknown,,,,True,L,,,,,,,,,,40,55,,50,,55,,50,45
+2023,691739,Will Sanders,RHP,Pitcher,135,College,4YR JR,78,,False,R,113,4,591800,600000,,,,,,45,50,55,55,,,,55,50
+2023,691720,Kyle Karros,3B,Position Player,136,College,4YR JR,,,False,R,145,5,433500,433500,50,50,40,60,50,45,,,,,,,,
+2023,691003,Tre' Morgan,1B,Position Player,137,College,4YR JR,,,False,L,88,3,783800,781300,55,40,50,45,65,45,,,,,,,,
+2023,806224,Brady Smith,RHP,Pitcher,138,High school,HS SR,74,,False,R,95,3,705500,703000,,,,,,45,55,60,55,,,,50,50
+2023,811356,Colin Fisher,LHP,Pitcher,139,Unknown,,75,,False,L,,,,,,,,,,45,50,55,,,,,50,50
+2023,694933,Ross Dunn,LHP,Pitcher,140,College,4YR JR,,,False,L,297,10,168100,150000,,,,,,45,55,,55,,,,50,45
+2023,806059,Hunter Dietz,LHP,Pitcher,141,Unknown,,78,,False,L,,,,,,,,,,55,55,60,60,,60,,45,50
+2023,695034,Kade Morris,RHP,Pitcher,142,College,4YR JR,,,False,R,101,3,666500,666500,,,,,,45,50,45,50,,,,55,50
+2023,806498,Cam Kozeal,SS/2B,Position Player,143,Unknown,,70,,False,L,,,,,50,50,45,45,40,45,,,,,,,,
+2023,805799,Zion Rose,OF,Position Player,144,Unknown,,73,,False,R,,,,,55,55,55,50,45,50,,,,,,,,
+2023,803833,Garrett Baumann,RHP,Pitcher,145,High school,HS SR,80,,False,R,126,4,521800,747500,,,,,,45,60,,45,,,,50,45
+2023,800606,Gavin Grahovac,3B,Position Player,146,Unknown,,74,220,False,R,,,,,45,60,50,55,45,50,,,,,,,,
+2023,801507,Jake Cunningham,OF,Position Player,147,College,4YR JR,76,,False,R,154,5,396700,375000,40,55,65,50,60,45,,,,,,,,
+2023,694552,Jack Payton,C,Position Player,148,College,4YR JR,,,False,R,330,11,,175000,50,50,45,40,45,45,,,,,,,,
+2023,805619,Cameron Flukey,RHP,Pitcher,149,Unknown,,78,,False,R,,,,,,,,,,55,60,55,55,,,,50,55
+2023,701784,Cam Clayton,SS,Position Player,150,Unknown,,,,False,R,,,,,50,45,50,50,50,45,,,,,,,,
+2023,692216,CJ Kayfus,1B/OF,Position Player,151,College,4YR JR,,,False,L,93,3,725300,700000,55,45,50,50,50,45,,,,,,,,
+2023,694754,Sabin Ceballos,3B,Position Player,152,College,4YR SO,,,False,R,94,3,714100,597500,55,45,30,55,40,45,,,,,,,,
+2023,807751,Ethan O'Donnell,OF,Position Player,153,College,4YR JR,,,False,L,168,6,348400,307500,50,45,55,50,50,45,,,,,,,,
+2023,806074,Cal Fisher,SS/2B,Position Player,154,Unknown,,,,False,R,,,,,60,45,40,50,50,45,,,,,,,,
+2023,805802,Campbell Smithwick,C,Position Player,155,Unknown,,,,False,L,,,,,50,50,40,50,50,40,,,,,,,,
+2023,694444,Tavian Josenberger,,Position Player,156,College,4YR JR,,,False,L,100,3,671800,603000,50,45,60,50,60,40,,,,,,,,
+2023,694387,Christian Knapczyk,SS,Position Player,157,College,4YR JR,69,165,False,L,161,5,371000,385000,60,20,65,50,50,40,,,,,,,,
+2023,703537,Blake Dickerson,LHP,Pitcher,158,High school,HS SR,78,,False,L,371,12,,500000,,,,,,40,50,,50,,,,45,50
+2023,806076,Gabe Gaeckle,RHP,Pitcher,159,High school,HS SR,,,True,R,588,20,,,,,,,,45,60,45,60,,,,50,45
+2023,695229,Camden Minacci,RHP,Pitcher,160,College,4YR JR,,,True,R,174,6,331000,328500,,,,,,40,60,,60,,,,,50
+2023,813841,Jonah Cox,OF,Position Player,161,College,4YR JR,,,False,R,166,6,354500,300000,55,40,65,40,50,40,,,,,,,,
+2023,805806,Chance Mako,RHP,Pitcher,162,Unknown,,78,,False,R,,,,,,,,,,40,55,,55,,,,50,50
+2023,800959,Nick Goodwin,SS,Position Player,163,College,4YR JR,,,False,R,214,7,238700,236200,45,45,45,50,50,40,,,,,,,,
+2023,683354,Connor O'Halloran,LHP,Pitcher,164,College,4YR JR,,,False,L,157,5,385000,337500,,,,,,40,45,,55,,,,50,55
+2023,804267,Zac Thornton,LHP,Pitcher,165,College,4YR JR,,,False,L,159,5,378000,350000,,,,,,40,45,45,50,,,,50,55
+2023,809100,Ixan Henderson,LHP,Pitcher,166,College,4YR JR,,,True,L,245,8,193800,230000,,,,,,40,50,45,50,,,,45,50
+2023,691765,Jackson Baumeister,RHP,Pitcher,167,College,4YR SO,,,False,R,63,CB-B,1243300,1605100,,,,,,40,55,50,45,,,,45,45
+2023,807737,TJayy Walton,OF,Position Player,168,High school,HS SR,75,,False,R,130,4,501600,499100,50,45,55,45,45,40,,,,,,,,
+2023,694829,Connor Burns,C,Position Player,169,College,4YR JR,,,False,R,141,5,451100,448600,40,45,40,70,70,40,,,,,,,,
+2023,807740,Luke Shliger,C,Position Player,170,College,4YR JR,,,False,L,180,6,314800,272500,50,40,40,50,45,40,,,,,,,,
+2023,694749,Dylan Campbell,OF,Position Player,171,College,4YR JR,71,205,False,R,136,4C,473700,497500,55,45,55,60,50,40,,,,,,,,
+2023,701604,Andrew Lindsey,RHP,Pitcher,172,College,4YR 5S,,,True,R,146,5,429400,340000,,,,,,40,55,50,60,,,,45,50
+2023,694316,Lebarron Johnson Jr.,RHP,Pitcher,173,Unknown,,,,True,R,,,,,,,,,,40,50,,60,,,45,,45
+2023,694805,Kyle Carr,LHP,Pitcher,174,Junior college,JC J1,73,,True,L,97,3,692000,692000,,,,,,40,55,,45,,,,40,50
+2023,700113,Nicholas Judice,RHP,Pitcher,175,College,4YR SR,80,185,True,R,252,8,188000,185500,,,,,,40,55,,55,,,,40,50
+2023,701241,Josh Bostick,RHP,Pitcher,176,Junior college,JC J3,76,,False,R,240,8,198800,397500,,,,,,40,55,,55,,,,45,45
+2023,800607,Kehden Hettiger,C/1B,Position Player,177,High school,HS SR,,,False,L,343,11,,397500,50,45,40,55,40,40,,,,,,,,
+2023,814005,Jake Bloss,RHP,Pitcher,178,College,4YR JR,75,,True,R,99,3,678500,497500,,,,,,40,50,50,45,,,,40,50
+2023,811309,Bishop Letson,RHP,Pitcher,179,High school,HS SR,,,False,R,332,11,,482600,,,,,,40,55,,50,,,,50,50
+2023,691726,Kevin Sim,1B/OF,Position Player,180,College,4YR JR,,,False,R,148,5,421100,375000,45,50,40,50,45,40,,,,,,,,
+2023,813880,Devin Saltiban,OF/2B,Position Player,182,High school,HS SR,,,False,R,98,3,685100,602500,50,45,55,50,50,40,,,,,,,,
+2023,814106,Cade Denton,RHP,Pitcher,184,College,4YR JR,,,True,R,172,6,336700,500000,,,,,,40,55,,55,,,,40,55
+2023,814193,Justin Storm,LHP,Pitcher,185,College,4YR JR,79,,True,L,203,7,261000,241000,,,,,,40,55,,60,,,,,50
+2023,694838,Joe Vetrano,1B,Position Player,186,College,4YR JR,75,,True,L,163,5,364400,397500,45,55,40,50,50,40,,,,,,,,
+2023,811304,Jake Peppers,RHP,Pitcher,187,College,4YR JR,75,,True,R,269,9,178000,178000,,,,,,40,55,,55,,,,50,45
+2023,690983,Hunter Haas,SS,Position Player,188,College,4YR JR,,,False,R,120,4,552500,534000,45,40,45,50,50,40,,,,,,,,
+2023,694549,Isaiah Coupet,LHP,Pitcher,189,College,4YR JR,73,,True,L,109,4,615500,600000,,,,,,40,40,60,60,,,,50,50
+2023,691946,George Klassen,RHP,Pitcher,190,College,4YR JR,,,False,R,193,6,282900,297500,,,,,,40,70,55,55,,,,40,35
+2023,690963,Cam Brown,RHP,Pitcher,191,College,4YR JR,75,,True,R,313,10,164400,154500,,,,,,40,55,,55,,,,50,40
+2023,695345,Hunter Furtado,LHP,Pitcher,192,College,4YR JR,76,,False,L,167,6,351400,348900,,,,,,40,55,,60,,,,45,45
+2023,806328,Aidan Knaak,RHP,Pitcher,193,Unknown,,,,False,R,,,,,,,,,,40,45,40,45,,,,60,50
+2023,805812,Dylan Questad,RHP,Pitcher,194,High school,HS SR,,,True,R,150,5,412600,500000,,,,,,40,55,50,50,,,,50,50
+2023,814537,Coleman Picard,RHP,Pitcher,195,College,4YR JR,74,,True,R,169,6,345500,343000,,,,,,40,50,50,,,50,,,50
+2023,694788,Carlson Reed,RHP,Pitcher,196,College,4YR JR,,,True,R,104,4,646900,600000,,,,,,40,55,,55,,,,60,40
+2023,694753,Khristian Curtis,RHP,Pitcher,197,College,4YR JR,77,,False,R,347,12,,497500,,,,,,40,50,45,55,,,,45,45
+2023,700579,Nathan Dettmer,RHP,Pitcher,198,College,4YR JR,76,,False,R,139,5,459800,425000,,,,,,40,50,,55,,,,50,45
+2023,691013,Jason Savacool,RHP,Pitcher,199,College,4YR JR,,,False,R,185,6,302300,302300,,,,,,40,45,45,50,,,,50,50
+2023,802357,Drue Hackenberg,RHP,Pitcher,200,College,4YR SO,,,False,R,59,2,1369300,1997500,,,,,,40,50,,50,,,,45,55
+2023,811357,Olin Johnson,RHP,Pitcher,201,Unknown,,78,,False,R,,,,,,,,,,40,55,50,55,,,,50,45
+2023,806054,Matthew Dallas,LHP,Pitcher,202,Unknown,,77,,False,L,,,,,,,,,,40,50,55,,,,,55,50
+2023,806062,Andrew Duncan,OF,Position Player,203,High school,HS SR,,,False,R,584,19,,,45,50,55,55,45,40,,,,,,,,
+2023,804241,Zach Levenson,OF,Position Player,204,College,4YR JR,,,False,R,158,5,381300,381300,45,50,45,45,45,40,,,,,,,,
+2023,805785,Ryder Helfrick,C,Position Player,205,Unknown,,,,False,R,,,,,45,55,40,65,60,55,,,,,,,,
+2023,805788,Aidan Keenan,RHP,Pitcher,206,Unknown,,,,False,R,,,,,,,,,,40,55,45,,,,,45,50
+2023,814006,Cole Stokes,RHP,Pitcher,207,Unknown,,77,,False,R,,,,,,,,,,40,55,,50,,,,40,45
+2023,807748,Kannon Kemp,RHP,Pitcher,209,High school,HS SR,78,,False,R,251,8,188800,625000,,,,,,40,55,,50,,,,50,50
+2023,691000,Carson Montgomery,RHP,Pitcher,211,College,4YR JR,75,,False,R,341,11,,200000,,,,,,40,55,,50,,50,,45,40
+2023,691730,Alejandro Rosario,RHP,Pitcher,212,College,4YR JR,,,False,R,144,5,437900,437900,,,,,,40,60,,,,,,55,50
+2023,806083,J.D. Gonzalez,C,Position Player,213,High school,HS SR,,,False,L,96,3,698600,550000,45,50,40,60,50,40,,,,,,,,
+2023,806507,Kollin Ritchie,OF,Position Player,214,High school,HS SR,74,,False,L,571,19,,,40,55,50,50,50,50,,,,,,,,
+2023,806118,Colton Hartman,LHP,Pitcher,215,Unknown,,75,,False,L,,,,,,,,,,40,55,50,,,,,50,45
+2023,687605,Andrew Pinckney,OF,Position Player,216,College,4YR SR,75,215,False,R,102,4,660000,500000,40,55,60,55,55,40,,,,,,,,
+2023,807738,Colin Barczi,,Position Player,217,Unknown,,74,210,False,R,,,,,40,55,40,60,50,40,,,,,,,,
+2023,694345,Patrick Reilly,RHP,Pitcher,219,College,4YR JR,,,True,R,140,5,455600,453100,,,,,,40,60,,55,,,,45,40
+2023,805418,Drew Conover,RHP,Pitcher,220,College,4YR JR,,,True,R,316,11,,150000,,,,,,40,55,,55,,50,,,40
+2023,807728,Carter Graham,1B,Position Player,221,College,4YR JR,,,False,R,228,8,215400,212900,45,55,40,50,50,40,,,,,,,,
+2023,806229,Nolan Souza,SS,Position Player,222,Unknown,,75,,False,L,,,,,45,50,50,50,45,40,,,,,,,,
+2023,804562,Daniel Cuvet,3B,Position Player,223,High school,HS SR,,,False,R,497,17,,,45,60,40,60,45,45,,,,,,,,
+2023,805951,Boston Baro,INF,Position Player,224,High school,HS SR,74,,False,L,246,8,192900,700000,50,40,55,50,45,40,,,,,,,,
+2023,811302,Phoenix Call,SS/OF,Position Player,226,High school,HS SR,,,False,R,448,15,,,45,45,60,60,45,40,,,,,,,,
+2023,801207,Emmett Olson,LHP,Pitcher,228,College,4YR JR,76,,False,L,110,4,609600,460000,,,,,,40,45,50,50,,,,50,50
+2023,803033,Matthew Etzel,OF,Position Player,229,College,4YR JR,,,False,L,301,10,167000,167000,50,40,65,50,55,40,,,,,,,,
+2023,701056,Josh Grosz,RHP,Pitcher,230,College,4YR JR,76,,False,R,342,11,,150000,,,,,,40,50,45,50,,,,50,45
+2023,801643,Owen Wild,RHP,Pitcher,231,College,4YR JR,,,False,R,213,7,240600,238100,,,,,,40,45,,50,,,,55,50
+2023,694876,Cooper Ingle,C/OF,Position Player,232,College,4YR JR,70,,False,L,125,4,526200,400000,55,30,50,50,50,40,,,,,,,,
+2023,691943,Ryan Bruno,LHP,Pitcher,233,College,4YR JR,,,True,L,205,7,256700,140000,,,,,,40,60,,45,,,,65,30
+2023,702965,Hiro Wyatt,RHP,Pitcher,234,High school,HS SR,73,,True,R,75,3,960000,1497500,,,,,,40,55,,55,,,,40,45
+2023,691719,Joseph Gonzalez,RHP,Pitcher,235,Unknown,,76,233,False,R,,,,,,,,,,40,50,,50,,,,50,55
+2023,692243,Jaden Woods,LHP,Pitcher,236,College,4YR JR,,,True,L,197,7,273800,271300,,,,,,40,55,,55,,,,50,45
+2023,811286,Ryan Brown,RHP,Pitcher,237,College,4YR JR,,,True,R,280,9,173600,171100,,,,,,40,50,,45,,,65,,40
+2023,803142,Tommy Hawke,OF,Position Player,238,College,4YR SO,68,,False,L,188,6,295000,295000,55,30,70,40,50,40,,,,,,,,
+2023,694375,TJ Nichols,RHP,Pitcher,239,College,4YR JR,77,,True,R,183,6,307300,304800,,,,,,40,55,,55,,,,45,40
+2023,811291,Eriq Swan,RHP,Pitcher,240,College,4YR JR,78,,False,R,137,4C,469000,466500,,,,,,40,60,,55,,,,50,35
+2023,701400,Gavin Adams,RHP,Pitcher,242,Junior college,JC J2,75,,True,R,315,11,,,,,,,,40,60,,50,,,,40,40
+2023,807726,John Peck,SS,Position Player,243,College,4YR JR,,,False,R,200,7,267000,222500,45,40,50,55,50,40,,,,,,,,
+2023,806053,Dean Curley,SS/3B,Position Player,244,Unknown,,75,,False,R,,,,,45,50,50,65,50,50,,,,,,,,
+2023,807314,Trevor Harrison,RHP,Pitcher,245,High school,HS SR,76,,False,R,156,5,388900,847500,,,,,,40,55,,45,,,,45,45
+2023,803860,Christian Rodriguez,RHP,Pitcher,246,Unknown,,71,,True,R,,,,,,,,,,40,55,,45,,,,55,45
+2023,800609,Cameron Kim,3B,Position Player,247,Unknown,,75,,False,R,,,,,50,40,40,55,50,40,,,,,,,,
+2023,695308,Paulshawn Pasqualotto,RHP,Pitcher,248,College,4YR JR,,,True,R,357,12,,150000,,,,,,40,50,,45,,,,55,45
+2023,806213,Derek Schaefer,RHP,Pitcher,249,Unknown,,74,,False,R,,,,,,,,,,40,50,,45,,,,45,50
+2023,811310,Nigel Belgrave,RHP,Pitcher,250,College,4YR JR,76,,True,R,443,15,,150000,,,,,,40,55,,55,,,,,40
+2024,683953,Travis Bazzana,2B,Position Player,1,College,4YR JR,,,False,L,1,1,10570600,8950000,65,60,60,50,50,65,,,,,,,,
+2024,809707,Charlie Condon,1B/OF,Position Player,2,College,4YR JR,78,,False,R,3,1,9070800,9250000,60,70,40,55,50,65,,,,,,,,
+2024,695506,Jac Caglianone,1B/OF,Position Player,3,College,4YR JR,77,,False,L,6,1,7213800,7500000,55,70,40,60,55,65,,,,,,,,
+2024,802139,JJ Wetherholt,INF,Position Player,4,College,4YR JR,,,False,L,7,1,6823700,6900000,65,50,60,50,50,60,,,,,,,,
+2024,696146,Hagen Smith,LHP,Pitcher,5,College,4YR JR,75,225,False,L,5,1,7763700,8000000,,,,,,60,65,,65,,,50,,50
+2024,695505,Chase Burns,RHP,Pitcher,6,College,4YR JR,,,True,R,2,1,9785000,9250000,,,,,,60,65,60,70,,,,55,50
+2024,701762,Nick Kurtz,1B,Position Player,7,College,4YR JR,,,False,L,4,1,8370800,7000000,60,65,40,50,60,60,,,,,,,,
+2024,695731,Braden Montgomery,OF,Position Player,8,College,4YR JR,,,False,S,12,1,5484600,5000000,50,60,50,70,50,60,,,,,,,,
+2024,804606,Konnor Griffin,SS,Position Player,9,High school,HS SR,76,,False,R,9,1,6216600,6532025,50,60,65,70,60,60,,,,,,,,
+2024,800614,Bryce Rainer,SS,Position Player,10,High school,HS SR,75,,False,L,11,1,5712100,5797500,55,60,55,60,50,60,,,,,,,,
+2024,702056,Trey Yesavage,RHP,Pitcher,11,College,4YR JR,76,,True,R,20,1,4073400,4177500,,,,,,55,60,50,60,,,60,,50
+2024,696486,James Tibbs III,1B/OF,Position Player,12,College,4YR SR,,,False,L,13,1,5272300,4747500,60,55,40,50,50,55,,,,,,,,
+2024,695681,Christian Moore,2B,Position Player,13,College,4YR JR,73,,False,R,8,1,6502800,4997500,55,60,50,50,50,55,,,,,,,,
+2024,701358,Cam Smith,3B,Position Player,14,College,4YR SO,75,,False,R,14,1,5070700,5070700,55,50,45,60,55,55,,,,,,,,
+2024,807284,Cam Caminiti,LHP,Pitcher,15,High school,HS SR,,,False,L,24,1,3556300,3556300,,,,,,55,60,50,55,,,,55,50
+2024,815537,William Schmidt,RHP,Pitcher,16,Unknown,,76,,False,R,,,,,,,,,,55,60,70,,,,,50,50
+2024,814409,Seaver King,SS/2B,Position Player,17,College,4YR JR,,,False,R,10,1,5953800,5150000,55,45,65,55,55,55,,,,,,,,
+2024,701807,Carson Benge,OF,Position Player,18,College,4YR JR,,,False,L,19,1,4219200,3997500,55,55,50,60,55,55,,,,,,,,
+2024,815549,Ryan Sloan,RHP,Pitcher,19,High school,HS SR,,,False,R,55,2,1641800,3000000,,,,,,55,60,,55,,,,60,50
+2024,695720,Tommy White,3B/1B,Position Player,20,College,4YR JR,,,False,R,40,2,2332100,3000000,55,60,30,50,40,55,,,,,,,,
+2024,701679,Brody Brecht,RHP,Pitcher,21,College,4YR JR,,,True,R,38,CB-A,2452200,2700000,,,,,,50,70,,70,,,50,,40
+2024,701689,Vance Honeycutt,OF,Position Player,22,College,4YR JR,75,,False,R,22,1,3802200,4000000,40,60,65,60,70,50,,,,,,,,
+2024,814439,Ryan Waldschmidt,OF,Position Player,23,College,4YR JR,,,False,R,31,PPI,2904000,2904000,55,55,55,40,45,50,,,,,,,,
+2024,801075,Walker Janek,C,Position Player,24,College,4YR JR,,,False,R,28,1,3132500,3132500,50,50,40,60,50,50,,,,,,,,
+2024,701388,Jurrangelo Cijntje,RHP,Pitcher,25,College,4YR SO,71,,True,S,15,1,4880900,4880900,,,,,,50,60,,55,,,,50,45
+2024,702270,Malcolm Moore,C,Position Player,26,College,4YR SO,,,False,L,30,1,2971300,3000000,50,50,40,45,45,50,,,,,,,,
+2024,815154,Slade Caldwell,OF,Position Player,27,High school,HS SR,69,,False,L,29,1,3045500,3087000,55,45,65,45,60,50,,,,,,,,
+2024,815394,Theo Gillen,OF,Position Player,28,High school,HS SR,74,,False,L,18,1,4372900,4372900,60,55,60,40,50,50,,,,,,,,
+2024,813916,Kellon Lindsey,2B/SS,Position Player,29,High school,HS SR,,,False,R,23,1,3676400,3300000,55,40,75,50,50,50,,,,,,,,
+2024,824026,Kash Mayfield,LHP,Pitcher,30,High school,HS SR,,,False,L,25,1,3442100,3442100,,,,,,50,55,50,,,,,60,55
+2024,701785,Kaelen Culpepper,SS,Position Player,31,College,4YR JR,,,False,R,21,1,3934400,3934400,55,45,50,60,50,50,,,,,,,,
+2024,701771,Billy Amick,3B/1B,Position Player,32,College,4YR JR,,,False,R,60,2,1453700,1453700,50,55,40,50,45,50,,,,,,,,
+2024,701616,Caleb Lomavita,C,Position Player,33,College,4YR JR,,,False,R,39,CB-A,2395000,2325000,50,55,50,55,50,50,,,,,,,,
+2024,702607,Dakota Jordan,OF,Position Player,34,College,4YR SO,,,False,R,116,4,624800,1997500,45,60,60,50,50,50,,,,,,,,
+2024,815608,Wyatt Sanford,SS,Position Player,35,High school,HS SR,,,False,L,47,2,1984800,2497500,50,45,60,55,60,50,,,,,,,,
+2024,815785,Braylon Doughty,RHP,Pitcher,36,High school,HS SR,73,,False,R,36,CB-A,2569200,2569200,,,,,,50,55,55,55,,,,45,50
+2024,695558,Jonathan Santucci,LHP,Pitcher,37,College,4YR JR,,,False,L,46,2,2031700,2031700,,,,,,50,60,,60,,,,55,45
+2024,803172,Griff O'Ferrall,SS/2B,Position Player,38,College,4YR JR,,,False,R,32,PPI,2835400,2700000,55,40,55,55,50,50,,,,,,,,
+2024,815653,Tyson Lewis,SS/3B,Position Player,39,High school,HS SR,,,False,L,51,2,1804900,3047500,50,50,60,55,50,50,,,,,,,,
+2024,815793,Carter Johnson,SS/2B,Position Player,40,High school,HS SR,,,False,L,56,2,1603400,2800000,55,50,50,55,50,50,,,,,,,,
+2024,815789,David Shields,LHP,Pitcher,41,High school,HS SR,,,False,L,41,2,2278000,2300000,,,,,,50,50,,55,,,,50,55
+2024,695524,Jacob Cozart,C,Position Player,42,College,4YR JR,75,,False,L,48,2,1938800,2050000,45,50,30,50,55,50,,,,,,,,
+2024,703563,PJ Morlando,OF,Position Player,43,High school,HS SR,75,198,False,L,16,1,4704700,3400000,55,50,45,50,50,50,,,,,,,,
+2024,696292,Ben Hess,RHP,Pitcher,44,College,4YR JR,77,,False,R,26,1,3332900,2747500,,,,,,50,60,50,60,,,,50,50
+2024,695705,Luke Holman,RHP,Pitcher,45,College,4YR JR,76,,False,R,71,CB-B,1110600,997500,,,,,,50,50,50,60,,,,45,55
+2024,815841,Joey Oakie,RHP,Pitcher,46,High school,HS SR,,,False,R,84,3,906800,2000000,,,,,,50,55,,65,,,,45,45
+2024,696270,Ryan Johnson,RHP,Pitcher,47,College,4YR JR,,,True,R,74,2C,1060300,1747500,,,,,,50,55,45,65,,55,,45,65
+2024,807276,Dante Nori,OF,Position Player,48,High school,HS SR,,,False,L,27,1,3228300,2500000,55,45,65,55,60,50,,,,,,,,
+2024,815380,Luke Dickerson,INF/OF,Position Player,49,High school,HS SR,,,False,R,44,2,2122200,3800000,45,55,60,50,50,50,,,,,,,,
+2024,701527,Mike Sirota,OF,Position Player,50,College,4YR JR,,,False,R,87,3,865800,863300,50,45,60,55,55,50,,,,,,,,
+2024,815501,Bryce Meccage,RHP,Pitcher,51,High school,HS SR,76,,True,R,57,2,1562100,2500000,,,,,,50,60,50,55,,,,50,45
+2024,815598,Dasan Hill,LHP,Pitcher,52,High school,HS SR,,,False,L,69,CB-B,1168000,2000000,,,,,,50,55,55,60,,,,50,50
+2024,815520,Braylon Payne,OF,Position Player,53,High school,HS SR,,,False,L,17,1,4534100,3440000,50,45,70,45,60,50,,,,,,,,
+2024,816120,Griffin Burkholder,OF,Position Player,54,High school,HS SR,,,False,R,63,2,1352000,2500000,50,50,70,50,55,50,,,,,,,,
+2024,695494,Kevin Bazzell,C,Position Player,55,College,4YR JR,,,False,R,79,3,980300,980300,60,45,40,55,50,50,,,,,,,,
+2024,820840,Dax Whitney,RHP,Pitcher,56,Unknown,,77,,False,R,,,,,,,,,,50,55,55,55,,,,45,50
+2024,815348,Boston Bateman,LHP,Pitcher,57,High school,HS SR,79,,False,L,52,2,1762500,2500000,,,,,,50,55,60,,,,,,50
+2024,815552,Levi Sterling,RHP,Pitcher,58,High school,HS SR,,,False,R,37,CB-A,2511400,2511400,,,,,,50,55,60,55,,,,50,50
+2024,815484,Chris Levonas,RHP,Pitcher,59,High school,HS SR,,,False,R,67,CB-B,1226800,,,,,,,50,60,50,60,,,,45,45
+2024,703606,Jared Thomas,OF,Position Player,60,College,4YR SO,,,False,L,42,2,2224700,2000000,55,45,55,55,60,50,,,,,,,,
+2024,696492,Ryan Prager,LHP,Pitcher,61,College,4YR JR,,,False,L,81,3,948600,,,,,,,50,55,,55,,,,60,60
+2024,695611,Gage Jump,LHP,Pitcher,62,College,4YR SO,,,False,L,73,CB-B,1076900,2000000,,,,,,50,55,55,55,,,,50,50
+2024,701480,Bryce Cunningham,RHP,Pitcher,63,College,4YR JR,,,False,R,53,2,1721200,2297500,,,,,,50,60,,50,,,,60,50
+2024,701795,Drew Beam,RHP,Pitcher,64,College,4YR JR,,,False,R,76,3,1027700,1097500,,,,,,50,50,50,,,50,,55,55
+2024,695501,Blake Burke,1B,Position Player,65,College,4YR JR,75,236,False,L,34,CB-A,2698300,2100000,50,60,30,40,40,50,,,,,,,,
+2024,701837,Kavares Tears,OF,Position Player,66,College,4YR JR,,,False,L,134,4C,525200,525200,50,55,55,60,55,50,,,,,,,,
+2024,814414,Kyle DeBarge,SS,Position Player,67,College,4YR JR,69,170,False,R,33,1C,2766100,2400000,55,40,60,60,55,50,,,,,,,,
+2024,824028,Gage Miller,2B/3B,Position Player,68,College,4YR JR,,,False,R,92,3,800800,800800,55,50,40,45,40,50,,,,,,,,
+2024,692290,Carter Holton,LHP,Pitcher,69,College,4YR JR,71,,False,L,62,2,1385000,1350000,,,,,,50,55,50,60,,,,50,50
+2024,691776,Josh Hartle,LHP,Pitcher,70,College,4YR JR,,,False,L,83,3,920800,850000,,,,,,50,45,,55,,50,,50,55
+2024,815352,Caleb Bonemer,3B/SS,Position Player,71,High school,HS SR,,,False,R,43,2,2172800,3000000,45,55,50,55,50,50,,,,,,,,
+2024,702662,Dylan Dreiling,OF,Position Player,72,College,4YR SO,,,False,L,65,2,1287600,1287600,50,50,55,40,50,50,,,,,,,,
+2024,702280,Tristan Smith,LHP,Pitcher,73,College,4YR SO,,,True,L,150,5,448700,600000,,,,,,50,55,,60,,,,55,45
+2024,815157,Owen Hall,RHP,Pitcher,74,High school,HS SR,75,,False,R,49,2,1893700,1747500,,,,,,50,60,50,55,,,,50,50
+2024,807267,JD Dix,2B,Position Player,75,High school,HS SR,,,False,S,35,CB-A,2632500,2150000,55,45,55,55,55,50,,,,,,,,
+2024,815547,Garrett Shull,OF,Position Player,76,Unknown,,73,,False,S,,,,,50,55,50,55,50,45,,,,,,,,
+2024,696510,Peyton Stovall,2B,Position Player,77,College,4YR JR,,,False,L,117,4,618800,625000,55,45,45,45,50,45,,,,,,,,
+2024,803175,Ethan Anderson,C/1B,Position Player,78,College,4YR JR,,,False,S,61,2,1418900,1172500,55,50,40,50,45,45,,,,,,,,
+2024,815164,Carson Wiggins,RHP,Pitcher,79,Unknown,,,,True,R,,,,,,,,,,45,80,,70,,,,,45
+2024,813949,Chase Mobley,RHP,Pitcher,80,High school,HS SR,78,,False,R,295,10,183600,1800000,,,,,,45,60,45,50,,,,50,50
+2024,815628,Tyler Bell,SS,Position Player,81,High school,HS SR,,,False,S,66,CB-B,1260200,,50,50,50,55,55,55,,,,,,,,
+2024,801995,Aiden May,RHP,Pitcher,82,College,4YR JR,74,,False,R,70,CB-B,1139100,900000,,,,,,45,55,,60,,,,45,45
+2024,811666,Daniel Eagen,RHP,Pitcher,83,College,4YR JR,76,,True,R,102,3,717700,650000,,,,,,45,55,60,55,,,,40,50
+2024,695573,Cole Mathis,1B/3B,Position Player,84,College,4YR JR,,,True,R,54,2,1681200,1681200,50,55,45,60,45,45,,,,,,,,
+2024,700933,Chris Cortez,RHP,Pitcher,85,College,4YR JR,,,True,R,45,2,2072800,1597500,,,,,,45,65,,60,,,,40,45
+2024,801573,Ryan Forcucci,RHP,Pitcher,86,College,4YR JR,75,,True,R,101,3,724800,1000000,,,,,,45,55,45,55,,,,50,50
+2024,801139,Payton Tolle,LHP,Pitcher,87,College,4YR JR,78,,True,L,50,2,1846400,2000000,,,,,,55,65,,50,,,,45,55
+2024,701590,Khal Stephen,RHP,Pitcher,88,College,4YR JR,,,True,R,59,2,1489000,1116750,,,,,,45,55,50,50,,,,55,55
+2024,695721,Gage Ziehl,RHP,Pitcher,89,College,4YR JR,,,True,R,119,4,606700,637000,,,,,,45,50,,55,,,,50,50
+2024,811965,Joshua Kuroda-Grauer,2B/SS,Position Player,90,College,4YR JR,,,False,R,75,3,1043900,1043900,55,40,60,50,50,45,,,,,,,,
+2024,820828,Sawyer Farr,SS,Position Player,91,Unknown,,77,,False,S,,,,,45,50,55,55,55,45,,,,,,,,
+2024,813957,Noah Franco,LHP/OF,Pitcher,92,Unknown,,75,,False,L,,,,,,,,,,45,50,,50,,,,50,50
+2024,701831,Carson DeMartini,3B,Position Player,93,College,4YR JR,,,False,L,130,4,545400,545400,45,55,40,50,50,45,,,,,,,,
+2024,815162,Ethan Schiefelbein,LHP,Pitcher,94,High school,HS SR,73,,False,L,72,CB-B,1093600,1797500,,,,,,45,50,50,55,,,,50,50
+2024,695695,Tyson Neighbors,RHP,Pitcher,95,College,4YR JR,,,True,R,118,4,612900,600000,,,,,,45,65,60,70,,,,,45
+2024,815158,Tegan Kuhns,RHP,Pitcher,96,Unknown,,75,,False,R,,,,,,,,,,55,60,60,45,,,,45,55
+2024,815533,Mason Russell,LHP,Pitcher,97,High school,HS SR,74,,False,L,599,20,,,,,,,,45,55,55,50,,,,45,45
+2024,824024,Duncan Marsten,RHP,Pitcher,98,Unknown,,75,220,True,R,,,,,,,,,,40,55,,55,,55,,40,40
+2024,815346,Jackson Barberi,RHP,Pitcher,99,Unknown,,76,,False,R,,,,,,,,,,45,55,,55,,,,50,50
+2024,701783,Cole Messina,C,Position Player,100,College,4YR JR,,,False,R,77,3,1011900,1011900,45,50,30,50,50,45,,,,,,,,
+2024,807286,Mason Brassfield,LHP,Pitcher,101,Unknown,,76,,False,L,,,,,,,,,,45,50,45,50,,,,40,45
+2024,815359,Conrad Cason,RHP/SS,Pitcher,102,High school,HS SR,,,False,R,237,8,219900,1250000,,,,,,45,60,,50,,,,55,45
+2024,815192,Connor Gatwood,RHP,Pitcher,103,High school,HS SR,77,,False,R,562,19,,,,,,,,45,60,,50,,,,50,45
+2024,820836,Blake Larson,LHP,Pitcher,104,High school,HS SR,75,,True,L,68,CB-B,1197200,1397500,,,,,,45,55,,55,,,,50,45
+2024,807281,Trey Gregory-Alford,RHP,Pitcher,105,High school,HS SR,77,,True,R,322,11,,1957500,,,,,,45,60,,50,,,,40,45
+2024,805879,Connor Foley,RHP,Pitcher,106,College,4YR SO,77,,True,R,164,5,392300,1000000,,,,,,45,60,,50,,,,50,40
+2024,815561,Tomas Valincius,LHP,Pitcher,107,Unknown,,74,210,False,L,,,,,,,,,,45,50,,55,,,,50,50
+2024,806483,Anson Seibert,RHP,Pitcher,108,High school,HS SR,80,,False,R,476,16,,,,,,,,45,60,,50,,,,50,45
+2024,695602,Michael Massey,RHP,Pitcher,109,College,4YR JR,,,True,R,114,4,637200,522500,,,,,,45,60,50,60,,,,40,45
+2024,815478,William Kirk,LHP,Pitcher,110,Unknown,,74,,False,L,,,,,,,,,,45,50,50,,,,,55,55
+2024,807257,Ty Southisene,SS,Position Player,111,High school,HS SR,69,,False,R,120,4,600800,1000000,50,45,55,50,50,45,,,,,,,,
+2024,815792,Chase Harlan,3B,Position Player,112,High school,HS SR,,,False,R,98,3,745000,1747500,45,50,50,50,50,45,,,,,,,,
+2024,815527,Rustan Rigdon,SS,Position Player,113,Unknown,,,,False,S,,,,,55,50,55,50,55,45,,,,,,,,
+2024,695765,Thatcher Hurd,RHP,Pitcher,114,College,4YR JR,,,True,R,89,3,838900,836400,,,,,,45,60,45,55,,,,40,40
+2024,806679,Cade Arrambide,C,Position Player,115,Unknown,,,,False,R,,,,,45,55,30,70,40,45,,,,,,,,
+2024,703602,Jalin Flores,SS,Position Player,116,Unknown,,,,False,R,,,,,40,50,40,60,50,40,,,,,,,,
+2024,815156,Derek Curiel,OF,Position Player,117,Unknown,,,,False,L,,,,,60,45,55,45,55,55,,,,,,,,
+2024,824029,Cameron Sullivan,RHP,Pitcher,118,High school,HS SR,,,False,R,205,7,279100,525000,,,,,,45,60,,55,,,,50,45
+2024,702262,Jared Jones,1B,Position Player,119,Unknown,,76,246,False,R,,,,,45,60,35,65,40,45,,,,,,,,
+2024,807219,Terrence Kiel II,OF,Position Player,120,Unknown,,,,False,R,,,,,45,45,70,50,60,45,,,,,,,,
+2024,806495,Kale Fountain,OF,Position Player,121,High school,HS SR,77,225,False,R,151,5,444200,1700000,40,60,45,55,45,45,,,,,,,,
+2024,815337,Jay Abernathy,SS/2B,Position Player,122,Unknown,,,,False,L,,,,,55,40,65,50,50,45,,,,,,,,
+2024,813945,Lazaro Collera,RHP,Pitcher,123,Unknown,,78,,False,R,,,,,,,,,,45,55,50,45,,,,40,45
+2024,803516,Johnny King,LHP,Pitcher,124,High school,HS SR,76,,False,L,95,3,767200,1247500,,,,,,45,55,,55,,,,50,45
+2024,703494,Harrison Didawick,OF,Position Player,125,Unknown,,76,,False,L,,,,,45,55,50,50,50,45,,,,,,,,
+2024,701811,John Spikerman,OF,Position Player,126,College,4YR JR,,,False,S,100,3,730500,672500,50,30,70,50,60,45,,,,,,,,
+2024,695565,Casey Saucke,OF,Position Player,127,College,4YR JR,75,,False,R,107,4,682800,847500,50,45,55,55,50,45,,,,,,,,
+2024,815642,Cole Gibler,LHP,Pitcher,128,Unknown,,,,False,L,,,,,,,,,,45,45,55,,,,,50,55
+2024,695607,Nick McLain,OF,Position Player,129,College,4YR JR,,,False,S,78,3,996100,800000,50,40,50,55,50,45,,,,,,,,
+2024,802219,Woody Hadeen,SS,Position Player,130,College,4YR SR,74,,False,S,176,6,354100,300000,50,35,55,50,50,45,,,,,,,,
+2024,702556,Austin Overn,OF,Position Player,131,College,4YR SO,,,False,L,97,3,752500,850000,45,40,75,50,70,45,,,,,,,,
+2024,701587,Rodney Green Jr.,OF,Position Player,132,College,4YR JR,,,False,L,104,4,703400,1000000,40,50,60,50,50,45,,,,,,,,
+2024,701333,Colby Shelton,INF,Position Player,133,College,4YR SO,,,False,L,590,20,,,50,45,40,50,45,45,,,,,,,,
+2024,702512,Zack Stewart,OF,Position Player,134,Unknown,,74,,False,L,,,,,40,55,40,50,40,45,,,,,,,,
+2024,700400,Matt Ager,RHP,Pitcher,135,College,4YR JR,,,False,R,174,6,359900,357400,,,,,,45,50,45,55,,,,50,50
+2024,800600,Jackson Kent,LHP,Pitcher,136,College,4YR JR,75,,True,L,108,4,676000,625000,,,,,,45,50,50,50,,50,,55,50
+2024,702500,Anthony Silva,SS,Position Player,137,Unknown,,,,False,R,,,,,45,40,45,55,50,45,,,,,,,,
+2024,691794,Cody Schrier,SS,Position Player,138,College,4YR JR,,,False,R,394,13,,150000,45,50,50,50,50,45,,,,,,,,
+2024,813771,Robert Hipwell,3B,Position Player,139,College,4YR JR,,,False,L,178,6,348200,345700,50,50,40,55,45,45,,,,,,,,
+2024,815526,Drew Rerick,RHP,Pitcher,140,Unknown,,77,230,False,R,,,,,,,,,,45,60,55,55,,,,50,45
+2024,824415,Grant Shepardson,RHP,Pitcher,141,High school,HS SR,73,,True,R,155,5,427000,897500,,,,,,45,55,,55,,,,45,45
+2024,807273,Owen Paino,SS,Position Player,142,Unknown,,74,,False,L,,,,,50,45,50,55,50,45,,,,,,,,
+2024,695620,Josh Randall,RHP,Pitcher,143,College,4YR JR,76,,True,R,85,3,892600,700000,,,,,,45,55,,55,,,,45,45
+2024,815976,Anderson French,,Position Player,144,Unknown,,76,,False,L,,,,,45,55,40,65,50,45,,,,,,,,
+2024,815343,Myles Bailey,1B,Position Player,145,High school,HS SR,,,False,L,589,20,,,45,65,40,55,50,50,,,,,,,,
+2024,809915,Jakob Wright,LHP,Pitcher,146,College,4YR JR,,,False,L,128,4,556300,553800,,,,,,45,50,,65,,50,,45,45
+2024,701178,Rafe Schlesinger,LHP,Pitcher,147,College,4YR JR,,,True,L,113,4,643500,446900,,,,,,45,55,,50,,,,50,45
+2024,824414,Dylan Volantis,LHP,Pitcher,148,High school,HS SR,78,,False,L,586,20,,,,,,,,45,50,60,,,,,50,45
+2024,804563,Manny Marin,,Position Player,149,Unknown,,,,False,R,,,,,45,40,45,55,60,45,,,,,,,,
+2024,807254,Cade Townsend,RHP,Pitcher,150,Unknown,,,,False,R,,,,,,,,,,50,55,60,60,,60,,50,50
+2024,801592,Zander Darby,1B/3B,Position Player,151,College,4YR JR,,,False,L,358,12,,150000,50,40,50,55,45,45,,,,,,,,
+2024,807297,Hunter Carns,,Position Player,152,High school,HS SR,,,False,R,614,20,,,45,50,60,55,50,45,,,,,,,,
+2024,825565,Bub Terrell,OF,Position Player,153,High school,HS SR,75,206,False,L,577,19,,,45,55,50,50,50,45,,,,,,,,
+2024,820831,Sawyer Strosnider,OF,Position Player,154,Unknown,,74,,False,L,,,,,45,60,60,55,55,55,,,,,,,,
+2024,815551,Trey Snyder,INF,Position Player,155,High school,HS SR,,,False,R,144,5,476200,1322500,50,45,50,55,50,40,,,,,,,,
+2024,807116,Brendan Lawson,SS/3B,Position Player,156,High school,HS SR,75,,False,L,561,19,,,55,45,45,50,45,40,,,,,,,,
+2024,702622,Griffin Herring,LHP,Pitcher,157,College,4YR SO,74,,True,L,181,6,339600,797500,,,,,,40,50,,60,,,,,50
+2024,701546,Duce Gourson,2B/3B/1B,Position Player,158,College,4YR JR,,,False,L,264,9,196100,187500,50,45,50,50,45,40,,,,,,,,
+2024,815159,Burke-Lee Mabeus,C,Position Player,159,Unknown,,75,,False,S,,,,,45,50,40,55,50,40,,,,,,,,
+2024,807287,Charlie Bates,SS,Position Player,161,Unknown,,73,,False,L,,,,,50,40,55,45,50,40,,,,,,,,
+2024,803757,Michael Torres,OF,Position Player,162,Unknown,,71,,False,L,,,,,50,35,55,55,50,40,,,,,,,,
+2024,813715,Khadim Diaw,C,Position Player,163,College,4YR JR,,,False,R,96,3,759700,597500,50,40,50,55,50,40,,,,,,,,
+2024,695741,Jackson Wentworth,RHP,Pitcher,164,College,4YR JR,73,,True,R,158,5,414600,412100,,,,,,40,50,,60,,50,,60,50
+2024,702296,Nate Dohm,RHP,Pitcher,165,College,4YR JR,76,,True,R,82,3,934800,797500,,,,,,40,55,55,55,,,,40,55
+2024,813752,Nick Brink,RHP,Pitcher,166,College,4YR SR,74,,True,R,214,7,259600,195000,,,,,,40,50,45,50,,,,55,50
+2024,824025,Dane Moehler,RHP,Pitcher,167,Unknown,,75,,False,R,,,,,,,,,,40,50,50,,,,,55,50
+2024,806571,Aiden Harris,3B,Position Player,168,Unknown,,76,,False,R,,,,,45,55,40,55,45,40,,,,,,,,
+2024,700243,Payton Green,SS,Position Player,169,College,4YR JR,75,,False,R,184,6,331300,328800,45,50,50,55,50,40,,,,,,,,
+2024,690970,Corey Collins,1B,Position Player,170,College,4YR SR,,,False,L,173,6,363100,275000,45,55,40,55,45,40,,,,,,,,
+2024,695517,Casey Cook,OF,Position Player,171,College,4YR JR,,,False,L,103,3,710400,700000,55,45,45,45,45,40,,,,,,,,
+2024,701805,Josh Caron,C,Position Player,172,College,4YR JR,,,False,R,121,4,594900,594000,45,50,40,55,45,40,,,,,,,,
+2024,692150,Émilien Pitre,2B,Position Player,173,College,4YR JR,,,False,L,58,2,1525200,1522700,50,30,55,50,55,40,,,,,,,,
+2024,701696,Ryan Stafford,C,Position Player,175,College,4YR JR,70,,False,R,160,5,407100,404500,50,40,50,55,50,40,,,,,,,,
+2024,701481,Ryan Campos,C,Position Player,176,College,4YR JR,68,,False,L,109,4,669300,669300,55,40,40,45,45,40,,,,,,,,
+2024,700251,Brandon Clarke,LHP,Pitcher,177,Junior college,JC J3,76,,False,L,148,5,457900,400000,,,,,,40,60,50,,,,,40,40
+2024,807255,Zach Swanson,RHP,Pitcher,178,High school,HS SR,75,,False,R,266,9,195100,722500,,,,,,40,50,,50,,,,40,45
+2024,695605,Travis Smith,RHP,Pitcher,179,College,4YR JR,76,,True,R,455,15,,462500,,,,,,40,55,,55,,,,45,45
+2024,820825,Konner Eaton,LHP,Pitcher,180,College,4YR JR,75,,False,L,168,6,378900,378900,,,,,,40,50,,55,,,,50,40
+2024,695551,Brady Tygart,RHP,Pitcher,181,College,4YR JR,,,True,R,357,12,,300000,,,,,,40,45,55,55,,,,45,45
+2024,701836,Kyle Robinson,RHP,Pitcher,182,College,4YR JR,78,,True,R,316,11,,150000,,,,,,40,45,45,50,,,,60,45
+2024,815518,Erik Parker,,Position Player,183,High school,HS SR,75,,False,R,460,15,,,40,45,60,60,55,40,,,,,,,,
+2024,702023,Sam Stuhr,RHP,Pitcher,184,College,4YR SR,73,,True,R,137,5,510000,510000,,,,,,40,60,45,55,,,,45,40
+2024,820827,Luke Sinnard,RHP,Pitcher,185,College,4YR JR,80,,True,R,99,3,737800,735300,,,,,,40,55,55,55,,,,45,55
+2024,826139,Jace Souza,OF,Position Player,186,Unknown,,,,False,L,,,,,50,45,60,55,50,40,,,,,,,,
+2024,821937,Adam Haight,,Position Player,187,High school,HS SR,,,False,R,593,20,,,50,40,45,55,45,40,,,,,,,,
+2024,695570,Jonathan Vastine,SS,Position Player,188,Unknown,,,,False,L,,,,,40,40,50,55,55,40,,,,,,,,
+2024,814422,Derek Bender,1B/C,Position Player,189,College,4YR JR,,,False,R,188,6,320800,297500,50,50,40,50,40,40,,,,,,,,
+2024,815596,Jason Flores,RHP,Pitcher,190,Unknown,,,,False,R,,,,,,,,,,40,55,,50,,,,50,45
+2024,815516,Cade O'Leary,RHP,Pitcher,191,Unknown,,76,,True,R,,,,,,,,,,40,55,,50,,,,45,45
+2024,822175,Bridger Holmes,RHP,Pitcher,192,College,4YR JR,76,,True,R,202,7,286200,215000,,,,,,40,50,,55,,,,,45
+2024,695632,Brandon Neely,RHP,Pitcher,193,College,4YR JR,,,True,R,86,3,878800,700000,,,,,,40,55,40,50,,,,50,45
+2024,814442,Ivan Brethowr,OF,Position Player,194,College,4YR JR,78,,False,R,212,7,263600,245000,45,55,40,55,45,40,,,,,,,,
+2024,695609,Luke Jewett,RHP,Pitcher,195,College,4YR JR,76,,True,R,228,8,234200,234200,,,,,,40,50,45,50,,,,40,45
+2024,807277,Nick Montgomery,C,Position Player,196,High school,HS SR,76,,False,R,161,5,403400,997500,45,55,45,55,45,40,,,,,,,,
+2024,807266,Matt Conte,C,Position Player,197,Unknown,,73,,False,R,,,,,45,50,40,60,55,40,,,,,,,,
+2024,801957,Dub Gleed,3B/1B,Position Player,198,College,4YR JR,,,False,R,274,9,191300,188800,50,40,35,55,45,40,,,,,,,,
+2024,815877,Jeremiah Jenkins,1B,Position Player,199,College,4YR JR,76,,False,L,418,14,,150000,45,55,40,50,50,40,,,,,,,,
+2024,825763,James Nunnallee,C,Position Player,200,High school,HS SR,,,False,L,425,14,,,55,40,45,45,45,40,,,,,,,,
+2024,803011,Sam Antonacci,2B/3B,Position Player,201,College,4YR JR,,,False,L,140,5,495400,572500,55,30,45,50,45,40,,,,,,,,
+2024,815534,Mikey Ryan,SS,Position Player,202,Unknown,,,,False,R,,,,,50,45,60,55,50,40,,,,,,,,
+2024,696142,Will Taylor,OF,Position Player,203,College,4YR JR,,,False,R,145,5,471400,500000,50,45,50,50,55,40,,,,,,,,
+2024,701296,Carter Mathison,OF,Position Player,204,College,4YR JR,74,,False,L,162,5,399600,447500,45,50,60,50,55,40,,,,,,,,
+2024,695763,Sam Petersen,OF,Position Player,205,College,4YR JR,,,False,R,230,8,230900,230900,50,45,60,45,55,40,,,,,,,,
+2024,805538,Tague Davis,1B/LHP,Position Player,206,Unknown,,,,False,L,,,,,45,55,40,50,50,40,,,,,,,,
+2024,701207,Dennis Colleran Jr.,RHP,Pitcher,207,College,4YR JR,75,,True,R,197,7,297700,247500,,,,,,40,65,,50,,,50,,45
+2024,826546,Ian Fernandez,C,Position Player,208,Unknown,,,,False,R,,,,,40,50,50,60,60,40,,,,,,,,
+2024,826310,Hudson Barton,RHP,Pitcher,209,Unknown,,75,,False,R,,,,,,,,,,40,55,50,50,,,,50,50
+2024,825766,Charlie Foster,LHP,Pitcher,210,Unknown,,75,,False,L,,,,,,,,,,40,50,50,,,,,50,50
+2024,815873,Sean Keys,1B/3B,Position Player,211,College,4YR JR,,,False,L,125,4,572200,569700,55,45,35,50,45,40,,,,,,,,
+2024,815498,Ky McGary,OF,Position Player,212,High school,HS SR,73,,False,R,613,20,,,40,45,60,55,55,40,,,,,,,,
+2024,675450,Hunter Cranton,RHP,Pitcher,213,College,4YR 5S,,,True,R,91,3,812900,50000,,,,,,40,70,,55,,,,,45
+2024,805261,Cade Obermueller,LHP,Pitcher,214,College,4YR SO,,,True,L,585,19,,,,,,,,50,55,,65,,,,45,50
+2024,813913,Adrian Areizaga,SS,Position Player,215,High school,HS SR,74,,False,R,419,14,,,45,50,60,50,45,40,,,,,,,,
+2024,814451,Jakob Christian,OF,Position Player,216,College,4YR JR,77,,False,R,149,5,453300,397500,45,55,40,50,50,40,,,,,,,,
+2024,813935,Ty Head,OF,Position Player,217,Unknown,,,,False,L,,,,,55,45,60,45,60,50,,,,,,,,
+2024,803849,Devin Fitz-Gerald,INF,Position Player,218,High school,HS SR,,,False,S,165,5,388700,900000,50,40,45,50,50,40,,,,,,,,
+2024,810951,Nate Knowles,RHP,Pitcher,219,College,4YR JR,,,True,R,124,4,577700,397500,,,,,,40,50,50,,,50,,40,45
+2024,813930,Ivan Luciano,C,Position Player,220,High school,HS SR,,,False,L,64,2,1319200,990000,50,40,40,55,50,40,,,,,,,,
+2024,701394,Zach Ehrhard,OF,Position Player,221,College,4YR JR,,,False,R,115,4,630900,500000,50,40,60,50,55,40,,,,,,,,
+2024,703566,Carson Messina,RHP,Pitcher,222,High school,HS SR,,,True,R,367,12,,550000,,,,,,40,55,60,,,,,45,40
+2024,701509,Brian Holiday,RHP,Pitcher,223,College,4YR JR,71,,True,R,80,3,964500,800000,,,,,,40,50,45,55,,,,40,55
+2024,702501,Eli Serrano III,OF,Position Player,224,College,4YR SO,77,,False,L,111,4,656400,697500,50,45,45,50,50,40,,,,,,,,
+2024,695766,Mason Molina,LHP,Pitcher,225,College,4YR JR,74,,False,L,215,7,257400,254900,,,,,,40,50,40,45,,,,60,45
+2024,701706,Greysen Carter,RHP,Pitcher,226,College,4YR JR,76,,True,R,152,5,440100,440100,,,,,,40,70,45,40,,,,45,40
+2024,815344,Smith Bailey,RHP,Pitcher,227,Unknown,,78,,False,R,,,,,,,,,,40,50,,50,,,,50,50
+2024,801881,Jacob Jenkins-Cowart,OF,Position Player,228,College,4YR JR,78,,False,L,244,8,211600,211600,50,45,40,50,50,40,,,,,,,,
+2024,815535,Eddie Rynders,3B,Position Player,229,High school,HS SR,74,,False,L,112,4,649700,649700,45,50,50,50,50,40,,,,,,,,
+2024,692137,L.P. Langevin,RHP,Pitcher,230,College,4YR JR,,,True,R,105,4,696300,597500,,,,,,40,60,,50,,,,40,45
+2024,815626,Ethan Bagwell,RHP,Pitcher,231,High school,HS SR,76,,True,R,191,6,312800,822500,,,,,,40,55,,50,,,,40,45
+2024,690711,Clark Candiotti,RHP,Pitcher,232,College,4YR 5S,76,,True,R,135,4C,520000,80000,,,,,,40,50,50,50,,,,45,50
+2024,803829,Talan Bell,LHP,Pitcher,233,Unknown,,,,False,L,,,,,,,,,,40,50,50,,,,,55,50
+2024,815632,Tytus Cissell,SS,Position Player,234,High school,HS SR,74,,False,S,132,4,535800,800000,40,45,60,55,50,40,,,,,,,,
+2024,804119,Bobby Boser,3B/2B/SS,Position Player,235,Unknown,,,,False,R,,,,,45,50,50,50,50,40,,,,,,,,
+2024,807083,Nathan Flewelling,C,Position Player,236,High school,HS SR,,,False,L,94,3,776500,774000,50,45,40,50,45,40,,,,,,,,
+2024,812559,Josiah Romeo,RHP,Pitcher,237,High school,HS SR,75,,False,R,166,6,385500,550000,,,,,,40,50,,55,,,,45,50
+2024,826940,Kyle DeGroat,RHP,Pitcher,239,High school,HS SR,73,,False,R,407,14,,347500,,,,,,40,50,55,,,,,45,50
+2024,826315,Cole Hertzler,RHP,Pitcher,240,College,4YR JR,76,,True,R,163,5,396200,393700,,,,,,40,50,50,50,,,,55,45
+2024,827265,Cade Crossland,LHP,Pitcher,241,Unknown,,,,False,L,,,,,,,,,,40,55,,45,,,,60,45
+2024,822067,A.J. Causey,RHP,Pitcher,242,College,4YR JR,,,True,R,138,5,505000,477500,,,,,,40,40,,55,,,,60,55
+2024,813335,Dylan Jordan,RHP,Pitcher,243,High school,HS SR,75,,False,R,143,5,480800,1247500,,,,,,40,50,,50,,,,45,50
+2024,807259,Mavrick Rizy,RHP,Pitcher,244,Unknown,,80,,False,R,,,,,,,,,,40,55,,55,,,,40,45
+2024,802146,Aidan Major,RHP,Pitcher,245,College,4YR JR,71,,True,R,146,5,466900,425000,,,,,,40,55,,50,,50,,50,40
+2024,701548,Ali Camarillo,SS,Position Player,246,College,4YR JR,,,False,R,346,12,,250000,45,30,50,55,60,40,,,,,,,,
+2024,808861,Marcus Morgan,RHP,Pitcher,247,College,4YR JR,,,False,R,282,9,188200,185700,,,,,,40,50,50,55,,50,,40,40
+2024,701651,Janzen Keisel,RHP,Pitcher,248,College,4YR JR,,,True,R,186,6,326000,272500,,,,,,40,60,,50,,,,40,40
+2024,822876,Ryan Andrade,RHP,Pitcher,249,College,4YR JR,,,True,R,216,7,255500,253000,,,,,,40,55,45,50,,,,45,40
+2024,696276,Jay Woolfolk,RHP,Pitcher,250,Unknown,,,,True,R,,,,,,,,,,40,55,,50,,,,45,40
+2025,815787,Ethan Holliday,SS,Position Player,1,High school,HS SR,76,,False,L,4,1,8770900,9000000,50,65,50,55,50,60,,,,,,,,
+2025,807739,Kade Anderson,LHP,Pitcher,2,College,4YR SO,74,,True,L,3,1,9504400,8800000,,,,,,60,60,55,55,,,,60,55
+2025,815825,Seth Hernandez,RHP,Pitcher,3,High school,HS SR,76,,False,R,6,1,7558600,7250000,,,,,,60,70,60,55,,,,60,55
+2025,701364,Jamie Arnold,LHP,Pitcher,4,College,4YR JR,,,False,L,11,1,5985100,5985100,,,,,,60,60,,65,,,,50,55
+2025,816113,Eli Willits,SS,Position Player,5,High school,HS SR,,,False,S,1,1,11075900,8200000,60,45,60,55,55,60,,,,,,,,
+2025,804109,Aiva Arquette,SS,Position Player,6,College,4YR JR,77,220,False,R,7,1,7149900,7149900,50,55,50,60,50,55,,,,,,,,
+2025,815814,Billy Carlson,SS,Position Player,7,High school,HS SR,,,False,R,10,1,6238400,6235900,50,50,55,65,70,55,,,,,,,,
+2025,824604,Liam Doyle,LHP,Pitcher,8,College,4YR JR,,,False,L,5,1,8134800,7250000,,,,,,55,75,,55,,55,55,,50
+2025,828098,JoJo Parker,SS,Position Player,9,High school,HS SR,,,False,L,8,1,6813600,6197500,60,55,50,55,50,55,,,,,,,,
+2025,804817,Kyson Witherspoon,RHP,Pitcher,10,College,4YR JR,,,False,R,15,1,5114200,5000000,,,,,,55,65,60,60,,60,,45,50
+2025,702610,Ike Irish,OF/1B,Position Player,11,College,4YR JR,,,False,L,19,1,4420900,4418400,60,55,40,55,45,55,,,,,,,,
+2025,829162,Steele Hall,SS,Position Player,12,High school,HS SR,,,False,R,9,1,6513800,5750000,50,45,70,55,60,55,,,,,,,,
+2025,828084,Daniel Pierce,SS,Position Player,13,High school,HS SR,,,False,R,14,1,5313100,4313100,55,45,60,55,55,55,,,,,,,,
+2025,815617,Kayson Cunningham,SS,Position Player,14,High school,HS SR,,,False,L,18,1,4581900,4581900,60,45,60,55,50,55,,,,,,,,
+2025,701339,Marek Houston,SS,Position Player,15,College,4YR JR,,,False,R,16,1,4929600,4497500,50,45,55,55,60,55,,,,,,,,
+2025,804911,Brendan Summerhill,OF,Position Player,16,College,4YR JR,,,False,L,42,CB-A,2331000,1997500,55,50,55,55,55,55,,,,,,,,
+2025,814450,Wehiwa Aloy,SS,Position Player,17,College,4YR JR,,,False,R,31,1C,3042800,3042800,50,55,45,55,55,55,,,,,,,,
+2025,803285,Tyler Bremner,RHP,Pitcher,18,College,4YR JR,,,True,R,2,1,10252700,7689525,,,,,,55,65,,50,,,,65,55
+2025,828244,Kruz Schoolcraft,LHP,Pitcher,19,High school,HS SR,80,,False,L,25,1,3606600,3606600,,,,,,55,60,,60,,,,55,50
+2025,702593,Jace LaViolette,OF,Position Player,20,College,4YR JR,78,,False,L,27,1,3382600,4000000,45,65,55,55,50,55,,,,,,,,
+2025,702264,Gavin Kilen,SS/2B,Position Player,21,College,4YR JR,,,False,L,13,1,5524300,5247500,60,45,50,50,55,55,,,,,,,,
+2025,815818,Gavin Fien,OF,Position Player,22,High school,HS SR,75,,False,R,12,1,5746800,4800000,50,50,50,55,50,50,,,,,,,,
+2025,805906,Gage Wood,RHP,Pitcher,23,College,4YR JR,,,True,R,26,1,3492200,3000000,,,,,,50,70,55,45,,,,45,55
+2025,828173,Slater de Brun,OF,Position Player,24,High school,HS SR,69,,False,L,37,CB-A,2631400,4000000,55,45,65,50,60,50,,,,,,,,
+2025,815832,Xavier Neyens,3B/SS,Position Player,25,High school,HS SR,76,,False,L,21,1,4122500,4120000,50,65,45,60,50,50,,,,,,,,
+2025,815843,Josh Hammond,SS/3B,Position Player,26,High school,HS SR,73,,False,R,28,PPI,3282200,3197500,50,55,50,65,50,50,,,,,,,,
+2025,815819,Sean Gamble,OF,Position Player,27,High school,HS SR,,,False,L,23,1,3852100,3997500,55,50,55,55,50,50,,,,,,,,
+2025,828255,Ethan Conrad,OF,Position Player,28,College,4YR JR,75,,False,L,17,1,4750800,3563100,55,50,55,50,50,50,,,,,,,,
+2025,702652,Andrew Fischer,3B/1B,Position Player,29,College,4YR JR,73,210,False,L,20,1,4268100,3500000,50,60,40,55,45,50,,,,,,,,
+2025,805127,Devin Taylor,OF,Position Player,30,College,4YR JR,,,False,L,48,2,2031500,2500000,55,60,45,45,45,50,,,,,,,,
+2025,804467,Patrick Forbes,RHP,Pitcher,31,College,4YR JR,,,False,R,29,1C,3191100,3000000,,,,,,50,60,,55,,,,45,45
+2025,805207,Caden Bodine,C,Position Player,32,College,4YR JR,,,False,S,30,1C,3113300,3113300,60,40,30,50,55,50,,,,,,,,
+2025,806233,Luke Stevenson,C,Position Player,33,College,4YR SO,,,False,L,35,CB-A,2758300,2800000,40,55,30,60,55,50,,,,,,,,
+2025,803284,Max Belyeu,OF,Position Player,34,College,4YR JR,,,False,L,74,CB-B,1111000,1111000,50,55,50,60,50,50,,,,,,,,
+2025,702563,Mason Neville,OF,Position Player,35,High school,HS SR,,,False,L,114,4,667700,697500,45,60,55,55,50,50,,,,,,,,
+2025,703448,Cam Cannarella,OF,Position Player,36,College,4YR JR,,,False,L,43,CB-A,2276700,2277425,55,40,60,40,60,50,,,,,,,,
+2025,815839,Quentin Young,SS/3B,Position Player,37,High school,HS SR,78,,False,R,54,2,1761600,1761600,45,60,50,65,50,50,,,,,,,,
+2025,804981,Riley Quick,RHP,Pitcher,38,College,4YR JR,78,,True,R,36,CB-A,2692000,2692000,,,,,,50,60,,60,,,,50,45
+2025,816111,Tate Southisene,SS/2B,Position Player,39,High school,HS SR,69,,False,R,22,1,3983900,2622500,50,50,60,50,50,50,,,,,,,,
+2025,809254,Anthony Eyanson,RHP,Pitcher,40,College,4YR JR,,,True,R,87,3,907200,1750000,,,,,,50,50,55,65,,,,50,50
+2025,822477,JB Middleton,RHP,Pitcher,41,College,4YR JR,,,True,R,45,2,2171900,2071900,,,,,,50,60,,60,,,,55,50
+2025,702539,Zach Root,LHP,Pitcher,42,College,4YR JR,,,False,L,40,1,2443600,2197500,,,,,,50,50,60,,,55,,60,50
+2025,822676,Alex Lodise,SS,Position Player,43,College,4YR JR,,,False,R,60,2,1523200,1297500,50,50,50,50,45,50,,,,,,,,
+2025,815627,Jack Bauer,LHP,Pitcher,44,Unknown,,75,,False,L,,,,,,,,,,50,75,,55,,,,50,45
+2025,826209,Aaron Watson,RHP,Pitcher,45,High school,HS SR,77,,False,R,51,2,1891200,2747500,,,,,,50,55,,50,,,,50,50
+2025,832455,Matthew Fisher,RHP,Pitcher,46,High school,HS SR,75,,False,R,221,7,257700,1250000,,,,,,50,55,55,55,,,,50,50
+2025,703680,Brandon Compton,OF,Position Player,47,College,4YR JR,,,False,L,46,2,2128800,2000000,50,55,50,45,45,50,,,,,,,,
+2025,816102,Landon Harmon,RHP,Pitcher,48,High school,HS SR,77,,False,R,80,3,1010600,2500000,,,,,,50,65,,55,,,,45,50
+2025,815979,Angel Cervantes,RHP,Pitcher,49,High school,HS SR,,,True,R,50,2,1934700,,,,,,,50,55,50,50,,,,60,50
+2025,803723,Jordan Yost,SS,Position Player,50,High school,HS SR,,,False,L,24,1,3726300,3250000,55,40,60,50,50,50,,,,,,,,
+2025,829306,Nick Becker,SS,Position Player,51,High school,HS SR,76,,False,R,57,2,1636800,2750000,55,50,55,50,55,50,,,,,,,,
+2025,828231,Alec Blair,OF,Position Player,52,Unknown,,78,,False,L,,,,,45,55,55,55,50,50,,,,,,,,
+2025,805261,Cade Obermueller,LHP,Pitcher,53,College,4YR JR,,,True,L,63,2,1416600,1197500,,,,,,50,55,,65,,,,45,50
+2025,804560,Charles Davalan,OF,Position Player,54,College,4YR SO,69,,False,L,41,CB-A,2386900,1997500,60,50,55,45,55,50,,,,,,,,
+2025,815829,Ryan Mitchell,OF,Position Player,55,High school,HS SR,,,False,L,55,2,1720300,2250000,60,50,55,50,50,50,,,,,,,,
+2025,815830,Dean Moss,2B/OF,Position Player,56,High school,HS SR,,,False,L,67,SUP-2,1285400,1285400,55,50,50,50,50,50,,,,,,,,
+2025,828262,Jaden Fauske,OF,Position Player,57,High school,HS SR,,,False,L,44,2,2223600,2997500,55,50,55,50,50,50,,,,,,,,
+2025,828258,Cam Appenzeller,LHP,Pitcher,58,High school,HS SR,78,,False,L,572,19,,,,,,,,50,55,,55,,,,50,50
+2025,701337,Ethan Petry,1B/OF,Position Player,59,College,4YR JR,76,235,False,R,49,2,1984200,2090000,45,60,30,55,30,50,,,,,,,,
+2025,806053,Dean Curley,SS/3B,Position Player,60,College,4YR SO,75,,False,R,64,2,1382300,1733905,45,50,50,65,50,50,,,,,,,,
+2025,815071,Marcus Phillips,RHP,Pitcher,61,College,4YR JR,76,,True,R,33,CB-A,2898300,2500000,,,,,,50,65,,55,,,,60,45
+2025,828076,Dax Kilby,SS,Position Player,62,High school,HS SR,74,,False,L,39,1,2509500,2797500,55,50,55,50,45,50,,,,,,,,
+2025,702491,Mitch Voit,SS/2B,Position Player,63,College,4YR JR,,,True,R,38,1,2569400,1750000,55,50,60,60,50,50,,,,,,,,
+2025,815816,Brady Ebel,SS,Position Player,64,High school,HS SR,75,,False,L,32,1C,2970900,2750000,50,45,45,60,50,50,,,,,,,,
+2025,816109,Brock Sell,OF,Position Player,65,Unknown,,,,False,L,,,,,55,45,60,50,55,50,,,,,,,,
+2025,702505,J.D. Thompson,LHP,Pitcher,66,College,4YR JR,,,False,L,59,2,1560200,1560200,,,,,,50,55,50,55,,,,55,50
+2025,815618,Lucas Franco,SS,Position Player,67,Unknown,,75,,False,L,,,,,50,50,50,55,60,50,,,,,,,,
+2025,828989,Johnny Slawinski,LHP,Pitcher,68,High school,HS SR,75,,False,L,79,3,1027200,2497500,,,,,,50,55,50,55,,,,55,50
+2025,828987,Briggs McKenzie,LHP,Pitcher,69,High school,HS SR,74,190,False,L,127,4,588900,2997500,,,,,,50,50,60,,,,,50,50
+2025,805706,AJ Russell,RHP,Pitcher,70,College,4YR JR,,,True,R,52,2,1846700,2600000,,,,,,50,70,,60,,,,40,45
+2025,815837,Zach Strickland,RHP,Pitcher,71,Unknown,,74,,False,R,,,,,,,,,,50,55,45,55,,,,55,50
+2025,804995,Henry Godbout,SS/2B,Position Player,72,College,4YR JR,,,False,R,75,2C,1093800,1093800,55,45,45,50,45,50,,,,,,,,
+2025,814822,Henry Ford,3B,Position Player,73,Unknown,,77,220,False,R,,,,,50,50,40,50,40,45,,,,,,,,
+2025,804530,Joseph Dzierwa,LHP,Pitcher,74,College,4YR JR,80,,False,L,58,2,1598100,1497500,,,,,,45,55,,40,,40,,60,55
+2025,813533,Michael Lombardi,RHP,Pitcher,75,College,4YR JR,,,True,R,61,2,1486700,1297500,,,,,,50,60,65,,,,,50,45
+2025,806067,James Ellwanger,RHP,Pitcher,76,College,4YR SO,76,,False,R,88,3,893000,1000000,,,,,,45,60,55,45,,,,45,40
+2025,702274,Chase Shores,RHP,Pitcher,77,College,4YR JR,80,,True,R,47,2,2079700,2077200,,,,,,45,65,,55,,,,45,45
+2025,702504,Gavin Turley,OF,Position Player,78,College,4YR JR,,,False,R,110,4,694600,600000,45,60,55,60,50,45,,,,,,,,
+2025,827517,Kyle Lodise,SS/2B,Position Player,79,College,4YR JR,71,,False,R,76,3,1076800,922500,55,45,55,50,50,45,,,,,,,,
+2025,823658,Daniel Dickinson,2B/SS,Position Player,80,College,4YR JR,,,False,R,185,6,344400,325000,55,40,50,50,50,45,,,,,,,,
+2025,703637,Max Williams,OF,Position Player,81,College,4YR JR,,,False,L,78,3,1043700,897500,45,55,55,55,50,45,,,,,,,,
+2025,828237,Cooper Flemming,INF,Position Player,82,High school,HS SR,75,,False,L,53,2,1803500,1803500,50,45,50,55,50,45,,,,,,,,
+2025,702668,Korbyn Dickerson,OF,Position Player,83,College,4YR JR,,,False,R,152,5,461100,461100,50,50,60,50,55,45,,,,,,,,
+2025,823807,Kane Kepley,OF,Position Player,84,College,4YR SO,68,,False,L,56,2,1680000,1400000,55,30,60,40,60,45,,,,,,,,
+2025,832725,Uli Fernsler,LHP,Pitcher,85,Unknown,,76,,False,L,,,,,,,,,,45,50,,50,,,,55,55
+2025,828137,Miguel Sime Jr.,RHP,Pitcher,86,High school,HS SR,,,False,R,111,4,687800,2000000,,,,,,45,70,,55,,,,,40
+2025,832453,Kaleb Wing,RHP,Pitcher,87,High school,HS SR,74,,False,R,121,4,623300,1500000,,,,,,45,55,55,,,,,45,50
+2025,815984,Brayden Jaksa,C,Position Player,88,Unknown,,77,,False,R,,,,,50,55,45,50,45,45,,,,,,,,
+2025,831384,Josh Owens,SS/RHP,Position Player,89,High school,HS SR,75,,False,L,84,3,950100,1100000,50,45,70,60,50,45,,,,,,,,
+2025,828065,William Patrick,OF,Position Player,90,Unknown,,74,,False,R,,,,,45,50,70,60,55,45,,,,,,,,
+2025,813989,Talon Haley,LHP,Pitcher,91,High school,HS SR,,,False,L,349,12,,897500,,,,,,45,55,60,55,,,,50,50
+2025,828685,Taitn Gray,1B,Position Player,92,High school,HS SR,76,,False,S,86,3,920800,920800,50,60,50,50,40,45,,,,,,,,
+2025,702695,Easton Carmichael,C,Position Player,93,College,4YR JR,,,False,R,82,3,979500,977000,50,45,50,50,50,45,,,,,,,,
+2025,815983,Coy James,INF,Position Player,94,High school,HS SR,,,False,R,142,5,508900,2500000,50,50,45,55,50,45,,,,,,,,
+2025,828344,Dean Livingston,RHP,Pitcher,95,High school,HS SR,76,,False,R,123,4,611300,1000000,,,,,,45,60,45,45,,,,50,50
+2025,815815,Brett Crossland,RHP,Pitcher,96,Unknown,,77,,False,R,,,,,,,,,,45,55,50,50,,,,55,45
+2025,829649,Colin Yeaman,3B/SS,Position Player,97,College,4YR JR,,,False,R,124,4,605300,602800,55,45,45,50,50,45,,,,,,,,
+2025,702619,Luke Hill,3B/2B,Position Player,98,College,4YR JR,,,False,R,132,4,561400,722600,55,45,50,50,50,45,,,,,,,,
+2025,821932,River Hamilton,RHP,Pitcher,99,High school,HS SR,75,,False,R,339,11,,497500,,,,,,45,55,,55,,,,50,50
+2025,815711,Ethan Moore,SS/2B,Position Player,100,High school,HS SR,,,False,S,534,18,,,55,45,50,45,45,45,,,,,,,,
+2025,702262,Jared Jones,1B,Position Player,101,College,4YR JR,76,246,False,R,263,9,206100,203600,45,60,35,65,40,45,,,,,,,,
+2025,826536,Brian Curley,RHP,Pitcher,102,College,4YR JR,,,True,R,92,3,839100,700000,,,,,,45,65,50,60,,55,,,45
+2025,815602,Marcos Paz,RHP,Pitcher,103,Unknown,,73,,True,R,,,,,,,,,,45,55,,60,,,,50,50
+2025,828177,Jack Lafflam,RHP,Pitcher,104,Unknown,,78,,False,R,,,,,,,,,,45,55,45,55,,,,50,45
+2025,829305,Aiden Stillman,LHP,Pitcher,105,Unknown,,75,,False,L,,,,,,,,,,45,50,,50,,,,50,50
+2025,800624,Ben Jacobs,LHP,Pitcher,107,College,4YR JR,,,True,L,98,3,780600,722500,,,,,,45,50,,55,,,,55,45
+2025,815824,Josiah Hartshorn,1B/OF,Position Player,108,High school,HS SR,,,False,S,181,6,355800,2000000,50,55,45,45,50,45,,,,,,,,
+2025,815821,Trent Grindlinger,,Position Player,110,Unknown,,74,,False,R,,,,,45,50,40,60,55,45,,,,,,,,
+2025,703610,Justin Lamkin,LHP,Pitcher,111,College,4YR JR,,,False,L,71,CB-B,1163700,1161200,,,,,,45,50,,55,,,,45,55
+2025,702720,RJ Austin,OF,Position Player,112,College,4YR JR,,,False,R,93,3,826400,823900,50,40,60,45,55,45,,,,,,,,
+2025,801358,Jared Spencer,LHP,Pitcher,113,College,4YR SR,,,True,L,322,11,,165000,,,,,,45,55,,65,,,,55,45
+2025,804942,Cam Leiter,RHP,Pitcher,114,College,4YR JR,77,,True,R,65,2,1349100,1346600,,,,,,45,65,50,60,,,,45,45
+2025,805658,Shane Sdao,LHP,Pitcher,115,Unknown,,75,,False,L,,,,,,,,,,45,50,50,55,,50,,45,55
+2025,823781,Sean Youngerman,RHP,Pitcher,116,College,4YR JR,75,,True,R,131,4,567000,564500,,,,,,45,55,,45,,,,50,55
+2025,702568,Mason Morris,RHP,Pitcher,117,College,4YR JR,76,225,True,R,83,3,964800,897500,,,,,,45,55,,55,,65,,,45
+2025,825094,Nick Dumesnil,OF,Position Player,118,College,4YR JR,74,,False,R,249,8,216800,214300,45,50,60,45,50,45,,,,,,,,
+2025,703676,Ethan Frey,OF,Position Player,119,College,4YR JR,78,,False,R,95,3,803900,997500,50,55,55,50,50,45,,,,,,,,
+2025,828557,Blaine Bullard,OF,Position Player,120,High school,HS SR,74,,False,S,352,12,,1697500,45,45,60,50,55,45,,,,,,,,
+2025,802412,Malachi Witherspoon,RHP,Pitcher,121,College,4YR JR,,,True,R,62,2,1451200,1448700,,,,,,45,55,60,60,,,,45,45
+2025,695560,Pico Kohn,LHP,Pitcher,122,College,4YR SR,76,,True,L,134,4,550300,547800,,,,,,45,55,,55,,,,50,55
+2025,828140,Aidan West,SS,Position Player,123,High school,HS SR,,,False,L,135,4,544900,1272500,50,50,55,50,45,45,,,,,,,,
+2025,815119,Tanner Franklin,RHP,Pitcher,124,College,4YR JR,,,True,R,72,CB-B,1145900,1145900,,,,,,45,70,,,,50,,,50
+2025,828100,Landon Schaefer,SS/3B,Position Player,125,High school,HS SR,75,,False,R,611,20,,,45,55,50,55,50,45,,,,,,,,
+2025,702278,Nolan Schubart,1B/OF,Position Player,126,Unknown,NS,,,False,L,101,3,759400,730000,45,60,30,40,30,45,,,,,,,,
+2025,802411,JT Quinn,RHP,Pitcher,127,College,4YR JR,78,,False,R,69,CB-B,1223800,1147500,,,,,,45,60,40,55,,,,,45
+2025,802413,Sam Horn,RHP,Pitcher,128,College,4YR JR,76,,False,R,525,17,,497500,,,,,,45,60,,55,,,,45,50
+2025,828683,Brandon Shannon,RHP,Pitcher,129,Unknown,,76,,False,R,,,,,,,,,,45,60,,50,,,50,,50
+2025,815875,Jayden Stroman,RHP,Pitcher,130,Unknown,,,,False,R,,,,,,,,,,45,60,50,,,,,,50
+2025,692117,Micah Bucknam,RHP,Pitcher,131,College,4YR JR,73,,True,R,112,4,680800,678300,,,,,,45,50,60,65,,,,45,45
+2025,815788,Omar Serna Jr.,C,Position Player,132,Unknown,,74,225,False,R,,,,,45,55,30,65,45,45,,,,,,,,
+2025,834235,Cooper Underwood,LHP,Pitcher,133,High school,HS SR,74,,False,L,365,12,,,,,,,,45,50,60,55,,,,50,50
+2025,832456,John Paone,RHP,Pitcher,134,Unknown,,,,False,R,,,,,,,,,,45,50,,50,,,,45,50
+2025,816107,Mason Pike,SS/RHP,Position Player,135,High school,HS SR,,,False,S,561,19,,,45,50,45,60,50,45,,,,,,,,
+2025,832699,Matt Barr,RHP,Pitcher,136,Junior college,JC J1,78,,False,R,149,5,475000,762500,,,,,,45,55,50,50,,,,,45
+2025,804569,Tre Phelps,3B,Position Player,137,Unknown,,,,False,R,,,,,50,55,45,50,40,45,,,,,,,,
+2025,832698,Cameron Millar,RHP,Pitcher,138,High school,HS SR,,,False,R,97,3,788500,1497500,,,,,,45,55,,50,,,,55,45
+2025,804465,Riley Kelly,RHP,Pitcher,139,College,4YR JR,77,,True,R,107,4,715400,700000,,,,,,45,55,55,,,,,50,45
+2025,828116,Gustavo Melendez,SS,Position Player,140,High school,HS SR,68,,False,L,113,4,674300,671800,55,40,50,50,50,45,,,,,,,,
+2025,809092,Murf Gray,3B,Position Player,141,College,4YR JR,79,,False,R,73,CB-B,1128400,997500,45,50,40,60,45,45,,,,,,,,
+2025,701333,Colby Shelton,INF,Position Player,142,College,4YR JR,,,False,L,166,6,403900,447500,50,45,40,50,45,45,,,,,,,,
+2025,702517,Mason White,SS/2B,Position Player,143,College,4YR JR,71,,False,L,118,4,642200,642200,45,50,50,50,50,45,,,,,,,,
+2025,813668,Jack Gurevitch,1B/3B,Position Player,144,College,4YR SO,,,False,L,89,3,879000,879000,55,45,45,50,45,45,,,,,,,,
+2025,800620,Trent Caraway,3B,Position Player,145,Unknown,,,,False,R,,,,,45,50,45,60,50,40,,,,,,,,
+2025,834240,Ryan Wideman,OF,Position Player,146,College,4YR JR,77,,False,R,99,3,773100,650000,45,50,70,50,55,40,,,,,,,,
+2025,805031,Gabe Davis,RHP,Pitcher,147,College,4YR JR,81,,True,R,137,5,534400,587500,,,,,,40,60,,55,,,,45,40
+2025,805422,Nate Snead,RHP,Pitcher,148,College,4YR JR,,,True,R,105,SUP-3,729600,597500,,,,,,40,60,55,50,,50,,45,50
+2025,827267,Caden Hunter,LHP,Pitcher,149,College,4YR JR,,,False,L,184,6,347100,344600,,,,,,40,55,,45,,,,55,50
+2025,815810,Ethin Bingaman,RHP/OF,Pitcher,150,High school,HS SR,73,,True,R,603,20,,,,,,,,40,55,55,,,,,40,50
+2025,805880,Tanner Thach,1B,Position Player,151,College,4YR JR,76,225,False,L,227,8,247200,325000,45,55,20,50,40,40,,,,,,,,
+2025,824337,Angel Laya,OF,Position Player,152,Unknown,,,,False,L,,,,,45,50,50,60,50,40,,,,,,,,
+2025,829210,Ty Harvey,C,Position Player,153,High school,HS SR,,,False,R,160,5,426600,1500000,45,55,40,50,50,40,,,,,,,,
+2025,702523,Matt Scott,RHP,Pitcher,154,Unknown,,79,,True,R,,,,,,,,,,40,50,,55,,55,,50,45
+2025,832454,Joshua Jannicelli,RHP,Pitcher,155,Unknown,,78,,False,R,,,,,,,,,,40,55,45,,,,,55,50
+2025,815835,Reagan Ricken,RHP,Pitcher,156,Unknown,,77,,False,R,,,,,,,,,,40,55,50,50,,,,50,45
+2025,829307,Marcelo Harsch,RHP,Pitcher,157,Unknown,,76,,False,R,,,,,,,,,,40,55,45,50,,,,45,45
+2025,702656,Drew Faurot,2B,Position Player,158,College,4YR JR,,,False,S,108,4,708300,531225,50,45,50,50,45,40,,,,,,,,
+2025,805260,Ethan Hedges,3B,Position Player,159,College,4YR JR,,,True,R,77,3,1060300,950000,50,40,50,60,55,40,,,,,,,,
+2025,815992,Tim Piasentin,3B,Position Player,160,High school,HS SR,75,,True,L,143,5,503800,747500,45,55,40,60,45,40,,,,,,,,
+2025,830239,Aaron Walton,OF,Position Player,161,College,4YR JR,75,,False,R,66,CB-B,1320400,1100000,45,50,55,50,50,40,,,,,,,,
+2025,702265,Paxton Kling,OF,Position Player,162,College,4YR JR,,,False,R,205,7,292400,375000,45,50,60,55,50,40,,,,,,,,
+2025,807077,Will Hynes,RHP,Pitcher,163,High school,HS SR,74,,False,R,70,CB-B,1193500,950000,,,,,,40,50,,50,,,,45,50
+2025,821933,Landon Hodge,C,Position Player,164,High school,HS SR,,,False,L,106,4,722600,1097500,50,40,50,55,45,40,,,,,,,,
+2025,828176,Brock Ketelsen,OF/LHP,Position Player,165,Unknown,,76,,False,L,,,,,55,45,55,60,50,40,,,,,,,,
+2025,829404,Noah Yoder,RHP,Pitcher,166,Unknown,,78,,True,R,,,,,,,,,,40,55,50,,,,,45,45
+2025,828138,Myles Upchurch,RHP,Pitcher,167,High school,HS SR,76,,False,R,564,19,,,,,,,,40,50,45,50,,,,40,45
+2025,815718,Xavier Mitchell,LHP,Pitcher,168,High school,HS SR,75,,False,L,379,13,,872500,,,,,,40,55,55,,,,,50,50
+2025,702976,Griffin Hugus,RHP,Pitcher,169,College,4YR JR,,,True,R,91,3,851800,640000,,,,,,40,50,50,55,,,,45,45
+2025,703603,Grant Jay,C/OF,Position Player,170,College,4YR JR,,,False,R,362,12,,150000,40,55,50,55,40,40,,,,,,,,
+2025,814452,Anthony Martinez,1B,Position Player,171,College,4YR JR,,,False,L,252,8,214200,214200,55,45,35,40,40,40,,,,,,,,
+2025,806128,Antonio Jimenez,SS,Position Player,172,College,4YR SO,,,False,R,102,3,752000,564000,45,50,50,60,50,40,,,,,,,,
+2025,804756,Jacob Morrison,RHP,Pitcher,173,College,4YR JR,80,,False,R,94,3,813600,697500,,,,,,40,55,50,50,,,,45,55
+2025,823990,Zane Taylor,RHP,Pitcher,174,College,4YR SR,,,False,R,141,5,513900,513900,,,,,,40,60,50,50,,,,55,55
+2025,833397,James Quinn-Irons,OF,Position Player,175,College,4YR JR,77,,False,R,147,5,484400,481900,45,55,60,55,50,40,,,,,,,,
+2025,805025,Rylan Galvan,C,Position Player,176,College,4YR JR,,,False,R,376,13,,150000,40,50,30,55,50,40,,,,,,,,
+2025,821348,Brent Iredale,3B,Position Player,177,College,4YR JR,75,200,False,R,203,7,297400,294900,45,55,45,50,45,40,,,,,,,,
+2025,832457,CJ Gray,RHP,Pitcher,178,High school,HS SR,,,False,R,140,5,519100,1247500,,,,,,40,65,,50,,,,55,40
+2025,829643,Jacob McCombs,OF,Position Player,180,College,4YR SO,,,False,L,209,7,282900,280400,50,45,50,50,50,40,,,,,,,,
+2025,828289,Trey Morris,LHP,Pitcher,181,Unknown,,75,,True,L,,,,,,,,,,40,50,50,45,,,,45,50
+2025,804940,Nelson Keljo,LHP,Pitcher,182,College,4YR JR,76,,True,L,192,6,325100,325100,,,,,,40,50,,45,,,,55,40
+2025,823768,Lorenzo Meola,SS/2B,Position Player,183,College,4YR JR,,,False,R,116,4,654700,652200,45,45,55,55,60,40,,,,,,,,
+2025,813359,Aidan Teel,OF,Position Player,184,Unknown,,,,True,L,,,,,50,40,45,60,50,40,,,,,,,,
+2025,809720,Damian Bravo,OF,Position Player,186,College,4YR JR,,,True,R,446,15,,150000,55,45,50,60,50,40,,,,,,,,
+2025,805790,Cody Bowker,RHP,Pitcher,187,College,4YR JR,,,False,R,100,3,765400,700000,,,,,,40,60,,50,,45,,40,45
+2025,804119,Bobby Boser,3B/2B/SS,Position Player,188,College,4YR SR,,,False,R,320,11,,150000,45,50,50,50,50,40,,,,,,,,
+2025,701361,Jake Clemente,RHP,Pitcher,189,College,4YR JR,75,,True,R,198,7,309400,500000,,,,,,40,60,,50,,,,40,45
+2025,804852,Grayson Grinsell,LHP,Pitcher,190,College,4YR JR,,,False,L,189,6,333500,297500,,,,,,40,45,,50,,,,60,55
+2025,805279,Jason Reitz,RHP,Pitcher,191,College,4YR JR,83,,True,R,119,4,635700,633200,,,,,,40,55,,50,,50,,45,45
+2025,832561,Ethan Grim,RHP,Pitcher,192,Unknown,,,,True,R,,,,,,,,,,40,50,50,50,,,,45,55
+2025,701360,Chris Arroyo,1B/OF,Position Player,193,College,4YR JR,74,,True,L,139,5,523900,521400,40,55,30,60,45,40,,,,,,,,
+2025,809686,Cam Maldonado,OF,Position Player,194,College,4YR JR,75,,False,R,206,7,289900,287400,45,50,60,50,55,40,,,,,,,,
+2025,826773,Nic Partridge,,Position Player,195,Unknown,,74,,False,L,,,,,50,40,45,50,50,40,,,,,,,,
+2025,683328,Antoine Jean,LHP,Pitcher,196,College,4YR GR,,,True,L,197,7,311900,200000,,,,,,40,55,55,55,,,,50,50
+2025,702578,Kyle McCoy,LHP,Pitcher,197,College,4YR JR,78,,False,L,234,8,235200,232700,,,,,,40,50,,55,,,,45,55
+2025,804985,Jack Anker,RHP,Pitcher,198,College,4YR JR,74,,True,R,173,6,380500,347500,,,,,,40,50,50,,,45,,50,55
+2025,828678,Brody Irlbeck,LHP,Pitcher,199,Unknown,,,,False,L,,,,,,,,,,40,50,45,50,,,,60,55
+2025,834238,Michael Winter,RHP,Pitcher,200,Unknown,,77,,False,R,,,,,,,,,,40,50,,50,,,,50,50
+2025,828097,Peter Kussow,RHP,Pitcher,201,High school,HS SR,77,,False,R,133,4,555800,897500,,,,,,40,55,,55,,,,50,45
+2025,828130,Dylan Dubovik,OF/3B,Position Player,202,Unknown,,76,,False,R,,,,,40,50,55,65,50,40,,,,,,,,
+2025,828094,Gabe Graulau,,Position Player,203,Unknown,,75,,False,R,,,,,40,50,60,60,50,40,,,,,,,,
+2025,826694,Remo Indomenico,OF,Position Player,204,Unknown,,,,False,L,,,,,50,45,55,45,50,40,,,,,,,,
+2025,702727,Ben Abeldt,LHP,Pitcher,205,College,4YR JR,,,True,L,146,5,489200,450000,,,,,,40,60,,55,,,,50,50
+2025,829403,Trace Phillips,RHP,Pitcher,206,Unknown,,,,False,R,,,,,,,,,,40,55,,55,,,,50,50
+2025,827265,Cade Crossland,LHP,Pitcher,207,College,4YR JR,,,False,L,120,4,629500,729500,,,,,,40,55,,45,,,,60,45
+2025,804860,Landon Beidelschies,LHP,Pitcher,208,College,4YR JR,75,230,True,L,187,6,338900,297500,,,,,,40,50,,55,,,,45,50
+2025,805255,Dominick Reid,RHP,Pitcher,209,College,4YR JR,75,,False,R,90,3,865500,649125,,,,,,40,50,,40,,,,60,50
+2025,823745,Michael Salina,RHP,Pitcher,210,College,4YR JR,73,,True,R,130,4,571500,571500,,,,,,40,60,,55,,,,45,45
+2025,804979,Payton Graham,RHP,Pitcher,211,College,4YR JR,,,False,R,210,7,280800,280800,,,,,,40,55,55,50,,,,50,40
+2025,829205,Alan Soler,LHP,Pitcher,212,Unknown,,75,,False,L,,,,,,,,,,40,50,,55,,,,50,50
+2025,815863,Justice de Jong,RHP,Pitcher,213,Unknown,,75,,False,R,,,,,,,,,,40,50,50,50,,,,50,50
+2025,805365,Isaiah Jackson,OF,Position Player,214,College,4YR JR,75,,False,L,229,8,243300,297500,45,50,50,50,55,40,,,,,,,,
+2025,834243,Sean Episcope,RHP,Pitcher,215,College,4YR SO,,,True,R,155,5,447400,335500,,,,,,40,55,50,50,,,,40,50
+2025,804123,Joey Volini,LHP,Pitcher,216,College,4YR SR,,,True,L,168,6,397000,297750,,,,,,40,45,50,50,,,,50,50
+2025,834397,Mason Ligenza,OF,Position Player,217,High school,HS SR,77,,False,L,195,6,317200,,40,55,55,55,50,40,,,,,,,,
+2025,828139,Diego Velazquez,SS,Position Player,218,Unknown,,74,,False,L,,,,,45,50,45,60,50,40,,,,,,,,
+2025,834672,Michael Oliveto,C,Position Player,219,High school,HS SR,,,False,L,34,CB-A,2827300,2447500,45,50,40,45,50,40,,,,,,,,
+2025,834242,Camden Lohman,RHP,Pitcher,220,High school,HS SR,76,,False,R,253,8,213200,797500,,,,,,40,50,50,50,,,50,,50
+2025,828148,Conor Essenburg,OF,Pitcher,221,High school,HS SR,74,,False,L,157,5,438600,1197500,,,,,,40,50,50,,,,,50,45
+2025,815630,Carson Brumbaugh,SS,Position Player,222,Unknown,,74,,False,R,,,,,45,50,45,60,50,40,,,,,,,,
+2025,703611,Maximus Martin,SS/OF,Position Player,223,College,4YR JR,,,False,R,298,10,191300,191300,45,50,50,50,45,40,,,,,,,,
+2025,702600,Matt Klein,C,Position Player,224,College,4YR JR,,,False,L,167,6,400400,425000,50,40,40,50,50,40,,,,,,,,
+2025,700895,Sawyer Hawks,RHP,Pitcher,225,College,4YR SR,,,True,R,183,6,350200,250000,,,,,,40,55,50,50,,,,55,50
+2025,700582,Gabe Craig,RHP,Pitcher,226,College,4YR GR,,,True,R,161,5,422700,197500,,,,,,40,55,,70,,,,,55
+2025,820835,Kade Snell,OF,Position Player,227,College,4YR GR,,,False,L,151,5,465400,200000,55,45,40,50,40,40,,,,,,,,
+2025,823817,Jake McCutcheon,OF,Position Player,228,College,4YR JR,,,False,L,288,10,194700,192200,55,45,45,45,45,40,,,,,,,,
+2025,806019,Zane Adams,LHP,Pitcher,229,Unknown,,,,False,L,,,,,,,,,,40,45,55,,,50,,55,45
+2025,805312,Brandon Arvidson,LHP,Pitcher,230,Unknown,,,,True,L,,,,,,,,,,40,50,60,,,,,40,40
+2025,702257,Christian Foutch,RHP,Pitcher,231,College,4YR JR,,,True,R,148,5,479800,400000,,,,,,40,65,,50,,,60,,45
+2025,823756,Ryan DeSanto,LHP,Pitcher,232,College,4YR JR,76,,False,L,372,12,,150000,,,,,,40,45,,50,,,,50,50
+2025,826844,Charlie Willcox,RHP,Pitcher,233,Unknown,,76,,False,R,,,,,,,,,,40,50,50,,,,,45,45
+2025,828202,Bruin Agbayani,SS/2B,Position Player,234,High school,HS SR,,,False,L,179,6,361600,380600,50,45,55,45,45,40,,,,,,,,
+2025,703602,Jalin Flores,SS,Position Player,235,College,4YR JR,,,False,R,330,11,,175000,40,50,40,60,50,40,,,,,,,,
+2025,703495,Griffin Stieg,RHP,Pitcher,236,College,4YR JR,76,,True,R,542,18,,,,,,,,40,50,,50,,,,50,50
+2025,832560,Ben Moore,LHP,Pitcher,237,College,4YR JR,76,,True,L,351,12,,150000,,,,,,40,50,,50,,,,45,45
+2025,822302,Cal Scolari,RHP,Pitcher,238,Unknown,,76,,True,R,,,,,,,,,,40,55,45,50,,,,45,45
+2025,834396,Brady Dallimore,C/OF,Position Player,239,Unknown,,76,,False,R,,,,,45,50,40,60,45,40,,,,,,,,
+2025,815724,Anthony Pack Jr.,OF,Position Player,240,Unknown,,70,,False,L,,,,,50,40,55,45,50,40,,,,,,,,
+2025,813409,Joe Ariola,LHP,Pitcher,241,College,4YR JR,,,True,L,213,7,274100,250000,,,,,,40,55,55,,,50,,40,40
+2025,815985,Ty Peeples,OF,Position Player,242,High school,HS SR,,,False,L,592,20,,,45,55,45,50,50,40,,,,,,,,
+2025,834237,Joshua Flores,RHP,Pitcher,243,High school,HS SR,,,True,R,125,4,599600,722500,,,,,,40,60,60,50,,,,45,40
+2025,804161,Mario Magana,3B/SS,Position Player,244,Unknown,,75,,False,S,,,,,40,50,60,45,45,40,,,,,,,,
+2025,805550,Ryan Weingartner,SS,Position Player,245,College,4YR JR,,,False,R,240,8,226500,226500,45,45,60,50,45,40,,,,,,,,
+2025,834234,Jase Mitchell,C/1B,Position Player,246,High school,HS SR,75,,False,L,216,7,267700,797500,45,55,40,55,45,40,,,,,,,,
+2025,828162,Boston Kellner,3B,Position Player,247,Unknown,,,,False,R,,,,,45,55,45,50,45,40,,,,,,,,
+2025,701330,Brody Donay,C,Position Player,248,College,4YR JR,77,,False,R,507,17,,150000,40,55,40,60,45,40,,,,,,,,
+2025,829308,Nick Frusco,LHP,Pitcher,249,High school,HS SR,76,,False,L,593,20,,,,,,,,40,50,,50,,,,50,45
+2025,828152,Kelvyn Paulino Jr.,3B,Position Player,250,Unknown,,,,False,R,,,,,50,45,40,50,45,40,,,,,,,,

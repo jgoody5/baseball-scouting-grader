@@ -1,0 +1,38 @@
+{
+  "version": "mlb-draft-2022-2025-v2",
+  "retrieved_at": "2026-10-23",
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "grade_basis": "MLB Pipeline draft-specific archive grades",
+  "coverage": "Ranked draft prospects only; not the full population of eligible players",
+  "first_pick_slots": {
+    "2022": "8846900",
+    "2023": "9721000",
+    "2024": "10570600",
+    "2025": "11075900"
+  },
+  "records_file": "draft_records.csv",
+  "record_count": 981,
+  "sources": {
+    "2022": {
+      "grades": "https://www.mlb.com/milb/prospects/2022/draft/",
+      "outcomes": "https://statsapi.mlb.com/api/v1/draft/2022"
+    },
+    "2023": {
+      "grades": "https://www.mlb.com/milb/prospects/2023/draft/",
+      "outcomes": "https://statsapi.mlb.com/api/v1/draft/2023"
+    },
+    "2024": {
+      "grades": "https://www.mlb.com/milb/prospects/2024/draft/",
+      "outcomes": "https://statsapi.mlb.com/api/v1/draft/2024"
+    },
+    "2025": {
+      "grades": "https://www.mlb.com/milb/prospects/2025/draft/",
+      "outcomes": "https://statsapi.mlb.com/api/v1/draft/2025"
+    }
+  }
+}

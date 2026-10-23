@@ -6,6 +6,8 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from valuation_ui import render_valuation
+
 from grading_engine import (
     FASTBALL_SPLIT_TYPES,
     grade_fastball_life,
@@ -328,9 +330,12 @@ def render_pitcher_page() -> None:
         "weight": weight,
         "draft_class": draft_class,
     }
+    valuation = render_valuation(grade_rows, "Pitcher", profile)
+
     try:
         pdf_bytes = build_report_pdf(
             profile=profile,
+            valuation=valuation,
             impact=st.session_state.impact_statement,
             grades=grade_rows,
             summary=st.session_state.summary,

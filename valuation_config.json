@@ -1,0 +1,130 @@
+{
+  "version": "0.2-historical-profiles",
+  "status": "Historical grade-profile comparables with discretionary matching and trait assumptions; not a validated draft predictor",
+  "currency": "USD",
+  "reference_year": 2026,
+  "source": "https://www.mlb.com/news/mlb-draft-2026-bonus-pool-pick-values",
+  "money_basis": "2022-2025 draft pick slot values indexed to 2026 dollars; actual signing bonuses are context only. Similarity weights, risk quantiles and trait adjustments are model assumptions.",
+  "hitter_weights": {
+    "C": {
+      "Hit": 0.3,
+      "Raw Power": 0.05,
+      "Game Power": 0.2,
+      "Run": 0.05,
+      "Arm": 0.15,
+      "Field": 0.25
+    },
+    "SS": {
+      "Hit": 0.3,
+      "Raw Power": 0.05,
+      "Game Power": 0.15,
+      "Run": 0.15,
+      "Arm": 0.1,
+      "Field": 0.25
+    },
+    "CF": {
+      "Hit": 0.3,
+      "Raw Power": 0.05,
+      "Game Power": 0.15,
+      "Run": 0.2,
+      "Arm": 0.05,
+      "Field": 0.25
+    },
+    "2B": {
+      "Hit": 0.35,
+      "Raw Power": 0.05,
+      "Game Power": 0.2,
+      "Run": 0.15,
+      "Arm": 0.05,
+      "Field": 0.2
+    },
+    "3B": {
+      "Hit": 0.3,
+      "Raw Power": 0.05,
+      "Game Power": 0.3,
+      "Run": 0.05,
+      "Arm": 0.15,
+      "Field": 0.15
+    },
+    "RF": {
+      "Hit": 0.35,
+      "Raw Power": 0.05,
+      "Game Power": 0.3,
+      "Run": 0.1,
+      "Arm": 0.1,
+      "Field": 0.1
+    },
+    "LF": {
+      "Hit": 0.35,
+      "Raw Power": 0.05,
+      "Game Power": 0.35,
+      "Run": 0.1,
+      "Arm": 0.05,
+      "Field": 0.1
+    },
+    "1B": {
+      "Hit": 0.4,
+      "Raw Power": 0.05,
+      "Game Power": 0.4,
+      "Run": 0.025,
+      "Arm": 0.025,
+      "Field": 0.1
+    },
+    "DH": {
+      "Hit": 0.45,
+      "Raw Power": 0.05,
+      "Game Power": 0.5,
+      "Run": 0,
+      "Arm": 0,
+      "Field": 0
+    }
+  },
+  "position_adjustments": {
+    "C": 2,
+    "SS": 2,
+    "CF": 2,
+    "2B": 0,
+    "3B": 0,
+    "RF": -1,
+    "LF": -1,
+    "1B": -3,
+    "DH": -4
+  },
+  "pitcher_weights": {
+    "Starter": {
+      "Fastball": 0.25,
+      "Best secondary": 0.25,
+      "Second secondary": 0.15,
+      "Command": 0.25,
+      "Control": 0.1
+    },
+    "Reliever": {
+      "Fastball": 0.35,
+      "Best secondary": 0.4,
+      "Command": 0.15,
+      "Control": 0.1
+    }
+  },
+  "role_adjustments": {
+    "Starter": 0,
+    "Reliever": -4
+  },
+  "trait_adjustments": {
+    "Concern": -1,
+    "Neutral / not assessed": 0,
+    "Strength": 1
+  },
+  "physical_adjustments": {
+    "Concern for projected role": -1,
+    "Neutral / not assessed": 0,
+    "Supports projected role": 1
+  },
+  "trait_total_cap": 3,
+  "risk_widths": {
+    "Lower": 0,
+    "Moderate": 2,
+    "Higher": 4
+  },
+  "history_file": "data/valuation/draft_history.json",
+  "index_usage": "Diagnostic only; historical profile matching determines round and money ranges."
+}

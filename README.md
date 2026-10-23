@@ -34,3 +34,18 @@ streamlit run app.py
 ```
 
 No secrets or external database are required.
+
+## Historical draft valuation guide
+
+Enable **Include draft valuation** to compare a future-grade profile against MLB
+Pipeline draft-time grades and official results from 2022-2025. Explore 16 example
+profiles, see the closest historical players, then enter your own final round and
+bonus range if needed. The override is available even when evidence is insufficient.
+PDF reports show the final value; JSON retains the original suggestion and evidence.
+
+Dollar suggestions use historical assigned pick values indexed to 2026 dollars.
+Actual bonuses are shown separately as context. This is a broad comparable guide,
+not a validated exact-pick predictor. See [DRAFT_VALUATION.md](DRAFT_VALUATION.md)
+for sources, matching assumptions, coverage limits and held-out-year checks.
+
+Run all checks with `python -m pip install -r requirements-dev.txt` then `python -m unittest discover -s tests -v`.
