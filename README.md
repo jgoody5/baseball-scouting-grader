@@ -34,3 +34,9 @@ streamlit run app.py
 ```
 
 No secrets or external database are required.
+
+## Draft valuation prototype
+
+Enable **Include draft valuation** on either player page to get a suggested round and signing-bonus investment range from future tools, projected position/role, physical fit and assessed traits. The model excludes asking price and signability. Review the breakdown, optionally override with your rationale, and export the value in the PDF or a detailed JSON file.
+
+This is an uncalibrated, configurable scouting rubric, not an empirical draft predictor. See [DRAFT_VALUATION.md](DRAFT_VALUATION.md) for assumptions and [valuation_config.json](valuation_config.json) for weights and investment bands. Dollar references use 2026 values.

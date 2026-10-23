@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from draft_valuation import valuation_report_text
+
 from io import BytesIO
 from xml.sax.saxutils import escape
 
@@ -36,6 +38,7 @@ def build_report_pdf(
     summary: str,
     observations: dict,
     overall: dict | None = None,
+    valuation: dict | None = None,
 ) -> bytes:
     """Generate the report-facing PDF used by the scouting grader.
 
@@ -178,6 +181,10 @@ def build_report_pdf(
         ('BOTTOMPADDING', (0, 0), (-1, -1), 4),
     ]))
     story.append(t)
+
+    valuation_text = valuation_report_text(valuation)
+    if valuation_text:
+        story.append(KeepTogether([Paragraph("DRAFT VALUATION", h), Paragraph(_safe(valuation_text), body)]))
 
     story.append(Paragraph('SUMMARY', h))
     summary_box = Table([[Paragraph(_safe(summary or '-'), body)]], colWidths=[7.47 * inch])

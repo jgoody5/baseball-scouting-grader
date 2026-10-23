@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from draft_valuation import valuation_report_text
+
 from io import BytesIO
 from xml.sax.saxutils import escape
 
@@ -29,7 +31,7 @@ def _grade_text(value) -> str:
     return "-" if value in (None, "", "-") else str(value)
 
 
-def build_hitter_report_pdf(profile, impact, grades, summary, observations, overall=None) -> bytes:
+def build_hitter_report_pdf(profile, impact, grades, summary, observations, overall=None, valuation=None) -> bytes:
     out = BytesIO()
     doc = SimpleDocTemplate(
         out,
@@ -128,6 +130,10 @@ def build_hitter_report_pdf(profile, impact, grades, summary, observations, over
         ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
     ]))
     story.append(t)
+
+    valuation_text = valuation_report_text(valuation)
+    if valuation_text:
+        story.append(KeepTogether([Paragraph("DRAFT VALUATION", h), Paragraph(_safe(valuation_text), body)]))
 
     story.append(Paragraph("SUMMARY", h))
     summary_box = Table([[Paragraph(_safe(summary or "-"), body)]], colWidths=[7.47 * inch])
