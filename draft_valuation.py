@@ -171,8 +171,4 @@ def apply_override(result, round_low, round_high, bonus_low, bonus_high, reason)
 def valuation_report_text(valuation):
     if not valuation or not valuation.get("ready"):
         return ""
-    text = (f"{valuation['round']} | {money_range(valuation)} | {valuation['basis']} | "
-            f"{valuation['reference_year']} USD. Historical-profile investment guide; not a market prediction.")
-    if valuation.get("override_reason"):
-        text += " Rationale: " + valuation["override_reason"]
-    return text
+    return f"{valuation['round']} | {money_range(valuation)}"

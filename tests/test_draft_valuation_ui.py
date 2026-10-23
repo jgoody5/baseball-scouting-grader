@@ -56,7 +56,7 @@ class ValuationUiTests(unittest.TestCase):
         self.assertFalse(app.error)
         self.assertTrue(any('$300,000 - $450,000' in e.value for e in app.success))
 
-    def test_pdf_exports_valuation_and_escapes_rationale(self):
+    def test_pdf_exports_only_round_and_dollar_value(self):
         rows = [{"Tool": k, "Present": 50, "Future": 55}
                 for k in ("Hit", "Raw Power", "Game Power", "Run", "Arm", "Field")]
         v = evaluate(rows, "Position Player", "CF")
@@ -67,7 +67,9 @@ class ValuationUiTests(unittest.TestCase):
             from pypdf import PdfReader
             text=' '.join(p.extract_text() for p in PdfReader(BytesIO(pdf)).pages)
             self.assertIn('$300,000 - $450,000', text)
-            self.assertIn('Scout override',text)
+            self.assertIn('Rounds 4-7 value', text)
+            for unwanted in ('Scout override', '2026 USD', 'Historical-profile investment guide', 'Rationale:', 'Strength & mobility'):
+                self.assertNotIn(unwanted, text)
 
 
 if __name__ == "__main__":

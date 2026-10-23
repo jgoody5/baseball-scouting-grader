@@ -101,7 +101,7 @@ Use **My final valuation** to replace both the round and dollar range, with a
 rationale. It also works with incomplete grades or unsupported historical profiles.
 Ranges must be finite, nonnegative and ordered; draft rounds must be integers
 between 1 and 20. Invalid overrides are omitted from report exports until fixed.
-The PDF identifies a historical suggestion or scout override. JSON preserves the
+The PDF shows only the final round and dollar range. JSON preserves the
 original suggestion, comparable evidence, input grades, profile and rationale.
 
 ## Validation and limits
