@@ -1,0 +1,64 @@
+{
+  "method": "Leave-one-draft-year-out; no same-year peers; ranked/drafted population only",
+  "limitations": "Comparison guide only. Reported coverage is descriptive, not calibrated confidence. Missing undrafted/lower-ranked coverage and subjective role proxies limit generalization.",
+  "overall": {
+    "eligible_rows": 771,
+    "supported_rows": 763,
+    "support_rate": 0.99,
+    "median_absolute_pick_error": 43,
+    "round_interval_coverage": 0.817,
+    "pick_interval_coverage": 0.688
+  },
+  "by_kind": {
+    "Pitcher": {
+      "eligible_rows": 369,
+      "supported_rows": 365,
+      "support_rate": 0.989,
+      "median_absolute_pick_error": 46,
+      "round_interval_coverage": 0.789,
+      "pick_interval_coverage": 0.666
+    },
+    "Position Player": {
+      "eligible_rows": 402,
+      "supported_rows": 398,
+      "support_rate": 0.99,
+      "median_absolute_pick_error": 41.0,
+      "round_interval_coverage": 0.842,
+      "pick_interval_coverage": 0.709
+    }
+  },
+  "by_year": {
+    "2022": {
+      "eligible_rows": 188,
+      "supported_rows": 184,
+      "support_rate": 0.979,
+      "median_absolute_pick_error": 46.0,
+      "round_interval_coverage": 0.81,
+      "pick_interval_coverage": 0.668
+    },
+    "2023": {
+      "eligible_rows": 196,
+      "supported_rows": 194,
+      "support_rate": 0.99,
+      "median_absolute_pick_error": 47.5,
+      "round_interval_coverage": 0.825,
+      "pick_interval_coverage": 0.67
+    },
+    "2024": {
+      "eligible_rows": 192,
+      "supported_rows": 191,
+      "support_rate": 0.995,
+      "median_absolute_pick_error": 40,
+      "round_interval_coverage": 0.838,
+      "pick_interval_coverage": 0.733
+    },
+    "2025": {
+      "eligible_rows": 195,
+      "supported_rows": 194,
+      "support_rate": 0.995,
+      "median_absolute_pick_error": 41.0,
+      "round_interval_coverage": 0.794,
+      "pick_interval_coverage": 0.68
+    }
+  }
+}

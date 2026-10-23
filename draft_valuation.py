@@ -5,6 +5,8 @@ import json
 import math
 from pathlib import Path
 
+from historical_valuation import find_comparables, summarize_matches, parse_height, profile_label
+
 
 def load_valuation_config():
     return json.loads(Path(__file__).with_name("valuation_config.json").read_text())
@@ -19,12 +21,8 @@ def grade(value):
     return number
 
 
-def _band(score, config):
-    return next(b for b in config["bands"] if score >= b["min_score"])
-
-
 def evaluate(rows, kind, position_or_role, traits=None, physical_fit="Neutral / not assessed",
-             physical_note="", risk="Moderate", config=None):
+             physical_note="", risk="Moderate", config=None, profile=None, source_type="Any"):
     """Future tools drive value. Present tools describe projection risk only.
 
     Missing required future grades block estimates. Repeated pitch types cannot
@@ -58,8 +56,8 @@ def evaluate(rows, kind, position_or_role, traits=None, physical_fit="Neutral / 
             return {"ready": False, "missing": missing}
         values = {name: future[name] for name in weights}
         adjustment = config["position_adjustments"][position_or_role]
-        reasons.append(f"{position_or_role} positional adjustment: {adjustment:+.1f} index points.")
-        reasons.append("Raw power has limited weight to reduce overlap with game power.")
+        reasons.append(f"Projected {position_or_role} determines the defensive comparison pool.")
+        reasons.append("Historical matching uses Game Power only; Raw Power remains supporting report context.")
     else:
         if position_or_role not in config["pitcher_weights"]:
             return {"ready": False, "missing": ["Projected pitching role"]}
@@ -87,7 +85,7 @@ def evaluate(rows, kind, position_or_role, traits=None, physical_fit="Neutral / 
             values["Second secondary"] = secondary[1][0]
         adjustment = config["role_adjustments"][position_or_role]
         reasons.append(f"{label} velocity and life combined once; best secondary: {secondary[0][1]}.")
-        reasons.append(f"{position_or_role} role adjustment: {adjustment:+.1f} index points.")
+        reasons.append(f"Projected {position_or_role} changes the mix requirements and preference for relief-related profiles.")
     components = [{"Tool": k, "Future grade": values[k], "Weight": w,
                    "Contribution": round(values[k] * w, 2)} for k, w in weights.items()]
     base = sum(values[k] * w for k, w in weights.items())
@@ -114,32 +112,48 @@ def evaluate(rows, kind, position_or_role, traits=None, physical_fit="Neutral / 
     if not gaps:
         width = max(width, 4)
         reasons.append("No paired present grades: wider range for unassessed development distance.")
-    low, high = _band(max(20, score - width), config), _band(min(80, score + width), config)
-    center = _band(score, config)
-    round_low, round_high = high["round_low"], low["round_high"]
-    round_text = center["round"] if low == high else f"Rounds {round_low}-{round_high} value"
-    if low["min_score"] == 20 and low != high:
-        round_text += " / free-agent possibility"
+    if kind == "Position Player":
+        features = {"Hit": future["Hit"], "Power": future["Game Power"],
+                    **{k: future[k] for k in ("Run", "Arm", "Field") if k in future}}
+        if position_or_role == "DH":
+            # Historical coverage has no defensible DH-only grade mapping.
+            return {"ready": False, "missing": ["No supported DH-only historical profile; choose projected defensive position"]}
+    else:
+        features = {"Fastball": values["Fastball"], "Secondary 1": values["Best secondary"],
+                    "Control": future["Control"]}
+        if "Second secondary" in values:
+            features["Secondary 2"] = values["Second secondary"]
+    profile = profile or {}
+    matches = find_comparables(features, kind, position_or_role, source_type=source_type,
+                               hand=profile.get("throws" if kind == "Pitcher" else "bats", ""),
+                               height_inches=parse_height(profile.get("height")), weight_lb=profile.get("weight"))
+    history_result = summarize_matches(matches, config["reference_year"], width, trait_points)
+    if not history_result:
+        return {"ready": False, "missing": ["At least four sufficiently similar drafted profiles; current history has limited coverage here"],
+                "profile_label": profile_label(features, kind, position_or_role), "comparables": matches}
+    reasons.append("Public Power is matched to Game Power; Raw Power is shown separately, not duplicated in historical matching.") if kind == "Position Player" else reasons.append(
+        "Public Fastball is compared with the velocity/life average. Public Control is not a Command grade; Command remains in your report and role assessment.")
+    reasons.append("Historical results replace the original fixed index-to-round lookup. No fixed tool-index band sets the suggested value.")
     return {"ready": True, "version": config["version"], "status": config["status"],
             "kind": kind, "projected_position_or_role": position_or_role,
             "index": round(score, 2), "base_index": round(base, 2),
             "position_role_adjustment": adjustment, "trait_adjustment": trait_points,
-            "range_width": width, "central_band": center["round"], "round": round_text,
-            "round_low": round_low, "round_high": round_high,
-            "bonus_low": low["bonus_low"], "bonus_high": high["bonus_high"],
-            "reference_year": config["reference_year"], "money_basis": config["money_basis"],
-            "source": config["source"], "components": components, "reasons": reasons,
-            "physical_note": physical_note, "traits": traits, "risk": risk,
-            "basis": "Model suggestion"}
+            "range_width": width, "central_band": "Historical comparable range",
+            "reference_year": config["reference_year"], "source": config["source"],
+            "components": components, "reasons": reasons, "physical_note": physical_note,
+            "traits": traits, "risk": risk, "basis": "Historical profile suggestion",
+            "features": features, "source_type": source_type,
+            "profile_label": profile_label(features, kind, position_or_role),
+            **history_result}
 
 
 def money_range(result):
+    if result.get("bonus_low") is None or result.get("bonus_high") is None:
+        return "Insufficient slot-value evidence"
     return f"${result['bonus_low']:,.0f} - ${result['bonus_high']:,.0f}"
 
 
 def apply_override(result, round_low, round_high, bonus_low, bonus_high, reason):
-    if not result.get("ready"):
-        raise ValueError("Complete the scouting inputs before overriding.")
     nums = (round_low, round_high, bonus_low, bonus_high)
     if not all(math.isfinite(float(n)) for n in nums):
         raise ValueError("Override values must be finite.")
@@ -149,7 +163,7 @@ def apply_override(result, round_low, round_high, bonus_low, bonus_high, reason)
         raise ValueError("Bonus range must be nonnegative and ordered.")
     if not reason.strip():
         raise ValueError("Add a reason for your valuation override.")
-    return {**result, "model_suggestion": result, "round_low": int(round_low),
+    return {**result, "ready": True, "reference_year": result.get("reference_year", 2026), "model_suggestion": result, "round_low": int(round_low),
             "round_high": int(round_high), "round": f"Rounds {int(round_low)}-{int(round_high)} value",
             "bonus_low": float(bonus_low), "bonus_high": float(bonus_high),
             "basis": "Scout override", "override_reason": reason.strip()}
@@ -158,7 +172,7 @@ def valuation_report_text(valuation):
     if not valuation or not valuation.get("ready"):
         return ""
     text = (f"{valuation['round']} | {money_range(valuation)} | {valuation['basis']} | "
-            f"{valuation['reference_year']} USD. Prototype scouting investment rubric; not a market prediction.")
+            f"{valuation['reference_year']} USD. Historical-profile investment guide; not a market prediction.")
     if valuation.get("override_reason"):
         text += " Rationale: " + valuation["override_reason"]
     return text

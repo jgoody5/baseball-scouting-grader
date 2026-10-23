@@ -23,7 +23,7 @@ class ValuationTests(unittest.TestCase):
         cf = evaluate(hitters(), "Position Player", "CF", risk="Lower")
         first = evaluate(hitters(), "Position Player", "1B", risk="Lower")
         self.assertGreater(cf["index"], first["index"])
-        self.assertGreater(cf["bonus_high"], first["bonus_high"])
+        self.assertNotEqual([r["id"] for r in cf["comparables"]], [r["id"] for r in first["comparables"]])
 
     def test_pitcher_role_and_no_double_count(self):
         starter = evaluate(pitchers(), "Pitcher", "Starter")
@@ -86,16 +86,19 @@ class ValuationTests(unittest.TestCase):
         for group in ("hitter_weights", "pitcher_weights"):
             for weights in c[group].values(): self.assertAlmostEqual(sum(weights.values()), 1)
         for position in c["hitter_weights"]:
-            previous = -1
             for g in range(20, 81, 5):
                 v = evaluate(hitters(g), "Position Player", position)
-                self.assertTrue(v["ready"])
-                self.assertLessEqual(v["bonus_low"], v["bonus_high"])
-                self.assertGreaterEqual(v["bonus_high"], previous)
-                previous = v["bonus_high"]
+                if v["ready"]:
+                    self.assertLessEqual(v["round_low"],v["round_high"])
+                    if v["bonus_low"] is not None:
+                        self.assertLessEqual(v["bonus_low"],v["bonus_high"])
+                else:
+                    self.assertTrue(v["missing"])
 
-    def test_dh_does_not_require_defensive_tools(self):
-        self.assertTrue(evaluate(hitters()[:3], "Position Player", "DH")["ready"])
+    def test_dh_requires_manual_value_without_historical_position_proxy(self):
+        result=evaluate(hitters()[:3], "Position Player", "DH")
+        self.assertFalse(result["ready"])
+        self.assertIn("DH-only",result["missing"][0])
 
 
 if __name__ == "__main__":

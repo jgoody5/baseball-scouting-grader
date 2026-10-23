@@ -1,39 +1,130 @@
 {
-  "version": "0.1-proposed",
-  "status": "Uncalibrated scouting rubric; not a draft prediction or empirical player valuation",
+  "version": "0.2-historical-profiles",
+  "status": "Historical grade-profile comparables with discretionary matching and trait assumptions; not a validated draft predictor",
   "currency": "USD",
   "reference_year": 2026,
   "source": "https://www.mlb.com/news/mlb-draft-2026-bonus-pool-pick-values",
-  "money_basis": "Rounded discretionary investment bands informed by 2026 slot values; late-round bands are proposed scout budgets, not official slots. No player demands or signability inputs.",
+  "money_basis": "2022-2025 draft pick slot values indexed to 2026 dollars; actual signing bonuses are context only. Similarity weights, risk quantiles and trait adjustments are model assumptions.",
   "hitter_weights": {
-    "C": {"Hit": 0.30, "Raw Power": 0.05, "Game Power": 0.20, "Run": 0.05, "Arm": 0.15, "Field": 0.25},
-    "SS": {"Hit": 0.30, "Raw Power": 0.05, "Game Power": 0.15, "Run": 0.15, "Arm": 0.10, "Field": 0.25},
-    "CF": {"Hit": 0.30, "Raw Power": 0.05, "Game Power": 0.15, "Run": 0.20, "Arm": 0.05, "Field": 0.25},
-    "2B": {"Hit": 0.35, "Raw Power": 0.05, "Game Power": 0.20, "Run": 0.15, "Arm": 0.05, "Field": 0.20},
-    "3B": {"Hit": 0.30, "Raw Power": 0.05, "Game Power": 0.30, "Run": 0.05, "Arm": 0.15, "Field": 0.15},
-    "RF": {"Hit": 0.35, "Raw Power": 0.05, "Game Power": 0.30, "Run": 0.10, "Arm": 0.10, "Field": 0.10},
-    "LF": {"Hit": 0.35, "Raw Power": 0.05, "Game Power": 0.35, "Run": 0.10, "Arm": 0.05, "Field": 0.10},
-    "1B": {"Hit": 0.40, "Raw Power": 0.05, "Game Power": 0.40, "Run": 0.025, "Arm": 0.025, "Field": 0.10},
-    "DH": {"Hit": 0.45, "Raw Power": 0.05, "Game Power": 0.50, "Run": 0, "Arm": 0, "Field": 0}
+    "C": {
+      "Hit": 0.3,
+      "Raw Power": 0.05,
+      "Game Power": 0.2,
+      "Run": 0.05,
+      "Arm": 0.15,
+      "Field": 0.25
+    },
+    "SS": {
+      "Hit": 0.3,
+      "Raw Power": 0.05,
+      "Game Power": 0.15,
+      "Run": 0.15,
+      "Arm": 0.1,
+      "Field": 0.25
+    },
+    "CF": {
+      "Hit": 0.3,
+      "Raw Power": 0.05,
+      "Game Power": 0.15,
+      "Run": 0.2,
+      "Arm": 0.05,
+      "Field": 0.25
+    },
+    "2B": {
+      "Hit": 0.35,
+      "Raw Power": 0.05,
+      "Game Power": 0.2,
+      "Run": 0.15,
+      "Arm": 0.05,
+      "Field": 0.2
+    },
+    "3B": {
+      "Hit": 0.3,
+      "Raw Power": 0.05,
+      "Game Power": 0.3,
+      "Run": 0.05,
+      "Arm": 0.15,
+      "Field": 0.15
+    },
+    "RF": {
+      "Hit": 0.35,
+      "Raw Power": 0.05,
+      "Game Power": 0.3,
+      "Run": 0.1,
+      "Arm": 0.1,
+      "Field": 0.1
+    },
+    "LF": {
+      "Hit": 0.35,
+      "Raw Power": 0.05,
+      "Game Power": 0.35,
+      "Run": 0.1,
+      "Arm": 0.05,
+      "Field": 0.1
+    },
+    "1B": {
+      "Hit": 0.4,
+      "Raw Power": 0.05,
+      "Game Power": 0.4,
+      "Run": 0.025,
+      "Arm": 0.025,
+      "Field": 0.1
+    },
+    "DH": {
+      "Hit": 0.45,
+      "Raw Power": 0.05,
+      "Game Power": 0.5,
+      "Run": 0,
+      "Arm": 0,
+      "Field": 0
+    }
   },
-  "position_adjustments": {"C": 2, "SS": 2, "CF": 2, "2B": 0, "3B": 0, "RF": -1, "LF": -1, "1B": -3, "DH": -4},
+  "position_adjustments": {
+    "C": 2,
+    "SS": 2,
+    "CF": 2,
+    "2B": 0,
+    "3B": 0,
+    "RF": -1,
+    "LF": -1,
+    "1B": -3,
+    "DH": -4
+  },
   "pitcher_weights": {
-    "Starter": {"Fastball": 0.25, "Best secondary": 0.25, "Second secondary": 0.15, "Command": 0.25, "Control": 0.10},
-    "Reliever": {"Fastball": 0.35, "Best secondary": 0.40, "Command": 0.15, "Control": 0.10}
+    "Starter": {
+      "Fastball": 0.25,
+      "Best secondary": 0.25,
+      "Second secondary": 0.15,
+      "Command": 0.25,
+      "Control": 0.1
+    },
+    "Reliever": {
+      "Fastball": 0.35,
+      "Best secondary": 0.4,
+      "Command": 0.15,
+      "Control": 0.1
+    }
   },
-  "role_adjustments": {"Starter": 0, "Reliever": -4},
-  "trait_adjustments": {"Concern": -1, "Neutral / not assessed": 0, "Strength": 1},
-  "physical_adjustments": {"Concern for projected role": -1, "Neutral / not assessed": 0, "Supports projected role": 1},
+  "role_adjustments": {
+    "Starter": 0,
+    "Reliever": -4
+  },
+  "trait_adjustments": {
+    "Concern": -1,
+    "Neutral / not assessed": 0,
+    "Strength": 1
+  },
+  "physical_adjustments": {
+    "Concern for projected role": -1,
+    "Neutral / not assessed": 0,
+    "Supports projected role": 1
+  },
   "trait_total_cap": 3,
-  "risk_widths": {"Lower": 0, "Moderate": 2, "Higher": 4},
-  "bands": [
-    {"min_score": 65, "round": "Round 1 / top-10 value", "round_low": 1, "round_high": 1, "bonus_low": 6400000, "bonus_high": 11350000},
-    {"min_score": 60, "round": "Round 1 value", "round_low": 1, "round_high": 1, "bonus_low": 2700000, "bonus_high": 6400000},
-    {"min_score": 55, "round": "Rounds 1-2 value", "round_low": 1, "round_high": 2, "bonus_low": 1350000, "bonus_high": 3300000},
-    {"min_score": 50, "round": "Rounds 2-4 value", "round_low": 2, "round_high": 4, "bonus_low": 575000, "bonus_high": 2650000},
-    {"min_score": 45, "round": "Rounds 4-7 value", "round_low": 4, "round_high": 7, "bonus_low": 260000, "bonus_high": 760000},
-    {"min_score": 40, "round": "Rounds 7-10 value", "round_low": 7, "round_high": 10, "bonus_low": 190000, "bonus_high": 330000},
-    {"min_score": 35, "round": "Rounds 11-15 value", "round_low": 11, "round_high": 15, "bonus_low": 50000, "bonus_high": 200000},
-    {"min_score": 20, "round": "Rounds 16-20 / free-agent value", "round_low": 16, "round_high": 20, "bonus_low": 0, "bonus_high": 100000}
-  ]
+  "risk_widths": {
+    "Lower": 0,
+    "Moderate": 2,
+    "Higher": 4
+  },
+  "history_file": "data/valuation/draft_history.json",
+  "index_usage": "Diagnostic only; historical profile matching determines round and money ranges."
 }

@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .DS_Store
 .streamlit/secrets.toml
+
+# Reproducible research cache and PDF QA outputs
+tmp/

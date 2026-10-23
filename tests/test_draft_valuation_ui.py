@@ -41,6 +41,21 @@ class ValuationUiTests(unittest.TestCase):
         self.assertEqual(len([m for m in app.metric if m.label.startswith("Suggested")]), 0)
         self.assertTrue(any("secondary" in e.value for e in app.info))
 
+    def test_manual_valuation_works_without_history_and_exports_exact_value(self):
+        app = AppTest.from_file(APP)
+        app.session_state['pv_enabled'] = True
+        app.run(timeout=30)
+        self.assertFalse(app.exception)
+        app.checkbox(key='pv_override').check().run()
+        app.number_input(key='pv_rlo').set_value(7)
+        app.number_input(key='pv_rhi').set_value(12)
+        app.number_input(key='pv_blo').set_value(300000)
+        app.number_input(key='pv_bhi').set_value(450000)
+        app.text_area(key='pv_override_reason').set_value('My board value').run()
+        self.assertFalse(app.exception)
+        self.assertFalse(app.error)
+        self.assertTrue(any('$300,000 - $450,000' in e.value for e in app.success))
+
     def test_pdf_exports_valuation_and_escapes_rationale(self):
         rows = [{"Tool": k, "Present": 50, "Future": 55}
                 for k in ("Hit", "Raw Power", "Game Power", "Run", "Arm", "Field")]
@@ -49,6 +64,10 @@ class ValuationUiTests(unittest.TestCase):
         for build in (build_report_pdf, build_hitter_report_pdf):
             pdf = build({"name": "Test Player"}, "Impact", rows, "Summary", {}, valuation=v)
             self.assertTrue(pdf.startswith(b"%PDF"))
+            from pypdf import PdfReader
+            text=' '.join(p.extract_text() for p in PdfReader(BytesIO(pdf)).pages)
+            self.assertIn('$300,000 - $450,000', text)
+            self.assertIn('Scout override',text)
 
 
 if __name__ == "__main__":

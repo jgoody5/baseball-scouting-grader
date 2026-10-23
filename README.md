@@ -35,8 +35,17 @@ streamlit run app.py
 
 No secrets or external database are required.
 
-## Draft valuation prototype
+## Historical draft valuation guide
 
-Enable **Include draft valuation** on either player page to get a suggested round and signing-bonus investment range from future tools, projected position/role, physical fit and assessed traits. The model excludes asking price and signability. Review the breakdown, optionally override with your rationale, and export the value in the PDF or a detailed JSON file.
+Enable **Include draft valuation** to compare a future-grade profile against MLB
+Pipeline draft-time grades and official results from 2022-2025. Explore 16 example
+profiles, see the closest historical players, then enter your own final round and
+bonus range if needed. The override is available even when evidence is insufficient.
+PDF reports show the final value; JSON retains the original suggestion and evidence.
 
-This is an uncalibrated, configurable scouting rubric, not an empirical draft predictor. See [DRAFT_VALUATION.md](DRAFT_VALUATION.md) for assumptions and [valuation_config.json](valuation_config.json) for weights and investment bands. Dollar references use 2026 values.
+Dollar suggestions use historical assigned pick values indexed to 2026 dollars.
+Actual bonuses are shown separately as context. This is a broad comparable guide,
+not a validated exact-pick predictor. See [DRAFT_VALUATION.md](DRAFT_VALUATION.md)
+for sources, matching assumptions, coverage limits and held-out-year checks.
+
+Run all checks with `python -m pip install -r requirements-dev.txt` then `python -m unittest discover -s tests -v`.
